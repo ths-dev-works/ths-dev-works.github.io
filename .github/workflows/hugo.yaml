@@ -31,12 +31,13 @@ jobs:
           extended: true
 
       - name: Build
+        working-directory: ./home
         run: hugo --minify # Performance
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./home/public
 
   deploy:
     environment:
