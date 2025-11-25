@@ -6,8 +6,8 @@
     <description>Recent content on THS Dev Works</description>
     <image>
       <title>THS Dev Works</title>
-      <url>http://localhost:1313/images/cover.png</url>
-      <link>http://localhost:1313/images/cover.png</link>
+      <url>http://localhost:1313/images/cover.jpg</url>
+      <link>http://localhost:1313/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
@@ -17,14 +17,14 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>Senior Backend Engineer with expertise in Go, cloud-native systems, and scalable infrastructure.</description>
+      <description>Senior Backend Engineer and Technical Advisor. Expert in Go (Golang), microservices, Kubernetes, SRE, and cloud-native systems. Experience in fintech and telecom.</description>
     </item>
     <item>
       <title>Services &amp; Consulting</title>
       <link>http://localhost:1313/services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/services/</guid>
-      <description>Fractional technical leadership, Platform Engineering, and specialized Go Development.</description>
+      <description>Fractional CTO, Technical Advisor, and Go Development services. Platform Engineering, SRE, microservices, Kubernetes, and cloud infrastructure consulting for startups and SMEs.</description>
     </item>
   </channel>
 </rss>

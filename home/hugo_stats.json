@@ -48,6 +48,7 @@
     "classes": [
       "active",
       "anchor",
+      "breadcrumbs",
       "button",
       "button-inner",
       "buttons",

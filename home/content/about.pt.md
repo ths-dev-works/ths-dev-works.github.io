@@ -1,6 +1,7 @@
 ---
 title: "Sobre / Stack"
-description: "Engenheiro Backend Sénior com experiência em Go, sistemas cloud-native e infraestrutura escalável."
+description: "Engenheiro Backend Sénior e Consultor Técnico. Especialista em Go (Golang), microserviços, Kubernetes, SRE e sistemas cloud-native. Experiência em fintech e telecomunicações."
+keywords: ["Desenvolvedor Go", "Engenheiro Backend", "Consultor Técnico", "Golang", "Microserviços", "Kubernetes", "SRE", "Infraestrutura Cloud"]
 layout: "simple"
 ---
 

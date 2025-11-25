@@ -1,7 +1,8 @@
 ---
 title: "Serviços e Consultoria"
-description: "Liderança técnica fracionada, Engenharia de Plataforma e Desenvolvimento Go especializado."
-layout: "simple" # Se o tema suportar, senão usa 'single'
+description: "Fractional CTO, Consultor Técnico e serviços de Desenvolvimento Go. Engenharia de Plataforma, SRE, microserviços, Kubernetes e consultoria em infraestrutura cloud para startups e PME."
+keywords: ["Fractional CTO", "Consultor Técnico", "Desenvolvimento Go", "Engenharia de Plataforma", "SRE", "Microserviços", "Consultoria Kubernetes"]
+layout: "simple"
 ---
 
 Não vendo apenas código ou infraestrutura. Vendo a **paz de espírito** de saber que a sua tecnologia escala, é segura e não custa uma fortuna.

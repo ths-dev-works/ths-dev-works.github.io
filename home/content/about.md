@@ -1,6 +1,7 @@
 ---
 title: "About / Stack"
-description: "Senior Backend Engineer with expertise in Go, cloud-native systems, and scalable infrastructure."
+description: "Senior Backend Engineer and Technical Advisor. Expert in Go (Golang), microservices, Kubernetes, SRE, and cloud-native systems. Experience in fintech and telecom."
+keywords: ["Go Developer", "Backend Engineer", "Technical Advisor", "Golang", "Microservices", "Kubernetes", "SRE", "Cloud Infrastructure"]
 layout: "simple"
 ---
 

@@ -31,7 +31,7 @@ languages:
         imageHeight: 120
         buttons:
           - name: Services
-            url: /en/services/
+            url: /services/
           - name: Contact
             url: "mailto:ths.dev.works@gmail.com"
   pt:
@@ -90,8 +90,9 @@ outputs:
 # Global Parameters
 params:
   env: production
-  description: "Go Development, and Technical Advisor Services."
+  description: "Go Developer & Technical Advisor. Specialized in backend development, microservices, SRE, and Platform Engineering. Expert in Go, Kubernetes, cloud infrastructure, and scalable systems."
   author: "Tiago Simões"
+  keywords: ["Go developer", "Golang", "Technical Advisor", "SRE", "Platform Engineering", "Microservices", "Kubernetes", "Backend Development", "Cloud Infrastructure", "DevOps"]
   defaultTheme: auto # auto, dark, light
   
   # Assets
@@ -99,6 +100,7 @@ params:
     favicon: "favicon.ico"
     favicon16x16: "favicon-16x16.png"
     favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
   
   # Social Icons
   socialIcons:
@@ -119,4 +121,19 @@ params:
     text: "Built with Go & Hugo."
 
   # SEO / OpenGraph Images
-  images: ["images/cover.png"]
+  images: ["images/cover.jpg"]
+  
+  # SEO Enhancements
+  enableEmoji: false
+  ShowBreadCrumbs: true
+  
+  # Open Graph / Twitter Cards
+  ogTitle: "THS Dev Works - Go Developer & Technical Advisor"
+  ogDescription: "Go Developer & Technical Advisor. Specialized in backend development, microservices, SRE, and Platform Engineering."
+  ogImage: "images/cover.jpg"
+  ogSiteName: "THS Dev Works"
+  
+  # Additional SEO
+  mainSections: []
+  disableSpecial1stPost: false
+  disableScrollToTop: false

@@ -1,6 +1,7 @@
 ---
 title: "Services & Consulting"
-description: "Fractional technical leadership, Platform Engineering, and specialized Go Development."
+description: "Fractional CTO, Technical Advisor, and Go Development services. Platform Engineering, SRE, microservices, Kubernetes, and cloud infrastructure consulting for startups and SMEs."
+keywords: ["Fractional CTO", "Technical Advisor", "Go Development", "Platform Engineering", "SRE", "Microservices", "Kubernetes Consulting"]
 layout: "simple"
 ---
 
