@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>THS Dev Works</title>
+    <link>http://localhost:1313/pt/</link>
+    <description>Recent content on THS Dev Works</description>
+    <image>
+      <title>THS Dev Works</title>
+      <url>http://localhost:1313/images/cover.png</url>
+      <link>http://localhost:1313/images/cover.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>pt</language>
+    <atom:link href="http://localhost:1313/pt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Serviços e Consultoria</title>
+      <link>http://localhost:1313/pt/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pt/services/</guid>
+      <description>Liderança técnica fracionada, Engenharia de Plataforma e Desenvolvimento Go especializado.</description>
+    </item>
+    <item>
+      <title>Sobre / Stack</title>
+      <link>http://localhost:1313/pt/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pt/about/</guid>
+      <description>Engenheiro Backend Sénior com experiência em Go, sistemas cloud-native e infraestrutura escalável.</description>
+    </item>
+  </channel>
+</rss>
