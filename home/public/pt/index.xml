@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>THS Dev Works</title>
-    <link>https://ths-dev-works.github.io/pt/</link>
+    <link>http://localhost:1313/pt/</link>
     <description>Recent content on THS Dev Works</description>
     <image>
       <title>THS Dev Works</title>
-      <url>https://ths-dev-works.github.io/images/cover.jpg</url>
-      <link>https://ths-dev-works.github.io/images/cover.jpg</link>
+      <url>http://localhost:1313/images/cover.jpg</url>
+      <link>http://localhost:1313/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>pt</language>
-    <atom:link href="https://ths-dev-works.github.io/pt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Serviços e Consultoria</title>
-      <link>https://ths-dev-works.github.io/pt/services/</link>
+      <link>http://localhost:1313/pt/services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/services/</guid>
+      <guid>http://localhost:1313/pt/services/</guid>
       <description>Fractional CTO, Consultor Técnico e serviços de Desenvolvimento Go. Engenharia de Plataforma, SRE, microserviços, Kubernetes e consultoria em infraestrutura cloud para startups e PME.</description>
     </item>
     <item>
       <title>Sobre / Stack</title>
-      <link>https://ths-dev-works.github.io/pt/about/</link>
+      <link>http://localhost:1313/pt/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/about/</guid>
+      <guid>http://localhost:1313/pt/about/</guid>
       <description>Engenheiro Backend Sénior e Consultor Técnico. Especialista em Go (Golang), microserviços, Kubernetes, SRE e sistemas cloud-native. Experiência em fintech e telecomunicações.</description>
     </item>
   </channel>

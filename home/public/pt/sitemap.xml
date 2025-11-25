@@ -2,64 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ths-dev-works.github.io/pt/categories/</loc>
+    <loc>http://localhost:1313/pt/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/categories/"
+                href="http://localhost:1313/pt/categories/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/pt/services/</loc>
+    <loc>http://localhost:1313/pt/services/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/services/"
+                href="http://localhost:1313/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/services/"
+                href="http://localhost:1313/pt/services/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/pt/about/</loc>
+    <loc>http://localhost:1313/pt/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/about/"
+                href="http://localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/about/"
+                href="http://localhost:1313/pt/about/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/pt/tags/</loc>
+    <loc>http://localhost:1313/pt/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/tags/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/tags/"
+                href="http://localhost:1313/pt/tags/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/pt/</loc>
+    <loc>http://localhost:1313/pt/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/"
+                href="http://localhost:1313/pt/"
                 />
   </url>
 </urlset>
