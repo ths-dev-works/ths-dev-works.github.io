@@ -137,3 +137,8 @@ params:
   mainSections: []
   disableSpecial1stPost: false
   disableScrollToTop: false
+  
+  # Analytics / Verification
+  analytics:
+    google:
+      SiteVerificationTag: "google1a5e3318f5ba597b"
