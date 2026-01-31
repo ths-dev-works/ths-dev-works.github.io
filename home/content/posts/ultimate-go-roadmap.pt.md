@@ -11,15 +11,15 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
 *Objetivo: Entender como cada byte se move na memória.*
 
 ### Manhã: Ponteiros e Stack/Heap (Peso: ~25%)
-- [ ] **Stack vs. Heap:** Entender isolamento vs. partilha.
-- [ ] **Análise de Escape:** Identificar o que dispara alocações no heap (ponteiros, interfaces).
-- [ ] **Leitura:** [Stacks e Ponteiros](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html)
-- [ ] **Leitura:** [Análise de Escape](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html)
-- [ ] **Prática:**
-  - [ ] Vá ao [Repositório "gotraining" da Ardan](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-the-memory-model.html) e execute os exemplos de ponteiros com a flag -gcflags="-m" para ver a análise de escape.
-  - [ ] Escrever uma função que retorna um ponteiro para uma variável local e outra que retorna o valor.
-  - [ ] Executar `go build -gcflags="-m"` para verificar qual delas escapa para o heap.
-  - [ ] Testar: Colocar uma variável dentro de uma `interface{}` causa escape? (Spoiler: Sim).
+- [X] **Stack vs. Heap:** Entender isolamento vs. partilha.
+- [X] **Análise de Escape:** Identificar o que dispara alocações no heap (ponteiros, interfaces).
+- [X] **Leitura:** [Stacks e Ponteiros](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html)
+- [X] **Leitura:** [Análise de Escape](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html)
+- [X] **Prática:**
+  - [X] Vá ao [Repositório "gotraining" da Ardan](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-the-memory-model.html) e execute os exemplos de ponteiros com a flag -gcflags="-m" para ver a análise de escape.
+  - [X] Escrever uma função que retorna um ponteiro para uma variável local e outra que retorna o valor.
+  - [X] Executar `go build -gcflags="-m"` para verificar qual delas escapa para o heap.
+  - [X] Testar: Colocar uma variável dentro de uma `interface{}` causa escape? (Spoiler: Sim).
   
 ### Tarde: Layout de Dados & Performance (Peso: ~20%)
 - [ ] **Mecânica de Slices:** Ponteiro, Comprimento, Capacidade.

@@ -55,6 +55,111 @@ func increment(inc *int) {
 - Memória do stack é limpa a cada nova chamada de função
 - Todos os valores são inicializados com zero values
 
+## Visualizações do Stack
+
+### Figura 1: Frame Único (função main)
+```
+┌─────────────────────┐ ← Memória válida
+│    frame main       │
+│                     │
+│  count = 10         │
+│  (end: 0x10429fa4)  │
+└─────────────────────┘
+┌─────────────────────┐ ← Memória inválida
+│                     │
+└─────────────────────┘
+```
+
+### Figura 2: Chamada de Função (main chama increment)
+```
+┌─────────────────────┐ ← Memória válida
+│    frame main       │
+│                     │
+│  count = 10         │
+│  (end: 0x10429fa4)  │
+├─────────────────────┤
+│  frame increment    │
+│                     │
+│  inc = 10           │
+│  (end: 0x10429f98)  │
+└─────────────────────┘
+┌─────────────────────┐ ← Memória inválida
+│                     │
+└─────────────────────┘
+```
+
+### Figura 3: Após execução do increment
+```
+┌─────────────────────┐ ← Memória válida
+│    frame main       │
+│                     │
+│  count = 10         │
+│  (end: 0x10429fa4)  │
+├─────────────────────┤
+│  frame increment    │
+│                     │
+│  inc = 11           │
+│  (end: 0x10429f98)  │
+└─────────────────────┘
+┌─────────────────────┐ ← Memória inválida
+│                     │
+└─────────────────────┘
+```
+
+### Figura 4: Após retorno da função
+```
+┌─────────────────────┐ ← Memória válida (main está ativo)
+│    frame main       │
+│                     │
+│  count = 10         │
+│  (end: 0x10429fa4)  │
+├─────────────────────┤ ← Memória inválida (frame increment)
+│  frame increment    │  (deixado intacto)
+│                     │
+│  inc = 11           │
+│  (end: 0x10429f98)  │
+└─────────────────────┘
+┌─────────────────────┐ ← Memória inválida
+│                     │
+└─────────────────────┘
+```
+
+### Figura 5: Partilha de Ponteiro (passar endereço)
+```
+┌─────────────────────┐ ← Memória válida
+│    frame main       │
+│                     │
+│  count = 10         │
+│  (end: 0x10429fa4)  │
+├─────────────────────┤
+│  frame increment    │
+│                     │
+│  inc = 0x10429fa4   │ ← Aponta para count
+│  (end: 0x10429f98)  │
+└─────────────────────┘
+┌─────────────────────┐ ← Memória inválida
+│                     │
+└─────────────────────┘
+```
+
+### Figura 6: Após dereferência do ponteiro
+```
+┌─────────────────────┐ ← Memória válida
+│    frame main       │
+│                     │
+│  count = 11         │ ← Modificado via ponteiro
+│  (end: 0x10429fa4)  │
+├─────────────────────┤
+│  frame increment    │
+│                     │
+│  inc = 0x10429fa4   │ ← Continua a apontar para count
+│  (end: 0x10429f98)  │
+└─────────────────────┘
+┌─────────────────────┐ ← Memória inválida
+│                     │
+└─────────────────────┘
+```
+
 ## Tipos de Ponteiro e Mecânica
 
 ### Regras de Tipo de Ponteiro

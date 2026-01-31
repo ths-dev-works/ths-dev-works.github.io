@@ -14,6 +14,30 @@
     <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/pt/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Mecânica Go: Análise de Escape e o Heap</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-escape-analysis/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-escape-analysis/</guid>
+      <description>&lt;p&gt;Em Go, entender quando os valores escapam para o heap é crucial para escrever código performático. Aqui está um resumo abrangente dos princípios fundamentais de Bill Kennedy sobre Análise de Escape da série Ardan Labs.&lt;/p&gt;
+&lt;h2 id=&#34;o-heap-vs-stack&#34;&gt;O Heap vs. Stack&lt;/h2&gt;
+&lt;h3 id=&#34;memória-stack&#34;&gt;Memória Stack&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Self-cleaning&lt;/strong&gt;: Automaticamente limpa quando as funções retornam&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Acesso rápido&lt;/strong&gt;: Acesso direto à memória dentro dos limites do frame&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Escopo limitado&lt;/strong&gt;: Acessível apenas dentro do frame da função&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sem pressão no GC&lt;/strong&gt;: Sem envolvimento do garbage collector&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;memória-heap&#34;&gt;Memória Heap&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gerida pelo GC&lt;/strong&gt;: Requer garbage collector para limpeza&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custo mais elevado&lt;/strong&gt;: Usa 25% da capacidade do CPU quando o GC corre&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Acesso partilhado&lt;/strong&gt;: Pode ser acedido através de limites de goroutine&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Impacto na latência&lt;/strong&gt;: Pode causar atrasos &amp;ldquo;stop the world&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;análise-de-escape-o-conceito-central&#34;&gt;Análise de Escape: O Conceito Central&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Análise de escape&lt;/strong&gt; é o processo do compilador para determinar se um valor pode permanecer no stack ou deve &amp;ldquo;escapar&amp;rdquo; para o heap.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Mecânica Go: Stacks, Ponteiros e Limites de Frame</title>
       <link>https://ths-dev-works.github.io/pt/posts/go-stacks-and-pointers/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>

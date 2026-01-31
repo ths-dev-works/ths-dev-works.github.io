@@ -18,6 +18,19 @@
     <loc>https://ths-dev-works.github.io/tags/career/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ths-dev-works.github.io/tags/gc/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/gc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/gc/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/tags/go/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -29,6 +42,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ths-dev-works.github.io/tags/go/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/posts/go-escape-analysis/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-escape-analysis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-escape-analysis/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/posts/go-stacks-and-pointers/</loc>

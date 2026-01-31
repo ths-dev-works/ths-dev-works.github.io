@@ -55,6 +55,111 @@ func increment(inc *int) {
 - Stack memory is wiped clean on each new function call
 - All values are initialized to zero values
 
+## Stack Visualizations
+
+### Figure 1: Single Frame (main function)
+```
+┌─────────────────────┐ ← Valid memory
+│    main frame       │
+│                     │
+│  count = 10         │
+│  (addr: 0x10429fa4) │
+└─────────────────────┘
+┌─────────────────────┐ ← Invalid memory
+│                     │
+└─────────────────────┘
+```
+
+### Figure 2: Function Call (main calls increment)
+```
+┌─────────────────────┐ ← Valid memory
+│    main frame       │
+│                     │
+│  count = 10         │
+│  (addr: 0x10429fa4) │
+├─────────────────────┤
+│  increment frame    │
+│                     │
+│  inc = 10           │
+│  (addr: 0x10429f98) │
+└─────────────────────┘
+┌─────────────────────┐ ← Invalid memory
+│                     │
+└─────────────────────┘
+```
+
+### Figure 3: After increment execution
+```
+┌─────────────────────┐ ← Valid memory
+│    main frame       │
+│                     │
+│  count = 10         │
+│  (addr: 0x10429fa4) │
+├─────────────────────┤
+│  increment frame    │
+│                     │
+│  inc = 11           │
+│  (addr: 0x10429f98) │
+└─────────────────────┘
+┌─────────────────────┐ ← Invalid memory
+│                     │
+└─────────────────────┘
+```
+
+### Figure 4: After function return
+```
+┌─────────────────────┐ ← Valid memory (main is active)
+│    main frame       │
+│                     │
+│  count = 10         │
+│  (addr: 0x10429fa4) │
+├─────────────────────┤ ← Invalid memory (increment frame)
+│  increment frame    │  (left untouched)
+│                     │
+│  inc = 11           │
+│  (addr: 0x10429f98) │
+└─────────────────────┘
+┌─────────────────────┐ ← Invalid memory
+│                     │
+└─────────────────────┘
+```
+
+### Figure 5: Pointer Sharing (passing address)
+```
+┌─────────────────────┐ ← Valid memory
+│    main frame       │
+│                     │
+│  count = 10         │
+│  (addr: 0x10429fa4) │
+├─────────────────────┤
+│  increment frame    │
+│                     │
+│  inc = 0x10429fa4   │ ← Points to count
+│  (addr: 0x10429f98) │
+└─────────────────────┘
+┌─────────────────────┐ ← Invalid memory
+│                     │
+└─────────────────────┘
+```
+
+### Figure 6: After pointer dereference
+```
+┌─────────────────────┐ ← Valid memory
+│    main frame       │
+│                     │
+│  count = 11         │ ← Modified via pointer
+│  (addr: 0x10429fa4) │
+├─────────────────────┤
+│  increment frame    │
+│                     │
+│  inc = 0x10429fa4   │ ← Still points to count
+│  (addr: 0x10429f98) │
+└─────────────────────┘
+┌─────────────────────┐ ← Invalid memory
+│                     │
+└─────────────────────┘
+```
+
 ## Pointer Types and Mechanics
 
 ### Pointer Type Rules

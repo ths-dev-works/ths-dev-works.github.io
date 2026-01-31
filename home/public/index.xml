@@ -14,6 +14,30 @@
     <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Go Mechanics: Escape Analysis and the Heap</title>
+      <link>https://ths-dev-works.github.io/posts/go-escape-analysis/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-escape-analysis/</guid>
+      <description>&lt;p&gt;In Go, understanding when values escape to the heap is crucial for writing performant code. Here&amp;rsquo;s a comprehensive summary of Bill Kennedy&amp;rsquo;s core principles on Escape Analysis from the Ardan Labs series.&lt;/p&gt;
+&lt;h2 id=&#34;the-heap-vs-stack&#34;&gt;The Heap vs. Stack&lt;/h2&gt;
+&lt;h3 id=&#34;stack-memory&#34;&gt;Stack Memory&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Self-cleaning&lt;/strong&gt;: Automatically cleaned when functions return&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fast access&lt;/strong&gt;: Direct memory access within frame boundaries&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Limited scope&lt;/strong&gt;: Only accessible within the function&amp;rsquo;s frame&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No GC pressure&lt;/strong&gt;: No garbage collector involvement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;heap-memory&#34;&gt;Heap Memory&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GC managed&lt;/strong&gt;: Requires garbage collector for cleanup&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Higher cost&lt;/strong&gt;: Uses 25% of CPU capacity when GC runs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shared access&lt;/strong&gt;: Can be accessed across goroutine boundaries&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latency impact&lt;/strong&gt;: Can cause &amp;ldquo;stop the world&amp;rdquo; delays&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;escape-analysis-the-core-concept&#34;&gt;Escape Analysis: The Core Concept&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Escape analysis&lt;/strong&gt; is the compiler&amp;rsquo;s process of determining if a value can stay on the stack or must &amp;ldquo;escape&amp;rdquo; to the heap.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Go Mechanics: Stacks, Pointers, and Frame Boundaries</title>
       <link>https://ths-dev-works.github.io/posts/go-stacks-and-pointers/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>

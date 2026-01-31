@@ -11,15 +11,15 @@ The Ardan Labs "Ultimate Go" certification is not about syntax; it is about **Me
 *Goal: Understand how every byte moves in memory.*
 
 ### Morning: Pointers and Stack/Heap (Weight: ~25%)
-- [ ] **Stack vs. Heap:** Understanding isolation vs. sharing.
-- [ ] **Escape Analysis:** Identifying what triggers heap allocations (pointers, interfaces).
+- [X] **Stack vs. Heap:** Understanding isolation vs. sharing.
+- [X] **Escape Analysis:** Identifying what triggers heap allocations (pointers, interfaces).
 - [X] **Read:** [Stacks and Pointers](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html)
-- [ ] **Read:** [Escape Analysis](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html)
-- [ ] **Practice:**
-  - [ ] Go to the [Ardan "gotraining" Repo](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-the-memory-model.html) and run the pointer examples with the -gcflags="-m" flag to see the escape analysis.
-  - [ ] Write a function that returns a pointer to a local variable and another that returns the value.
-  - [ ] Run `go build -gcflags="-m"` to verify which one escapes to the heap.
-  - [ ] Experiment: Does putting a variable inside an `interface{}` cause an escape? (Spoiler: Yes).
+- [X] **Read:** [Escape Analysis](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html)
+- [X] **Practice:**
+  - [X] Go to the [Ardan "gotraining" Repo](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-the-memory-model.html) and run the pointer examples with the -gcflags="-m" flag to see the escape analysis.
+  - [X] Write a function that returns a pointer to a local variable and another that returns the value.
+  - [X] Run `go build -gcflags="-m"` to verify which one escapes to the heap.
+  - [X] Experiment: Does putting a variable inside an `interface{}` cause an escape? (Spoiler: Yes).
   
 ### Afternoon: Data Layout & Performance (Weight: ~20%)
 - [ ] **Slice Mechanics:** Pointer, Length, Capacity.
