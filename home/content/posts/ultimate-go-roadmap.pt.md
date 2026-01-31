@@ -1,0 +1,63 @@
+---
+title: "Roadmap: Intensivo de 48 Horas para a Certificação Ultimate Go"
+date: 2026-01-31
+tags: ["Go", "Golang", "ArdanLabs", "Carreira"]
+description: "Meu plano de estudo de 2 dias para dominar e passar no exame de 100 questões da Ardan Labs."
+---
+
+A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **Simpatia Mecânica**—entender como o software respeita o hardware. Para passar com 80% de acerto em 90 minutos, estou a seguir este roadmap de imersão de 2 dias.
+
+## Dia 1: Simpatia Mecânica & Semântica de Dados
+*Objetivo: Entender como cada byte se move na memória.*
+
+### Manhã: Ponteiros e Stack/Heap (Peso: ~25%)
+- [ ] **Stack vs. Heap:** Entender isolamento vs. partilha.
+- [ ] **Análise de Escape:** Identificar o que dispara alocações no heap (ponteiros, interfaces).
+- [ ] **Leitura:** [Stacks e Ponteiros](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html)
+- [ ] **Leitura:** [Análise de Escape](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html)
+- [ ] **Prática:**
+  - [ ] Vá ao [Repositório "gotraining" da Ardan](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-the-memory-model.html) e execute os exemplos de ponteiros com a flag -gcflags="-m" para ver a análise de escape.
+  - [ ] Escrever uma função que retorna um ponteiro para uma variável local e outra que retorna o valor.
+  - [ ] Executar `go build -gcflags="-m"` para verificar qual delas escapa para o heap.
+  - [ ] Testar: Colocar uma variável dentro de uma `interface{}` causa escape? (Spoiler: Sim).
+  
+### Tarde: Layout de Dados & Performance (Peso: ~20%)
+- [ ] **Mecânica de Slices:** Ponteiro, Comprimento, Capacidade.
+- [ ] **Linhas de Cache:** Porquê memória contígua (slices) supera listas ligadas.
+- [ ] **Leitura:** [Slices em Go](https://www.ardanlabs.com/blog/2013/08/understanding-slices-in-go-programming.html)
+- [ ] **Leitura:** [Design Orientado a Dados](https://www.ardanlabs.com/blog/2023/07/data-oriented-design-and-lean-software.html)
+- [ ] **Prática:** 
+  - [ ] Criar uma slice com `make([]int, 0, 5)`. Use um ciclo para adicionar 10 itens.
+  - [ ] Imprimir o `len`, `cap`, e o endereço de memória do primeiro elemento a cada passo.
+  - [ ] Observar exatamente quando o endereço de memória muda (a realocação do "array de suporte"). 
+---
+
+## Dia 2: Concorrência, Design & Integridade
+*Objetivo: Gerir sistemas complexos e falhas.*
+
+### Manhã: O Scheduler & Canais (Peso: ~35%)
+- [ ] **O Modelo G-M-P:** Como o scheduler gere Goroutines em threads do SO.
+- [ ] **Tabela de Estado de Canais:** Memorizando comportamento para canais nil, abertos e fechados.
+- [ ] **Leitura:** [Scheduling em Go - Parte I](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html)
+- [ ] **Leitura:** [O Comportamento de Canais](https://www.ardanlabs.com/blog/2017/10/the-behavior-of-channels-in-go.html)
+- [ ] **Prática:** 
+  - [ ] Escrever um programa que vaza uma goroutine (um sender bloqueado num canal não bufferizado sem receiver).
+  - [ ] Corrijir usando um bloco `select` com `context.WithTimeout`.
+  - [ ] Praticar o padrão "Fan-out": 10 goroutines a realizar uma tarefa e a reportar para um único canal coletor.
+  
+### Tarde: Filosofia de Design (Peso: ~20%)
+- [ ] **Poluição de Interfaces:** Descobrir interfaces, não projetá-las.
+- [ ] **Integridade de Erros:** Tratar erros como valores.
+- [ ] **Leitura:** [Filosofia de Design de Interfaces](https://www.ardanlabs.com/blog/2017/07/design-philosophy-on-interfaces.html)
+- [ ] **Leitura:** [Filosofia de Tratamento de Erros](https://www.ardanlabs.com/blog/2014/11/error-handling-in-go-part-i.html)
+- [ ] **Prática:**
+  - [ ] Criar um struct `User` concreto. Implemente uma interface `Printer` apenas **depois** de ter uma função que precisa dela. (Descoberta sobre Design).
+  - [ ] Criar um tipo de erro customizado que envolve outro erro usando `fmt.Errorf("... %w", err)`.
+  - [ ] Usar `errors.As` para recuperar o erro customizado e os seus campos.
+---
+
+## Regras Chave "Cheat Sheet" para o Exame
+1. **Nunca** usar um ponteiro para uma interface.
+2. **Nunca** iniciar uma goroutine sem saber como ela vai parar (prevenir vazamentos).
+3. **Registar** o erro OU **retornar** o erro. Nunca fazer ambos.
+4. **Semântica de Valor** = Isolamento/Stack. **Semântica de Ponteiro** = Partilha/Heap.
