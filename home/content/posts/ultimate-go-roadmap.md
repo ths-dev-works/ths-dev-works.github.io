@@ -13,7 +13,7 @@ The Ardan Labs "Ultimate Go" certification is not about syntax; it is about **Me
 ### Morning: Pointers and Stack/Heap (Weight: ~25%)
 - [ ] **Stack vs. Heap:** Understanding isolation vs. sharing.
 - [ ] **Escape Analysis:** Identifying what triggers heap allocations (pointers, interfaces).
-- [ ] **Read:** [Stacks and Pointers](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html)
+- [X] **Read:** [Stacks and Pointers](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html)
 - [ ] **Read:** [Escape Analysis](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html)
 - [ ] **Practice:**
   - [ ] Go to the [Ardan "gotraining" Repo](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-the-memory-model.html) and run the pointer examples with the -gcflags="-m" flag to see the escape analysis.

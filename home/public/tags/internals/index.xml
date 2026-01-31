@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>THS Dev Works</title>
-    <link>https://ths-dev-works.github.io/</link>
-    <description>Recent content on THS Dev Works</description>
+    <title>Internals on THS Dev Works</title>
+    <link>https://ths-dev-works.github.io/tags/internals/</link>
+    <description>Recent content in Internals on THS Dev Works</description>
     <image>
       <title>THS Dev Works</title>
       <url>https://ths-dev-works.github.io/images/cover.jpg</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ths-dev-works.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ths-dev-works.github.io/tags/internals/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: Stacks, Pointers, and Frame Boundaries</title>
       <link>https://ths-dev-works.github.io/posts/go-stacks-and-pointers/</link>
@@ -30,27 +30,6 @@
 &lt;h2 id=&#34;value-semantics-vs-pointer-semantics&#34;&gt;Value Semantics vs. Pointer Semantics&lt;/h2&gt;
 &lt;h3 id=&#34;1-value-semantics-isolation&#34;&gt;1. Value Semantics (Isolation)&lt;/h3&gt;
 &lt;p&gt;When you pass data by value, Go creates a &lt;strong&gt;copy&lt;/strong&gt;. The function operates on its own version, ensuring complete isolation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Roadmap: 48-Hour Intensive for the Ultimate Go Certification</title>
-      <link>https://ths-dev-works.github.io/posts/ultimate-go-roadmap/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/ultimate-go-roadmap/</guid>
-      <description>My 2-day study plan to master and pass the 100-question Ardan Labs exam.</description>
-    </item>
-    <item>
-      <title>About / Stack</title>
-      <link>https://ths-dev-works.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/about/</guid>
-      <description>Senior Backend Engineer and Technical Advisor. Expert in Go (Golang), microservices, Kubernetes, SRE, and cloud-native systems. Experience in fintech and telecom.</description>
-    </item>
-    <item>
-      <title>Services &amp; Consulting</title>
-      <link>https://ths-dev-works.github.io/services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/services/</guid>
-      <description>Fractional CTO, Technical Advisor, and Go Development services. Platform Engineering, SRE, microservices, Kubernetes, and cloud infrastructure consulting for startups and SMEs.</description>
     </item>
   </channel>
 </rss>

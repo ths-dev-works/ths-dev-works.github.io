@@ -31,6 +31,19 @@
                 href="https://ths-dev-works.github.io/tags/go/"
                 />
   </url><url>
+    <loc>https://ths-dev-works.github.io/posts/go-stacks-and-pointers/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-stacks-and-pointers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-stacks-and-pointers/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/tags/golang/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -43,6 +56,12 @@
                 hreflang="en"
                 href="https://ths-dev-works.github.io/tags/golang/"
                 />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/internals/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/memory/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/posts/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>

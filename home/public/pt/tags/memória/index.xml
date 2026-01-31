@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on THS Dev Works</title>
-    <link>https://ths-dev-works.github.io/pt/posts/</link>
-    <description>Recent content in Posts on THS Dev Works</description>
+    <title>Memória on THS Dev Works</title>
+    <link>https://ths-dev-works.github.io/pt/tags/mem%C3%B3ria/</link>
+    <description>Recent content in Memória on THS Dev Works</description>
     <image>
       <title>THS Dev Works</title>
       <url>https://ths-dev-works.github.io/images/cover.jpg</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>pt</language>
     <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ths-dev-works.github.io/pt/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ths-dev-works.github.io/pt/tags/mem%C3%B3ria/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mecânica Go: Stacks, Ponteiros e Limites de Frame</title>
       <link>https://ths-dev-works.github.io/pt/posts/go-stacks-and-pointers/</link>
@@ -21,13 +21,6 @@
       <description>&lt;p&gt;Em Go, &amp;ldquo;Simpatia Mecânica&amp;rdquo; começa com a compreensão de onde os seus dados vivem. Aqui está um resumo abrangente dos princípios fundamentais de Bill Kennedy sobre Stacks e Ponteiros da série Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;limites-de-frame-a-fundação&#34;&gt;Limites de Frame: A Fundação&lt;/h2&gt;
 &lt;p&gt;Cada função executa dentro de &lt;strong&gt;stack frames&lt;/strong&gt; - espaços de memória privados que fornecem isolamento e contexto. Quando uma função é chamada, Go faz a transição entre frames, copiando dados &amp;ldquo;por valor&amp;rdquo; através do limite.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Roadmap: Intensivo de 48 Horas para a Certificação Ultimate Go</title>
-      <link>https://ths-dev-works.github.io/pt/posts/ultimate-go-roadmap/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/ultimate-go-roadmap/</guid>
-      <description>Meu plano de estudo de 2 dias para dominar e passar no exame de 100 questões da Ardan Labs.</description>
     </item>
   </channel>
 </rss>

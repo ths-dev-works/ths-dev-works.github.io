@@ -41,5 +41,19 @@
       <guid>https://ths-dev-works.github.io/tags/golang/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Internals</title>
+      <link>https://ths-dev-works.github.io/tags/internals/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/internals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memory</title>
+      <link>https://ths-dev-works.github.io/tags/memory/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/memory/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
