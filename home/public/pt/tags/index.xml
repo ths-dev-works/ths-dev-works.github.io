@@ -2,15 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on THS Dev Works</title>
-    <link>http://localhost:1313/pt/tags/</link>
+    <link>https://ths-dev-works.github.io/pt/tags/</link>
     <description>Recent content in Tags on THS Dev Works</description>
     <image>
       <title>THS Dev Works</title>
-      <url>http://localhost:1313/images/cover.jpg</url>
-      <link>http://localhost:1313/images/cover.jpg</link>
+      <url>https://ths-dev-works.github.io/images/cover.jpg</url>
+      <link>https://ths-dev-works.github.io/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>pt</language>
-    <atom:link href="http://localhost:1313/pt/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ths-dev-works.github.io/pt/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ArdanLabs</title>
+      <link>https://ths-dev-works.github.io/pt/tags/ardanlabs/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/ardanlabs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carreira</title>
+      <link>https://ths-dev-works.github.io/pt/tags/carreira/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/carreira/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://ths-dev-works.github.io/pt/tags/go/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>https://ths-dev-works.github.io/pt/tags/golang/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/golang/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

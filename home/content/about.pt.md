@@ -78,7 +78,7 @@ Engenheiro Backend com experiência na construção de sistemas escaláveis e cl
 
 ## Educação
 
-**Licenciatura & Mestrado, Engenharia Informática**  
+**Licenciatura, Engenharia Informática**  
 Universidade NOVA de Lisboa (Erasmus, Palermo)
 
 ---

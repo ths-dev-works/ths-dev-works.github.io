@@ -78,7 +78,7 @@ Backend Engineer experienced in building scalable, cloud-native systems in finte
 
 ## Education
 
-**BSc & MEng, Computer Science & Engineering**  
+**B.Sc., Computer Science & Engineering**  
 NOVA University Lisbon (Erasmus, Palermo)
 
 ---

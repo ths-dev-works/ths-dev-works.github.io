@@ -2,64 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/pt/categories/</loc>
+    <loc>https://ths-dev-works.github.io/pt/tags/ardanlabs/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://ths-dev-works.github.io/tags/ardanlabs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/categories/"
+                href="https://ths-dev-works.github.io/pt/tags/ardanlabs/"
                 />
   </url><url>
-    <loc>http://localhost:1313/pt/services/</loc>
+    <loc>https://ths-dev-works.github.io/pt/tags/carreira/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/go/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/services/"
+                href="https://ths-dev-works.github.io/tags/go/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/services/"
+                href="https://ths-dev-works.github.io/pt/tags/go/"
                 />
   </url><url>
-    <loc>http://localhost:1313/pt/about/</loc>
+    <loc>https://ths-dev-works.github.io/pt/tags/golang/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/"
+                href="https://ths-dev-works.github.io/tags/golang/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/about/"
+                href="https://ths-dev-works.github.io/pt/tags/golang/"
                 />
   </url><url>
-    <loc>http://localhost:1313/pt/tags/</loc>
+    <loc>https://ths-dev-works.github.io/pt/posts/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://ths-dev-works.github.io/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/tags/"
+                href="https://ths-dev-works.github.io/pt/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/pt/</loc>
+    <loc>https://ths-dev-works.github.io/pt/posts/ultimate-go-roadmap/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://ths-dev-works.github.io/posts/ultimate-go-roadmap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/"
+                href="https://ths-dev-works.github.io/pt/posts/ultimate-go-roadmap/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/categories/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/services/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/services/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/about/"
                 />
   </url>
 </urlset>

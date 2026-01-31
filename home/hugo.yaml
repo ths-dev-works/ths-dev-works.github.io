@@ -17,6 +17,10 @@ languages:
           name: Services
           url: /services/
           weight: 10
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 20
         - identifier: about
           name: About / Stack
           url: /about/
@@ -44,6 +48,10 @@ languages:
           name: Serviços
           url: /pt/services/
           weight: 10
+        - identifier: posts
+          name: Posts
+          url: /pt/posts/
+          weight: 20
         - identifier: about
           name: Sobre / Stack
           url: /pt/about/
@@ -114,7 +122,7 @@ params:
   # UI/UX Settings
   ShowReadingTime: true
   ShowShareButtons: true
-  ShowPostNavLinks: trueo
+  ShowPostNavLinks: true
   
   # Footer
   footer:
