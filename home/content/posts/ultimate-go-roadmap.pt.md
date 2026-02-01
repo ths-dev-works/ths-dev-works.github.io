@@ -38,16 +38,19 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
 *Objetivo: Gerir sistemas complexos e falhas.*
 
 ### Manhã: O Scheduler & Canais (Peso: ~35%)
-- [ ] **O Modelo G-M-P:** Como o scheduler gere Goroutines em threads do SO.
+- [X] **O Modelo G-M-P:** Como o scheduler gere Goroutines em threads do SO.
 - [ ] **Tabela de Estado de Canais:** Memorizando comportamento para canais nil, abertos e fechados.
-- [ ] **Leitura:** [Scheduling em Go - Parte I](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html)
-- [ ] **Leitura:** [Scheduling em Go - Parte II](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html)
-- - [ ] **Leitura:** [Scheduling em Go - Parte I](https://www.ardanlabs.com/blog/2018/12/scheduling-in-go-part3.html)
+- [ ] **Semântica do Pacote Context:** Cancelamento adequado de goroutines e gestão de timeouts.
+- [X] **Leitura:** [Scheduling em Go - Parte I](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html)
+- [X] **Leitura:** [Scheduling em Go - Parte II](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html)
+- [X] **Leitura:** [Scheduling em Go - Parte III](https://www.ardanlabs.com/blog/2018/12/scheduling-in-go-part3.html)
 - [ ] **Leitura:** [O Comportamento de Canais](https://www.ardanlabs.com/blog/2017/10/the-behavior-of-channels.html)
+- [ ] **Leitura:** [Semântica do Pacote Context](https://www.ardanlabs.com/blog/2019/09/context-package-semantics-in-go.html)
 - [ ] **Prática:** 
   - [ ] Escrever um programa que vaza uma goroutine (um sender bloqueado num canal não bufferizado sem receiver).
   - [ ] Corrijir usando um bloco `select` com `context.WithTimeout`.
   - [ ] Praticar o padrão "Fan-out": 10 goroutines a realizar uma tarefa e a reportar para um único canal coletor.
+  - [ ] Criar um handler de servidor que usa context para timeout de request e propagação de cancelamento.
   
 ### Tarde: Filosofia de Design (Peso: ~20%)
 - [ ] **Poluição de Interfaces:** Descobrir interfaces, não projetá-las.
@@ -67,3 +70,6 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
 2. **Nunca** iniciar uma goroutine sem saber como ela vai parar (prevenir vazamentos).
 3. **Registar** o erro OU **retornar** o erro. **Nunca fazer** ambos.
 4. **Semântica de Valor** = Isolamento/Stack. **Semântica de Ponteiro** = Partilha/Heap.
+
+## Recursos Adicionais
+- **Repositório GitHub**: [Ardan Labs Go Training](https://github.com/ardanlabs/gotraining) - Exemplos de código fonte completos e exercícios para todos os tópicos cobertos neste roadmap.

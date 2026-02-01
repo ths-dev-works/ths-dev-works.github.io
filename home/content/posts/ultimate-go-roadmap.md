@@ -38,16 +38,19 @@ The Ardan Labs "Ultimate Go" certification is not about syntax; it is about **Me
 *Goal: Managing complex systems and failures.*
 
 ### Morning: The Scheduler & Channels (Weight: ~35%)
-- [ ] **The G-M-P Model:** How the scheduler manages Goroutines on OS threads.
+- [X] **The G-M-P Model:** How the scheduler manages Goroutines on OS threads.
 - [ ] **Channel State Table:** Memorizing behavior for nil, open, and closed channels.
-- [ ] **Read:** [Scheduling In Go - Part I](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html)
-- [ ] **Read:** [Scheduling In Go - Part II](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html)
-- [ ] **Read:** [Scheduling In Go - Part III](https://www.ardanlabs.com/blog/2018/12/scheduling-in-go-part3.html)
+- [ ] **Context Package Semantics:** Proper goroutine cancellation and timeout management.
+- [X] **Read:** [Scheduling In Go - Part I](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html)
+- [X] **Read:** [Scheduling In Go - Part II](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html)
+- [X] **Read:** [Scheduling In Go - Part III](https://www.ardanlabs.com/blog/2018/12/scheduling-in-go-part3.html)
 - [ ] **Read:** [The Behavior of Channels](https://www.ardanlabs.com/blog/2017/10/the-behavior-of-channels.html)
+- [ ] **Read:** [Context Package Semantics](https://www.ardanlabs.com/blog/2019/09/context-package-semantics-in-go.html)
 - [ ] **Practice:** 
   - [ ] Write a program that leaks a goroutine (a sender blocked on an unbuffered channel with no receiver).
   - [ ] Fix it using a `select` block with a `context.WithTimeout`.
   - [ ] Practice the "Fan-out" pattern: 10 goroutines performing a task and reporting to a single collector channel.
+  - [ ] Create a server handler that uses context for request timeout and cancellation propagation.
   
 ### Afternoon: Design Philosophy (Weight: ~20%)
 - [ ] **Interface Pollution:** Discovering interfaces, not designing them.
@@ -67,3 +70,6 @@ The Ardan Labs "Ultimate Go" certification is not about syntax; it is about **Me
 2. **Never** start a goroutine without knowing how it will stop (prevent leaks).
 3. **Log** the error OR **return** the error. Never do both.
 4. **Value Semantics** = Isolation/Stack. **Pointer Semantics** = Sharing/Heap.
+
+## Additional Resources
+- **GitHub Repository**: [Ardan Labs Go Training](https://github.com/ardanlabs/gotraining) - Complete source code examples and exercises for all topics covered in this roadmap.
