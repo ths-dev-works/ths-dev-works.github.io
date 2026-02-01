@@ -11,8 +11,43 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>pt</language>
-    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/pt/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go</title>
+      <link>https://ths-dev-works.github.io/pt/tags/go/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internos</title>
+      <link>https://ths-dev-works.github.io/pt/tags/internos/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/internos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memória</title>
+      <link>https://ths-dev-works.github.io/pt/tags/mem%C3%B3ria/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/mem%C3%B3ria/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>https://ths-dev-works.github.io/pt/tags/performance/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Profiling</title>
+      <link>https://ths-dev-works.github.io/pt/tags/profiling/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/profiling/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ArdanLabs</title>
       <link>https://ths-dev-works.github.io/pt/tags/ardanlabs/</link>
@@ -35,45 +70,10 @@
       <description></description>
     </item>
     <item>
-      <title>Go</title>
-      <link>https://ths-dev-works.github.io/pt/tags/go/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/tags/go/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Golang</title>
       <link>https://ths-dev-works.github.io/pt/tags/golang/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://ths-dev-works.github.io/pt/tags/golang/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Internos</title>
-      <link>https://ths-dev-works.github.io/pt/tags/internos/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/tags/internos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Memória</title>
-      <link>https://ths-dev-works.github.io/pt/tags/mem%C3%B3ria/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/tags/mem%C3%B3ria/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Performance</title>
-      <link>https://ths-dev-works.github.io/pt/tags/performance/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/tags/performance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Profiling</title>
-      <link>https://ths-dev-works.github.io/pt/tags/profiling/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/tags/profiling/</guid>
       <description></description>
     </item>
   </channel>

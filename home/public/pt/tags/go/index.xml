@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>pt</language>
-    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/pt/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mecânica Go: Memory Profiling e Otimização de Performance</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</guid>
+      <description>&lt;p&gt;Em Go, compreender as alocações de memória e o seu impacto na performance é crucial para escrever código eficiente. Aqui está um resumo abrangente dos princípios fundamentais de Bill Kennedy sobre Memory Profiling da série Ardan Labs.&lt;/p&gt;
+&lt;h2 id=&#34;o-processo-de-profiling&#34;&gt;O Processo de Profiling&lt;/h2&gt;
+&lt;p&gt;Memory profiling em Go ajuda a identificar onde as alocações estão a acontecer e porquê que os valores escapam para o heap. Isto é essencial para otimização de performance.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mecânica Go: Análise de Escape e o Heap</title>
       <link>https://ths-dev-works.github.io/pt/posts/go-escape-analysis/</link>
@@ -36,15 +45,6 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;análise-de-escape-o-conceito-central&#34;&gt;Análise de Escape: O Conceito Central&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Análise de escape&lt;/strong&gt; é o processo do compilador para determinar se um valor pode permanecer no stack ou deve &amp;ldquo;escapar&amp;rdquo; para o heap.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mecânica Go: Memory Profiling e Otimização de Performance</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</guid>
-      <description>&lt;p&gt;Em Go, compreender as alocações de memória e o seu impacto na performance é crucial para escrever código eficiente. Aqui está um resumo abrangente dos princípios fundamentais de Bill Kennedy sobre Memory Profiling da série Ardan Labs.&lt;/p&gt;
-&lt;h2 id=&#34;o-processo-de-profiling&#34;&gt;O Processo de Profiling&lt;/h2&gt;
-&lt;p&gt;Memory profiling em Go ajuda a identificar onde as alocações estão a acontecer e porquê que os valores escapam para o heap. Isto é essencial para otimização de performance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mecânica Go: Stacks, Ponteiros e Limites de Frame</title>

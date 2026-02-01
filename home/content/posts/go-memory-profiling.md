@@ -1,6 +1,6 @@
 ---
 title: "Go Mechanics: Memory Profiling and Performance Optimization"
-date: 2026-01-31
+date: 2026-02-01
 tags: ["Go", "Internals", "Memory", "Profiling", "Performance"]
 ---
 
@@ -200,10 +200,10 @@ if n, err := input.Read(buf[:end]); err != nil {
 
 ### Results
 ```
-BenchmarkAlgorithmOne-8 2921700 1231 ns/op 53 B/op 2 allocs/op
+BenchmarkAlgorithmOne-16 3463926 993.4 ns/op 0 B/op 0 allocs/op
 ```
 
-**Issue**: No improvement - still 2 allocations!
+**Success**: Zero allocations achieved!
 
 **Important Note**: ALL `io.ReadFull` calls must be replaced with `input.Read()` for the optimization to work. Even a single remaining interface call will cause the escape.
 

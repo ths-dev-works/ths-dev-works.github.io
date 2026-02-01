@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Performance on THS Dev Works</title>
+    <link>https://ths-dev-works.github.io/tags/performance/</link>
+    <description>Recent content in Performance on THS Dev Works</description>
+    <image>
+      <title>THS Dev Works</title>
+      <url>https://ths-dev-works.github.io/images/cover.jpg</url>
+      <link>https://ths-dev-works.github.io/images/cover.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ths-dev-works.github.io/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Mechanics: Memory Profiling and Performance Optimization</title>
+      <link>https://ths-dev-works.github.io/posts/go-memory-profiling/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-memory-profiling/</guid>
+      <description>&lt;p&gt;In Go, understanding memory allocations and their performance impact is crucial for writing efficient code. Here&amp;rsquo;s a comprehensive summary of Bill Kennedy&amp;rsquo;s core principles on Memory Profiling from the Ardan Labs series.&lt;/p&gt;
+&lt;h2 id=&#34;the-profiling-process&#34;&gt;The Profiling Process&lt;/h2&gt;
+&lt;p&gt;Memory profiling in Go helps identify where allocations are happening and why values escape to the heap. This is essential for performance optimization.&lt;/p&gt;
+&lt;h3 id=&#34;key-tools&#34;&gt;Key Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Benchmarking&lt;/strong&gt;: &lt;code&gt;go test -bench&lt;/code&gt; with &lt;code&gt;-benchmem&lt;/code&gt; flag&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory Profiling&lt;/strong&gt;: &lt;code&gt;go test -memprofile&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pprof&lt;/strong&gt;: &lt;code&gt;go tool pprof -alloc_space&lt;/code&gt; for analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compiler Reporting&lt;/strong&gt;: &lt;code&gt;go build -gcflags &amp;quot;-m -m&amp;quot;&lt;/code&gt; for escape analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-case-study-string-replacement-algorithm&#34;&gt;The Case Study: String Replacement Algorithm&lt;/h2&gt;
+&lt;h3 id=&#34;the-problem&#34;&gt;The Problem&lt;/h3&gt;
+&lt;p&gt;Create a function that finds &amp;ldquo;elvis&amp;rdquo; in a byte stream and replaces it with &amp;ldquo;Elvis&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

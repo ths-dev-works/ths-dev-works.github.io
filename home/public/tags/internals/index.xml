@@ -11,8 +11,27 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/tags/internals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Mechanics: Memory Profiling and Performance Optimization</title>
+      <link>https://ths-dev-works.github.io/posts/go-memory-profiling/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-memory-profiling/</guid>
+      <description>&lt;p&gt;In Go, understanding memory allocations and their performance impact is crucial for writing efficient code. Here&amp;rsquo;s a comprehensive summary of Bill Kennedy&amp;rsquo;s core principles on Memory Profiling from the Ardan Labs series.&lt;/p&gt;
+&lt;h2 id=&#34;the-profiling-process&#34;&gt;The Profiling Process&lt;/h2&gt;
+&lt;p&gt;Memory profiling in Go helps identify where allocations are happening and why values escape to the heap. This is essential for performance optimization.&lt;/p&gt;
+&lt;h3 id=&#34;key-tools&#34;&gt;Key Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Benchmarking&lt;/strong&gt;: &lt;code&gt;go test -bench&lt;/code&gt; with &lt;code&gt;-benchmem&lt;/code&gt; flag&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory Profiling&lt;/strong&gt;: &lt;code&gt;go test -memprofile&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pprof&lt;/strong&gt;: &lt;code&gt;go tool pprof -alloc_space&lt;/code&gt; for analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compiler Reporting&lt;/strong&gt;: &lt;code&gt;go build -gcflags &amp;quot;-m -m&amp;quot;&lt;/code&gt; for escape analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-case-study-string-replacement-algorithm&#34;&gt;The Case Study: String Replacement Algorithm&lt;/h2&gt;
+&lt;h3 id=&#34;the-problem&#34;&gt;The Problem&lt;/h3&gt;
+&lt;p&gt;Create a function that finds &amp;ldquo;elvis&amp;rdquo; in a byte stream and replaces it with &amp;ldquo;Elvis&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Go Mechanics: Escape Analysis and the Heap</title>
       <link>https://ths-dev-works.github.io/posts/go-escape-analysis/</link>
@@ -36,25 +55,6 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;escape-analysis-the-core-concept&#34;&gt;Escape Analysis: The Core Concept&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Escape analysis&lt;/strong&gt; is the compiler&amp;rsquo;s process of determining if a value can stay on the stack or must &amp;ldquo;escape&amp;rdquo; to the heap.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Go Mechanics: Memory Profiling and Performance Optimization</title>
-      <link>https://ths-dev-works.github.io/posts/go-memory-profiling/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/go-memory-profiling/</guid>
-      <description>&lt;p&gt;In Go, understanding memory allocations and their performance impact is crucial for writing efficient code. Here&amp;rsquo;s a comprehensive summary of Bill Kennedy&amp;rsquo;s core principles on Memory Profiling from the Ardan Labs series.&lt;/p&gt;
-&lt;h2 id=&#34;the-profiling-process&#34;&gt;The Profiling Process&lt;/h2&gt;
-&lt;p&gt;Memory profiling in Go helps identify where allocations are happening and why values escape to the heap. This is essential for performance optimization.&lt;/p&gt;
-&lt;h3 id=&#34;key-tools&#34;&gt;Key Tools&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Benchmarking&lt;/strong&gt;: &lt;code&gt;go test -bench&lt;/code&gt; with &lt;code&gt;-benchmem&lt;/code&gt; flag&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Memory Profiling&lt;/strong&gt;: &lt;code&gt;go test -memprofile&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;pprof&lt;/strong&gt;: &lt;code&gt;go tool pprof -alloc_space&lt;/code&gt; for analysis&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Compiler Reporting&lt;/strong&gt;: &lt;code&gt;go build -gcflags &amp;quot;-m -m&amp;quot;&lt;/code&gt; for escape analysis&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;the-case-study-string-replacement-algorithm&#34;&gt;The Case Study: String Replacement Algorithm&lt;/h2&gt;
-&lt;h3 id=&#34;the-problem&#34;&gt;The Problem&lt;/h3&gt;
-&lt;p&gt;Create a function that finds &amp;ldquo;elvis&amp;rdquo; in a byte stream and replaces it with &amp;ldquo;Elvis&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Go Mechanics: Stacks, Pointers, and Frame Boundaries</title>
