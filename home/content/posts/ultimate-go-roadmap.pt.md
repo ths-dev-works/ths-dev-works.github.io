@@ -24,9 +24,9 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
   - [X] Criar uma função que retorna um ponteiro e usar `go tool pprof` para identificar a alocação no heap.
   
 ### Tarde: Layout de Dados & Performance (Peso: ~20%)
-- [ ] **Mecânica de Slices:** Ponteiro, Comprimento, Capacidade.
-- [ ] **Linhas de Cache:** Porquê memória contígua (slices) supera listas ligadas.
-- [ ] **Leitura:** [Slices em Go](https://www.ardanlabs.com/blog/2013/08/understanding-slices-in-go-programming.html)
+- [X] **Mecânica de Slices:** Ponteiro, Comprimento, Capacidade.
+- [X] **Linhas de Cache:** Porquê memória contígua (slices) supera listas ligadas.
+- [X] **Leitura:** [Slices em Go](https://www.ardanlabs.com/blog/2013/08/understanding-slices-in-go-programming.html)
 - [ ] **Leitura:** [Design Orientado a Dados](https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html)
 - [ ] **Prática:** 
   - [ ] Criar uma slice com `make([]int, 0, 5)`. **Usar** um ciclo para adicionar 10 itens.

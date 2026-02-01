@@ -24,8 +24,8 @@ The Ardan Labs "Ultimate Go" certification is not about syntax; it is about **Me
   - [X] Create a function that returns a pointer and use `go tool pprof` to identify the heap allocation.
   
 ### Afternoon: Data Layout & Performance (Weight: ~20%)
-- [ ] **Slice Mechanics:** Pointer, Length, Capacity.
-- [ ] **Cache Lines:** Why contiguous memory (slices) outperforms linked lists.
+- [X] **Slice Mechanics:** Pointer, Length, Capacity.
+- [X] **Cache Lines:** Why contiguous memory (slices) outperforms linked lists.
 - [ ] **Read:** [Slices in Go](https://www.ardanlabs.com/blog/2013/08/understanding-slices-in-go-programming.html)
 - [ ] **Read:** [Data-Oriented Design](https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html)
 - [ ] **Practice:** 
