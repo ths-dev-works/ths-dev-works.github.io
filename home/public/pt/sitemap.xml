@@ -73,6 +73,19 @@
                 href="https://ths-dev-works.github.io/pt/posts/go-escape-analysis/"
                 />
   </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-memory-profiling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-memory-profiling/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/pt/posts/go-stacks-and-pointers/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -89,6 +102,19 @@
     <loc>https://ths-dev-works.github.io/pt/tags/mem%C3%B3ria/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/performance/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/performance/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/performance/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/pt/posts/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -100,6 +126,19 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://ths-dev-works.github.io/pt/posts/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/profiling/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/profiling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/profiling/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/posts/ultimate-go-roadmap/</loc>

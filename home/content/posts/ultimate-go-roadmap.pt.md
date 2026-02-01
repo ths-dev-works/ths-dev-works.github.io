@@ -15,19 +15,21 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
 - [X] **Análise de Escape:** Identificar o que dispara alocações no heap (ponteiros, interfaces).
 - [X] **Leitura:** [Stacks e Ponteiros](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html)
 - [X] **Leitura:** [Análise de Escape](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html)
+- [X] **Leitura:** [Memory Profiling](https://www.ardanlabs.com/blog/2017/06/language-mechanics-on-memory-profiling.html)
 - [X] **Prática:**
   - [X] Vá ao [Repositório "gotraining" da Ardan](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-the-memory-model.html) e execute os exemplos de ponteiros com a flag -gcflags="-m" para ver a análise de escape.
   - [X] Escrever uma função que retorna um ponteiro para uma variável local e outra que retorna o valor.
   - [X] Executar `go build -gcflags="-m"` para verificar qual delas escapa para o heap.
   - [X] Testar: Colocar uma variável dentro de uma `interface{}` causa escape? (Spoiler: Sim).
+  - [X] Criar uma função que retorna um ponteiro e usar `go tool pprof` para identificar a alocação no heap.
   
 ### Tarde: Layout de Dados & Performance (Peso: ~20%)
 - [ ] **Mecânica de Slices:** Ponteiro, Comprimento, Capacidade.
 - [ ] **Linhas de Cache:** Porquê memória contígua (slices) supera listas ligadas.
 - [ ] **Leitura:** [Slices em Go](https://www.ardanlabs.com/blog/2013/08/understanding-slices-in-go-programming.html)
-- [ ] **Leitura:** [Design Orientado a Dados](https://www.ardanlabs.com/blog/2023/07/data-oriented-design-and-lean-software.html)
+- [ ] **Leitura:** [Design Orientado a Dados](https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html)
 - [ ] **Prática:** 
-  - [ ] Criar uma slice com `make([]int, 0, 5)`. Use um ciclo para adicionar 10 itens.
+  - [ ] Criar uma slice com `make([]int, 0, 5)`. **Usar** um ciclo para adicionar 10 itens.
   - [ ] Imprimir o `len`, `cap`, e o endereço de memória do primeiro elemento a cada passo.
   - [ ] Observar exatamente quando o endereço de memória muda (a realocação do "array de suporte"). 
 ---
@@ -39,7 +41,9 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
 - [ ] **O Modelo G-M-P:** Como o scheduler gere Goroutines em threads do SO.
 - [ ] **Tabela de Estado de Canais:** Memorizando comportamento para canais nil, abertos e fechados.
 - [ ] **Leitura:** [Scheduling em Go - Parte I](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html)
-- [ ] **Leitura:** [O Comportamento de Canais](https://www.ardanlabs.com/blog/2017/10/the-behavior-of-channels-in-go.html)
+- [ ] **Leitura:** [Scheduling em Go - Parte II](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html)
+- - [ ] **Leitura:** [Scheduling em Go - Parte I](https://www.ardanlabs.com/blog/2018/12/scheduling-in-go-part3.html)
+- [ ] **Leitura:** [O Comportamento de Canais](https://www.ardanlabs.com/blog/2017/10/the-behavior-of-channels.html)
 - [ ] **Prática:** 
   - [ ] Escrever um programa que vaza uma goroutine (um sender bloqueado num canal não bufferizado sem receiver).
   - [ ] Corrijir usando um bloco `select` com `context.WithTimeout`.
@@ -48,16 +52,18 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
 ### Tarde: Filosofia de Design (Peso: ~20%)
 - [ ] **Poluição de Interfaces:** Descobrir interfaces, não projetá-las.
 - [ ] **Integridade de Erros:** Tratar erros como valores.
-- [ ] **Leitura:** [Filosofia de Design de Interfaces](https://www.ardanlabs.com/blog/2017/07/design-philosophy-on-interfaces.html)
-- [ ] **Leitura:** [Filosofia de Tratamento de Erros](https://www.ardanlabs.com/blog/2014/11/error-handling-in-go-part-i.html)
+- [ ] **Leitura:** [Interface Semântica](https://www.ardanlabs.com/blog/2017/07/interface-semantics.html)
+- [ ] **Leitura:** [Interface Values Are Valueless](https://www.ardanlabs.com/blog/2018/03/interface-values-are-valueless.html)
+- [ ] **Leitura:** [Filosofia de Tratamento de Erros I](https://www.ardanlabs.com/blog/2014/10/error-handling-in-go-part-i.html)
+- [ ] **Leitura:** [Filosofia de Tratamento de Erros II](https://www.ardanlabs.com/blog/2014/11/error-handling-in-go-part-ii.html)
 - [ ] **Prática:**
   - [ ] Criar um struct `User` concreto. Implemente uma interface `Printer` apenas **depois** de ter uma função que precisa dela. (Descoberta sobre Design).
   - [ ] Criar um tipo de erro customizado que envolve outro erro usando `fmt.Errorf("... %w", err)`.
-  - [ ] Usar `errors.As` para recuperar o erro customizado e os seus campos.
+  - [ ] **Usar** `errors.As` para recuperar o erro customizado e os seus campos.
 ---
 
 ## Regras Chave "Cheat Sheet" para o Exame
 1. **Nunca** usar um ponteiro para uma interface.
 2. **Nunca** iniciar uma goroutine sem saber como ela vai parar (prevenir vazamentos).
-3. **Registar** o erro OU **retornar** o erro. Nunca fazer ambos.
+3. **Registar** o erro OU **retornar** o erro. **Nunca fazer** ambos.
 4. **Semântica de Valor** = Isolamento/Stack. **Semântica de Ponteiro** = Partilha/Heap.

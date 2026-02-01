@@ -211,7 +211,7 @@ increment(&count)     // Passar endereço (partilha)
 - **O benefício de passar dados "por valor" é a legibilidade**
 - **O stack é importante** porque fornece o espaço de memória físico para os limites de frame dados a cada função individual
 - **Toda a memória de stack abaixo do frame ativo é inválida** mas a memória do frame ativo e acima é válida
-- **Fazer uma chamada de função** significa que a goroutine precisa de enquadrar uma nova secção de memória no stack
+- **Fazer** uma chamada de função significa que a goroutine precisa de enquadrar uma nova secção de memória no stack
 - **É durante cada chamada de função, quando o frame é tomado**, que a memória do stack para esse frame é limpa
 - **Ponteiros servem um propósito**, partilhar um valor com uma função para que a função possa ler e escrever nesse valor mesmo que o valor não exista diretamente dentro do seu próprio frame
 - **Para cada tipo declarado**, seja por si ou pela própria linguagem, obtém gratuitamente um tipo de ponteiro complementar que pode usar para partilha

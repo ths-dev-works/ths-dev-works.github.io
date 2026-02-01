@@ -62,5 +62,19 @@
       <guid>https://ths-dev-works.github.io/tags/memory/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Performance</title>
+      <link>https://ths-dev-works.github.io/tags/performance/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Profiling</title>
+      <link>https://ths-dev-works.github.io/tags/profiling/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/profiling/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
