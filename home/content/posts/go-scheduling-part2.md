@@ -1,6 +1,6 @@
 ---
 title: "Go Scheduling: Part II - Go Scheduler"
-date: 2026-01-31
+date: 2026-02-01
 tags: ["Go", "Scheduling", "Concurrency", "Goroutines", "Performance"]
 description: "Understanding Go's scheduler mechanics and how it builds upon OS scheduler fundamentals."
 ---

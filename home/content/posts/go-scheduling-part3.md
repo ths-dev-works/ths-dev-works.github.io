@@ -1,6 +1,6 @@
 ---
 title: "Go Scheduling: Part III - Concurrency"
-date: 2026-01-31
+date: 2026-02-01
 tags: ["Go", "Scheduling", "Concurrency", "Performance", "Workloads"]
 description: "Understanding when and how to use concurrency effectively in Go with different workload types."
 ---

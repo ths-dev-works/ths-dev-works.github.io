@@ -1,6 +1,6 @@
 ---
 title: "Go Scheduling: Part I - OS Scheduler Fundamentals"
-date: 2026-01-31
+date: 2026-02-01
 tags: ["Go", "Scheduling", "Concurrency", "OS", "Performance"]
 description: "Understanding the operating system scheduler fundamentals that form the foundation for Go's scheduling system."
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Go Scheduling: Parte III - Concorrência"
-date: 2026-01-31
+date: 2026-02-01
 tags: ["Go", "Scheduling", "Concorrência", "Performance", "Workloads"]
 description: "Compreender quando e como usar concorrência efetivamente em Go com diferentes tipos de workload."
 ---
