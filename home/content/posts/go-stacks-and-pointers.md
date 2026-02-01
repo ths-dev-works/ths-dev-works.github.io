@@ -199,7 +199,7 @@ increment(&count)     // Pass address (share)
 
 1. **Go is 100% Pass-by-Value**: Even pointers are copied (you copy the address)
 2. **The Stack is Self-Cleaning**: No GC involvement for stack memory
-3. **Pointers are for Sharing**: If you aren't sharing data across boundaries, stay with values
+3. **Pointers are for Sharing**: If you aren't sharing data across boundaries, to stay with values
 4. **Frame Boundaries Enforce Isolation**: Functions can only directly access their own frame
 5. **Indirect Memory Access**: Pointers enable cross-frame memory access
 6. **Type Safety**: Pointer types ensure only compatible addresses can be shared

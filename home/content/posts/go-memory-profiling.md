@@ -330,14 +330,14 @@ go build -gcflags "-m -m"
 ## Performance Optimization Strategy
 
 ### The Golden Rule
-> **Write for correctness first, optimize for performance second.**
+> **To write** for correctness first, to optimize for performance second.
 
 ### Development Workflow
-1. **Focus on integrity, readability, and simplicity**
-2. **Verify correctness with working program**
-3. **Test if performance is adequate**
-4. **Use profiling tools to identify bottlenecks**
-5. **Optimize based on data, not guesses**
+1. **To focus** on integrity, readability, and simplicity
+2. **To verify** correctness with working program
+3. **To test** if performance is adequate
+4. **To use** profiling tools to identify bottlenecks
+5. **To optimize** based on data, not guesses
 
 ### When to Optimize
 - When performance is actually inadequate

@@ -11,10 +11,10 @@ Em Go, slices são uma das estruturas de dados mais poderosas e frequentemente u
 Antes de entender slices, devemos entender arrays. Arrays em Go são coleções de tamanho fixo com o tamanho sendo parte do tipo.
 
 ### Propriedades dos Arrays
-- **Tamanho Fixo**: `[4]int` e `[5]int` são tipos diferentes e incompatíveis
-- **Tipo de Valor**: Arrays são valores, não ponteiros para o primeiro elemento
+- **Tamanho Fixo**: `[4]int` e `[5]int` serem tipos diferentes e incompatíveis
+- **Tipo de Valor**: Arrays serem valores, não ponteiros para o primeiro elemento
 - **Layout de Memória**: Elementos dispostos sequencialmente na memória
-- **Semântica de Cópia**: Atribuição cria uma cópia completa do array
+- **Semântica de Cópia**: Atribuição criar uma cópia completa do array
 
 ```go
 // Declarações de array

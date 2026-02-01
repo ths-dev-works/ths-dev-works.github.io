@@ -26,12 +26,12 @@ The Ardan Labs "Ultimate Go" certification is not about syntax; it is about **Me
 ### Afternoon: Data Layout & Performance (Weight: ~20%)
 - [X] **Slice Mechanics:** Pointer, Length, Capacity.
 - [X] **Cache Lines:** Why contiguous memory (slices) outperforms linked lists.
-- [ ] **Read:** [Slices in Go](https://www.ardanlabs.com/blog/2013/08/understanding-slices-in-go-programming.html)
-- [ ] **Read:** [Data-Oriented Design](https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html)
-- [ ] **Practice:** 
-  - [ ] Create a slice with `make([]int, 0, 5)`. Use a loop to append 10 items.
-  - [ ] Print the `len`, `cap`, and the memory address of the first element at each step.
-  - [ ] Observe exactly when the memory address changes (the "backing array" relocation). 
+- [X] **Read:** [Slices in Go](https://www.ardanlabs.com/blog/2013/08/understanding-slices-in-go-programming.html)
+- [X] **Read:** [Data-Oriented Design](https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html)
+- [X] **Practice:** 
+  - [X] Create a slice with `make([]int, 0, 5)`. Use a loop to append 10 items.
+  - [X] Print the `len`, `cap`, and the memory address of the first element at each step.
+  - [X] Observe exactly when the memory address changes (the "backing array" relocation). 
 ---
 
 ## Day 2: Concurrency, Design & Integrity

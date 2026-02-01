@@ -27,11 +27,11 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
 - [X] **Mecânica de Slices:** Ponteiro, Comprimento, Capacidade.
 - [X] **Linhas de Cache:** Porquê memória contígua (slices) supera listas ligadas.
 - [X] **Leitura:** [Slices em Go](https://www.ardanlabs.com/blog/2013/08/understanding-slices-in-go-programming.html)
-- [ ] **Leitura:** [Design Orientado a Dados](https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html)
-- [ ] **Prática:** 
-  - [ ] Criar uma slice com `make([]int, 0, 5)`. **Usar** um ciclo para adicionar 10 itens.
-  - [ ] Imprimir o `len`, `cap`, e o endereço de memória do primeiro elemento a cada passo.
-  - [ ] Observar exatamente quando o endereço de memória muda (a realocação do "array de suporte"). 
+- [X] **Leitura:** [Design Orientado a Dados](https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html)
+- [X] **Prática:** 
+  - [X] Criar uma slice com `make([]int, 0, 5)`. **Usar** um ciclo para adicionar 10 itens.
+  - [X] Imprimir o `len`, `cap`, e o endereço de memória do primeiro elemento a cada passo.
+  - [X] Observar exatamente quando o endereço de memória muda (a realocação do "array de suporte"). 
 ---
 
 ## Dia 2: Concorrência, Design & Integridade

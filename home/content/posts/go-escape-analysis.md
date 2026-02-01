@@ -130,7 +130,7 @@ This makes it obvious that:
 ## Compiler Reporting
 
 ### Checking Escape Decisions
-Use the compiler's escape analysis report:
+**To use** the compiler's escape analysis report:
 
 ```bash
 go build -gcflags "-m -m" ./main.go
@@ -153,10 +153,10 @@ go build -gcflags "-m -m" ./main.go
 
 1. **Construction doesn't determine location**: Only sharing decisions affect placement
 2. **Sharing up the call stack causes escape**: Returning pointers forces heap allocation
-3. **Value semantics reduce GC pressure**: Keep values on stack when possible
+3. **Value semantics reduce GC pressure**: To keep values on stack when possible
 4. **Pointer semantics increase efficiency**: One value vs. multiple copies
-5. **Use & for readability**: Make sharing explicit in your code
-6. **Check compiler decisions**: Use escape analysis reports to verify assumptions
+5. **To use** & for readability: To make sharing explicit in your code
+6. **To check** compiler decisions: To use escape analysis reports to verify assumptions
 
 ## Performance Implications
 

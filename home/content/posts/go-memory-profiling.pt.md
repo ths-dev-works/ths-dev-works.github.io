@@ -317,14 +317,14 @@ go build -gcflags "-m -m"
 ## Estratégia de Otimização de Performance
 
 ### A Regra de Ouro
-> **Escrever para correção primeiro, otimizar para performance segundo.**
+> **Para escrever** para correção primeiro, para otimizar para performance segundo.
 
 ### Fluxo de Trabalho de Desenvolvimento
-1. **Focar em integridade, legibilidade e simplicidade**
-2. **Verificar correção com programa funcional**
-3. **Testar se performance é adequada**
-4. **Usar ferramentas de profiling para identificar gargalos**
-5. **Otimizar baseado em dados, não em suposições**
+1. **Para focar** em integridade, legibilidade e simplicidade
+2. **Para verificar** correção com programa funcional
+3. **Para testar** se performance é adequada
+4. **Para usar** ferramentas de profiling para identificar gargalos
+5. **Para otimizar** baseado em dados, não em suposições
 
 ### Quando Otimizar
 - Quando performance é realmente inadequada
@@ -333,10 +333,10 @@ go build -gcflags "-m -m"
 
 ## Pontos Chave
 
-1. **Interfaces têm custos de alocação**: **Usa**-as com juízo
-2. **Remoção completa de interface necessária**: Correções parciais não funcionam
-3. **Alocação de stack requer tamanho conhecido em tempo de compilação**: Tamanhos dinâmicos forçam alocação no heap
-4. **Profiling revela verdadeiros problemas de performance**: Não otimize cegamente
+1. **Interfaces têm custos de alocação**: **Para usar**-as com juízo
+2. **Remoção completa de interface necessária**: Para correções parciais não funcionarem
+3. **Alocação de stack requer tamanho conhecido em tempo de compilação**: Para tamanhos dinâmicos forçarem alocação no heap
+4. **Profiling revela verdadeiros problemas de performance**: Para não otimizar cegamente
 5. **Pequenas mudanças podem render grandes ganhos**: ~33% de melhoria de refactoring simples
 6. **Zero alocação é possível**: com design cuidadoso e padrões stack-friendly
 7. **Ferramentas são suas amigas**: Go fornece excelentes ferramentas de profiling e análise

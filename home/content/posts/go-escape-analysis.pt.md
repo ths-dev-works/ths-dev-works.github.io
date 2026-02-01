@@ -130,7 +130,7 @@ Isto torna óbvio que:
 ## Relatórios do Compilador
 
 ### Verificar Decisões de Escape
-**Usar** o relatório de análise de escape do compilador:
+**Para usar** o relatório de análise de escape do compilador:
 
 ```bash
 go build -gcflags "-m -m" ./main.go
@@ -153,10 +153,10 @@ go build -gcflags "-m -m" ./main.go
 
 1. **Construção não determina localização**: Apenas decisões de partilha afetam a colocação
 2. **Partilhar para cima do call stack causa escape**: Retornar ponteiros força alocação no heap
-3. **Semântica de valor reduz pressão no GC**: Mantenha valores no stack quando possível
+3. **Semântica de valor reduz pressão no GC**: Para manter valores no stack quando possível
 4. **Semântica de ponteiro aumenta eficiência**: Um valor vs. múltiplas cópias
-5. **Usar** & para legibilidade: Tornar a partilha explícita no seu código
-6. **Verificar** decisões do compilador: Usar relatórios de análise de escape para verificar suposições
+5. **Para usar** & para legibilidade: Para tornar a partilha explícita no seu código
+6. **Para verificar** decisões do compilador: Para usar relatórios de análise de escape para verificar suposições
 
 ## Implicações de Performance
 

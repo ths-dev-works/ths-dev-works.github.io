@@ -11,10 +11,10 @@ In Go, slices are one of the most powerful and frequently used data structures. 
 Before understanding slices, we must understand arrays. Arrays in Go are fixed-size collections with the size being part of the type.
 
 ### Array Properties
-- **Fixed Size**: `[4]int` and `[5]int` are different, incompatible types
-- **Value Type**: Arrays are values, not pointers to first element
+- **Fixed Size**: `[4]int` and `[5]int` to be different, incompatible types
+- **Value Type**: Arrays to be values, not pointers to first element
 - **Memory Layout**: Elements laid out sequentially in memory
-- **Copy Semantics**: Assignment creates a full copy of the array
+- **Copy Semantics**: Assignment to create a full copy of the array
 
 ```go
 // Array declarations
