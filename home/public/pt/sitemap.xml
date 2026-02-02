@@ -5,8 +5,24 @@
     <loc>https://ths-dev-works.github.io/pt/tags/canais/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/cancelamento/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/concorr%C3%AAncia/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/context/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/context/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/context/"
+                />
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/go/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
@@ -32,6 +48,19 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://ths-dev-works.github.io/pt/posts/go-channels-behavior/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/go-context-semantics/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-context-semantics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-context-semantics/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/goroutines/</loc>
@@ -87,6 +116,19 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://ths-dev-works.github.io/pt/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/timeouts/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/timeouts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/timeouts/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/arquitetura/</loc>

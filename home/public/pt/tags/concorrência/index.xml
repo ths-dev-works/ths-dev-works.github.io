@@ -21,6 +21,13 @@
       <description>Compreender os canais Go como mecanismos de sinalização para orquestrar goroutines e escrever melhor código concorrente.</description>
     </item>
     <item>
+      <title>Go Mechanics: Semântica do Pacote Context</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-context-semantics/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-context-semantics/</guid>
+      <description>Compreender as semânticas essenciais do pacote context de Go para cancelamento adequado, timeouts e gestão de dados com escopo de requisição.</description>
+    </item>
+    <item>
       <title>Go Scheduling: Parte I - Fundamentos do OS Scheduler</title>
       <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>

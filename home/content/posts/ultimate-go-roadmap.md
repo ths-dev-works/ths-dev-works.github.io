@@ -39,18 +39,18 @@ The Ardan Labs "Ultimate Go" certification is not about syntax; it is about **Me
 
 ### Morning: The Scheduler & Channels (Weight: ~35%)
 - [X] **The G-M-P Model:** How the scheduler manages Goroutines on OS threads.
-- [ ] **Channel State Table:** Memorizing behavior for nil, open, and closed channels.
-- [ ] **Context Package Semantics:** Proper goroutine cancellation and timeout management.
+- [X] **Channel State Table:** Memorizing behavior for nil, open, and closed channels.
+- [X] **Context Package Semantics:** Proper goroutine cancellation and timeout management.
 - [X] **Read:** [Scheduling In Go - Part I](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html)
 - [X] **Read:** [Scheduling In Go - Part II](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html)
 - [X] **Read:** [Scheduling In Go - Part III](https://www.ardanlabs.com/blog/2018/12/scheduling-in-go-part3.html)
-- [ ] **Read:** [The Behavior of Channels](https://www.ardanlabs.com/blog/2017/10/the-behavior-of-channels.html)
-- [ ] **Read:** [Context Package Semantics](https://www.ardanlabs.com/blog/2019/09/context-package-semantics-in-go.html)
-- [ ] **Practice:** 
-  - [ ] Write a program that leaks a goroutine (a sender blocked on an unbuffered channel with no receiver).
-  - [ ] Fix it using a `select` block with a `context.WithTimeout`.
-  - [ ] Practice the "Fan-out" pattern: 10 goroutines performing a task and reporting to a single collector channel.
-  - [ ] Create a server handler that uses context for request timeout and cancellation propagation.
+- [X] **Read:** [The Behavior of Channels](https://www.ardanlabs.com/blog/2017/10/the-behavior-of-channels.html)
+- [X] **Read:** [Context Package Semantics](https://www.ardanlabs.com/blog/2019/09/context-package-semantics-in-go.html)
+- [X] **Practice:** 
+  - [X] Write a program that leaks a goroutine (a sender blocked on an unbuffered channel with no receiver).
+  - [X] Fix it using a `select` block with a `context.WithTimeout`.
+  - [X] Practice the "Fan-out" pattern: 10 goroutines performing a task and reporting to a single collector channel.
+  - [X] Create a server handler that uses context for request timeout and cancellation propagation.
   
 ### Afternoon: Design Philosophy (Weight: ~20%)
 - [ ] **Interface Pollution:** Discovering interfaces, not designing them.

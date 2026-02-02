@@ -39,18 +39,18 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
 
 ### Manhã: O Scheduler & Canais (Peso: ~35%)
 - [X] **O Modelo G-M-P:** Como o scheduler gere Goroutines em threads do SO.
-- [ ] **Tabela de Estado de Canais:** Memorizando comportamento para canais nil, abertos e fechados.
-- [ ] **Semântica do Pacote Context:** Cancelamento adequado de goroutines e gestão de timeouts.
+- [X] **Tabela de Estado de Canais:** Memorizando comportamento para canais nil, abertos e fechados.
+- [X] **Semântica do Pacote Context:** Cancelamento adequado de goroutines e gestão de timeouts.
 - [X] **Leitura:** [Scheduling em Go - Parte I](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html)
 - [X] **Leitura:** [Scheduling em Go - Parte II](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html)
 - [X] **Leitura:** [Scheduling em Go - Parte III](https://www.ardanlabs.com/blog/2018/12/scheduling-in-go-part3.html)
-- [ ] **Leitura:** [O Comportamento de Canais](https://www.ardanlabs.com/blog/2017/10/the-behavior-of-channels.html)
-- [ ] **Leitura:** [Semântica do Pacote Context](https://www.ardanlabs.com/blog/2019/09/context-package-semantics-in-go.html)
-- [ ] **Prática:** 
-  - [ ] Escrever um programa que vaza uma goroutine (um sender bloqueado num canal não bufferizado sem receiver).
-  - [ ] Corrijir usando um bloco `select` com `context.WithTimeout`.
-  - [ ] Praticar o padrão "Fan-out": 10 goroutines a realizar uma tarefa e a reportar para um único canal coletor.
-  - [ ] Criar um handler de servidor que usa context para timeout de request e propagação de cancelamento.
+- [X] **Leitura:** [O Comportamento de Canais](https://www.ardanlabs.com/blog/2017/10/the-behavior-of-channels.html)
+- [X] **Leitura:** [Semântica do Pacote Context](https://www.ardanlabs.com/blog/2019/09/context-package-semantics-in-go.html)
+- [X] **Prática:** 
+  - [X] Escrever um programa que vaza uma goroutine (um sender bloqueado num canal não bufferizado sem receiver).
+  - [X] Corrijir usando um bloco `select` com `context.WithTimeout`.
+  - [X] Praticar o padrão "Fan-out": 10 goroutines a realizar uma tarefa e a reportar para um único canal coletor.
+  - [X] Criar um handler de servidor que usa context para timeout de request e propagação de cancelamento.
   
 ### Tarde: Filosofia de Design (Peso: ~20%)
 - [ ] **Poluição de Interfaces:** Descobrir interfaces, não projetá-las.
