@@ -56,6 +56,27 @@
       <description></description>
     </item>
     <item>
+      <title>Interfaces</title>
+      <link>https://ths-dev-works.github.io/pt/tags/interfaces/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/interfaces/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Method Sets</title>
+      <link>https://ths-dev-works.github.io/pt/tags/method-sets/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/method-sets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Semântica</title>
+      <link>https://ths-dev-works.github.io/pt/tags/sem%C3%A2ntica/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/sem%C3%A2ntica/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Sinalização</title>
       <link>https://ths-dev-works.github.io/pt/tags/sinaliza%C3%A7%C3%A3o/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -67,6 +88,13 @@
       <link>https://ths-dev-works.github.io/pt/tags/timeouts/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://ths-dev-works.github.io/pt/tags/timeouts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Valor vs Ponteiro</title>
+      <link>https://ths-dev-works.github.io/pt/tags/valor-vs-ponteiro/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/valor-vs-ponteiro/</guid>
       <description></description>
     </item>
     <item>
@@ -137,13 +165,6 @@
       <link>https://ths-dev-works.github.io/pt/tags/scheduling/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://ths-dev-works.github.io/pt/tags/scheduling/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Semântica</title>
-      <link>https://ths-dev-works.github.io/pt/tags/sem%C3%A2ntica/</link>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/tags/sem%C3%A2ntica/</guid>
       <description></description>
     </item>
     <item>

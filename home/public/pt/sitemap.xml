@@ -50,6 +50,19 @@
                 href="https://ths-dev-works.github.io/pt/posts/go-channels-behavior/"
                 />
   </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/go-interface-semantics/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-interface-semantics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-interface-semantics/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/pt/posts/go-context-semantics/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -76,6 +89,32 @@
                 href="https://ths-dev-works.github.io/pt/tags/goroutines/"
                 />
   </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/interfaces/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/interfaces/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/interfaces/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/method-sets/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/method-sets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/method-sets/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/pt/posts/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -88,6 +127,9 @@
                 hreflang="pt"
                 href="https://ths-dev-works.github.io/pt/posts/"
                 />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/sem%C3%A2ntica/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/sinaliza%C3%A7%C3%A3o/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
@@ -130,6 +172,9 @@
                 hreflang="pt"
                 href="https://ths-dev-works.github.io/pt/tags/timeouts/"
                 />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/valor-vs-ponteiro/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/arquitetura/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
@@ -298,9 +343,6 @@
                 hreflang="pt"
                 href="https://ths-dev-works.github.io/pt/tags/scheduling/"
                 />
-  </url><url>
-    <loc>https://ths-dev-works.github.io/pt/tags/sem%C3%A2ntica/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/workloads/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>

@@ -21,6 +21,13 @@
       <description>Compreender os canais Go como mecanismos de sinalização para orquestrar goroutines e escrever melhor código concorrente.</description>
     </item>
     <item>
+      <title>Go Mechanics: Semântica de Interfaces</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-interface-semantics/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-interface-semantics/</guid>
+      <description>Compreender como as interfaces Go fornecem formas semânticas de valor e ponteiro, e as regras de method sets que garantem integridade.</description>
+    </item>
+    <item>
       <title>Go Mechanics: Semântica do Pacote Context</title>
       <link>https://ths-dev-works.github.io/pt/posts/go-context-semantics/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
