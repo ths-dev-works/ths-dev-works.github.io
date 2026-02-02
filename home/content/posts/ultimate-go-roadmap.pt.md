@@ -54,16 +54,16 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
   
 ### Tarde: Filosofia de Design (Peso: ~20%)
 - [X] **Poluição de Interfaces:** Descobrir interfaces, não projetá-las.
-- [ ] **Integridade de Erros:** Tratar erros como valores.
+- [X] **Integridade de Erros:** Tratar erros como valores.
 - [X] **Leitura:** [Interface Semântica](https://www.ardanlabs.com/blog/2017/07/interface-semantics.html)
 - [X] **Leitura:** [Interface Values Are Valueless](https://www.ardanlabs.com/blog/2018/03/interface-values-are-valueless.html)
 - [X] **Leitura:** [Filosofia de Tratamento de Erros I](https://www.ardanlabs.com/blog/2014/10/error-handling-in-go-part-i.html)
-- [ ] **Leitura:** [Filosofia de Tratamento de Erros II](https://www.ardanlabs.com/blog/2014/11/error-handling-in-go-part-ii.html)
+- [X] **Leitura:** [Filosofia de Tratamento de Erros II](https://www.ardanlabs.com/blog/2014/11/error-handling-in-go-part-ii.html)
 - [X] **Leitura:** [Methods, Interfaces and Embedded Types](https://www.ardanlabs.com/blog/2014/05/methods-interfaces-and-embedded-types.html)
-- [ ] **Prática:**
-  - [ ] Criar um struct `User` concreto. Implemente uma interface `Printer` apenas **depois** de ter uma função que precisa dela. (Descoberta sobre Design).
-  - [ ] Criar um tipo de erro customizado que envolve outro erro usando `fmt.Errorf("... %w", err)`.
-  - [ ] **Usar** `errors.As` para recuperar o erro customizado e os seus campos.
+- [X] **Prática:**
+  - [X] Criar um struct `User` concreto. Implemente uma interface `Printer` apenas **depois** de ter uma função que precisa dela. (Descoberta sobre Design).
+  - [X] Criar um tipo de erro customizado que envolve outro erro usando `fmt.Errorf("... %w", err)`.
+  - [X] **Usar** `errors.As` para recuperar o erro customizado e os seus campos.
 ---
 
 ## Regras Chave "Cheat Sheet" para o Exame

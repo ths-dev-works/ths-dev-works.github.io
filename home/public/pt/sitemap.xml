@@ -127,6 +127,19 @@
                 href="https://ths-dev-works.github.io/pt/posts/go-methods-interfaces-embedded-types/"
                 />
   </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/go-error-handling-part2/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-error-handling-part2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-error-handling-part2/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/goroutines/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -244,6 +257,9 @@
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/tipos-embutidos/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/tipos-personalizados/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/tratamento-de-erros/</loc>

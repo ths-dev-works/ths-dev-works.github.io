@@ -54,19 +54,19 @@ The Ardan Labs "Ultimate Go" certification is not about syntax; it is about **Me
   
 ### Afternoon: Design Philosophy (Weight: ~20%)
 - [X] **Interface Pollution:** Discovering interfaces, not designing them.
-- [ ] **Error Integrity:** Handling errors as values.
-- [ ] **Methods & Embedded Types:** Understanding method sets, promotion, and composition.
+- [X] **Error Integrity:** Handling errors as values.
+- [X] **Methods & Embedded Types:** Understanding method sets, promotion, and composition.
 - [X] **Read:** [Interface Semantics](https://www.ardanlabs.com/blog/2017/07/interface-semantics.html)
 - [X] **Read:** [Interface Values Are Valueless](https://www.ardanlabs.com/blog/2018/03/interface-values-are-valueless.html)
 - [X] **Read:** [Error Handling Philosophy I](https://www.ardanlabs.com/blog/2014/10/error-handling-in-go-part-i.html)
-- [ ] **Read:** [Error Handling Philosophy II](https://www.ardanlabs.com/blog/2014/11/error-handling-in-go-part-ii.html)
+- [X] **Read:** [Error Handling Philosophy II](https://www.ardanlabs.com/blog/2014/11/error-handling-in-go-part-ii.html)
 - [X] **Read:** [Methods, Interfaces and Embedded Types](https://www.ardanlabs.com/blog/2014/05/methods-interfaces-and-embedded-types.html)
-- [ ] **Practice:**
-  - [ ] Create a concrete `User` struct. Implement a `Printer` interface only **after** you have a function that needs it. (Discovery over Design).
-  - [ ] Create a custom error type that wraps another error using `fmt.Errorf("... %w", err)`.
-  - [ ] Use `errors.As` to retrieve the custom error and its fields.
-  - [ ] Create a struct with an embedded type and demonstrate method promotion rules.
-  - [ ] Implement the same interface on both outer and embedded types to show resolution priority.
+- [X] **Practice:**
+  - [X] Create a concrete `User` struct. Implement a `Printer` interface only **after** you have a function that needs it. (Discovery over Design).
+  - [X] Create a custom error type that wraps another error using `fmt.Errorf("... %w", err)`.
+  - [X] Use `errors.As` to retrieve the custom error and its fields.
+  - [X] Create a struct with an embedded type and demonstrate method promotion rules.
+  - [X] Implement the same interface on both outer and embedded types to show resolution priority.
 ---
 
 ## Key Exam "Cheat Sheet" Rules

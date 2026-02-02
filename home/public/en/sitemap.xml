@@ -33,6 +33,9 @@
                 href="https://ths-dev-works.github.io/tags/context/"
                 />
   </url><url>
+    <loc>https://ths-dev-works.github.io/tags/custom-types/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ths-dev-works.github.io/tags/data-oriented-design/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -66,6 +69,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ths-dev-works.github.io/posts/go-context-semantics/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/posts/go-error-handling-part2/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-error-handling-part2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-error-handling-part2/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/posts/go-error-handling-part1/</loc>
