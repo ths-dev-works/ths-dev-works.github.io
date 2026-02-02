@@ -1,9 +1,9 @@
-baseURL: https://ths-dev-works.github.io
-title: THS Dev Works
-theme: PaperMod
+baseURL: "https://ths-dev-works.github.io/"
+title: "THS Dev Works"
+theme: "PaperMod"
 
 # Multi-Language
-defaultContentLanguage: en
+defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
 
 languages:
