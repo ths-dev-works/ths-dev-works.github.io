@@ -11,8 +11,26 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Mechanics: The Behavior of Channels</title>
+      <link>https://ths-dev-works.github.io/posts/go-channels-behavior/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-channels-behavior/</guid>
+      <description>Understanding Go channels as signaling mechanisms for orchestrating goroutines and writing better concurrent code.</description>
+    </item>
+    <item>
+      <title>Go Mechanics: Data-Oriented Design and Semantics</title>
+      <link>https://ths-dev-works.github.io/posts/go-data-oriented-design/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-data-oriented-design/</guid>
+      <description>&lt;p&gt;In Go, understanding data-oriented design and choosing between value and pointer semantics is fundamental to writing maintainable, performant software. Here&amp;rsquo;s a comprehensive summary of Bill Kennedy&amp;rsquo;s design philosophy on data and semantics from Ardan Labs.&lt;/p&gt;
+&lt;h2 id=&#34;design-philosophies-the-foundation&#34;&gt;Design Philosophies: The Foundation&lt;/h2&gt;
+&lt;h3 id=&#34;value-vs-pointer-semantics&#34;&gt;Value vs. Pointer Semantics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Value semantics keep values on the stack, which reduces pressure on the Garbage Collector (GC). However, value semantics require various copies of any given value to be stored, tracked and maintained. Pointer semantics place values on the heap, which can put pressure on the GC. However, pointer semantics are efficient because only one value needs to be stored, tracked and maintained.&amp;rdquo; - Bill Kennedy&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Go Mechanics: Memory Profiling and Performance Optimization</title>
       <link>https://ths-dev-works.github.io/posts/go-memory-profiling/</link>
@@ -31,6 +49,53 @@
 &lt;h2 id=&#34;the-case-study-string-replacement-algorithm&#34;&gt;The Case Study: String Replacement Algorithm&lt;/h2&gt;
 &lt;h3 id=&#34;the-problem&#34;&gt;The Problem&lt;/h3&gt;
 &lt;p&gt;Create a function that finds &amp;ldquo;elvis&amp;rdquo; in a byte stream and replaces it with &amp;ldquo;Elvis&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Go Mechanics: Understanding Slices and Internals</title>
+      <link>https://ths-dev-works.github.io/posts/go-slices/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-slices/</guid>
+      <description>&lt;p&gt;In Go, slices are one of the most powerful and frequently used data structures. They provide a flexible and efficient way to work with sequences of data. Here&amp;rsquo;s a comprehensive summary of slice mechanics based on the official Go blog and Ardan Labs insights.&lt;/p&gt;
+&lt;h2 id=&#34;arrays-the-foundation&#34;&gt;Arrays: The Foundation&lt;/h2&gt;
+&lt;p&gt;Before understanding slices, we must understand arrays. Arrays in Go are fixed-size collections with the size being part of the type.&lt;/p&gt;
+&lt;h3 id=&#34;array-properties&#34;&gt;Array Properties&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fixed Size&lt;/strong&gt;: &lt;code&gt;[4]int&lt;/code&gt; and &lt;code&gt;[5]int&lt;/code&gt; to be different, incompatible types&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Value Type&lt;/strong&gt;: Arrays to be values, not pointers to first element&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory Layout&lt;/strong&gt;: Elements laid out sequentially in memory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Copy Semantics&lt;/strong&gt;: Assignment to create a full copy of the array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Array declarations&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// i == 1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Array literals&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Penn&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Teller&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;...&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Penn&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Teller&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Compiler counts elements&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;slices-the-abstraction&#34;&gt;Slices: The Abstraction&lt;/h2&gt;
+&lt;p&gt;Slices build on arrays to provide flexibility and power. A slice is a &lt;strong&gt;descriptor&lt;/strong&gt; of an array segment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Part I - OS Scheduler Fundamentals</title>
+      <link>https://ths-dev-works.github.io/posts/go-scheduling-part1/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-scheduling-part1/</guid>
+      <description>Understanding the operating system scheduler fundamentals that form the foundation for Go&amp;#39;s scheduling system.</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Part II - Go Scheduler</title>
+      <link>https://ths-dev-works.github.io/posts/go-scheduling-part2/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-scheduling-part2/</guid>
+      <description>Understanding Go&amp;#39;s scheduler mechanics and how it builds upon OS scheduler fundamentals.</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Part III - Concurrency</title>
+      <link>https://ths-dev-works.github.io/posts/go-scheduling-part3/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-scheduling-part3/</guid>
+      <description>Understanding when and how to use concurrency effectively in Go with different workload types.</description>
     </item>
     <item>
       <title>Go Mechanics: Escape Analysis and the Heap</title>

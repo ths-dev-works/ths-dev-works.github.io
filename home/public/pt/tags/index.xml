@@ -11,13 +11,69 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>pt</language>
-    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/pt/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Canais</title>
+      <link>https://ths-dev-works.github.io/pt/tags/canais/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/canais/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Concorrência</title>
+      <link>https://ths-dev-works.github.io/pt/tags/concorr%C3%AAncia/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/concorr%C3%AAncia/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Go</title>
       <link>https://ths-dev-works.github.io/pt/tags/go/</link>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://ths-dev-works.github.io/pt/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Goroutines</title>
+      <link>https://ths-dev-works.github.io/pt/tags/goroutines/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/goroutines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sinalização</title>
+      <link>https://ths-dev-works.github.io/pt/tags/sinaliza%C3%A7%C3%A3o/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/sinaliza%C3%A7%C3%A3o/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arquitetura</title>
+      <link>https://ths-dev-works.github.io/pt/tags/arquitetura/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/arquitetura/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://ths-dev-works.github.io/pt/tags/design/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Estruturas De Dados</title>
+      <link>https://ths-dev-works.github.io/pt/tags/estruturas-de-dados/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/estruturas-de-dados/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internals</title>
+      <link>https://ths-dev-works.github.io/pt/tags/internals/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/internals/</guid>
       <description></description>
     </item>
     <item>
@@ -35,6 +91,13 @@
       <description></description>
     </item>
     <item>
+      <title>OS</title>
+      <link>https://ths-dev-works.github.io/pt/tags/os/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/os/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Performance</title>
       <link>https://ths-dev-works.github.io/pt/tags/performance/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
@@ -46,6 +109,27 @@
       <link>https://ths-dev-works.github.io/pt/tags/profiling/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://ths-dev-works.github.io/pt/tags/profiling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scheduling</title>
+      <link>https://ths-dev-works.github.io/pt/tags/scheduling/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/scheduling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Semântica</title>
+      <link>https://ths-dev-works.github.io/pt/tags/sem%C3%A2ntica/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/sem%C3%A2ntica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workloads</title>
+      <link>https://ths-dev-works.github.io/pt/tags/workloads/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/workloads/</guid>
       <description></description>
     </item>
     <item>

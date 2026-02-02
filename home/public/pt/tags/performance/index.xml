@@ -14,6 +14,27 @@
     <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/pt/tags/performance/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Go Scheduling: Parte I - Fundamentos do OS Scheduler</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</guid>
+      <description>Compreender os fundamentos do scheduler do sistema operacional que formam a base para o sistema de scheduling do Go.</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Parte II - Go Scheduler</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/</guid>
+      <description>Compreender a mecânica do scheduler do Go e como se baseia nos fundamentos do scheduler do SO.</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Parte III - Concorrência</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/</guid>
+      <description>Compreender quando e como usar concorrência efetivamente em Go com diferentes tipos de workload.</description>
+    </item>
+    <item>
       <title>Mecânica Go: Memory Profiling e Otimização de Performance</title>
       <link>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>

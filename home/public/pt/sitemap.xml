@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ths-dev-works.github.io/pt/tags/canais/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/concorr%C3%AAncia/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/go/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +19,171 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://ths-dev-works.github.io/pt/tags/go/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/go-channels-behavior/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-channels-behavior/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-channels-behavior/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/goroutines/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/goroutines/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/goroutines/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/sinaliza%C3%A7%C3%A3o/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/arquitetura/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/design/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/design/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/estruturas-de-dados/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/go-data-oriented-design/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-data-oriented-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-data-oriented-design/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/go-slices/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-slices/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-slices/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-scheduling-part1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-scheduling-part2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-scheduling-part3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/internals/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/internals/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/internals/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/internos/</loc>
@@ -34,6 +205,19 @@
     <loc>https://ths-dev-works.github.io/pt/tags/mem%C3%B3ria/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/os/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/os/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/os/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/performance/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -45,19 +229,6 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://ths-dev-works.github.io/pt/tags/performance/"
-                />
-  </url><url>
-    <loc>https://ths-dev-works.github.io/pt/posts/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ths-dev-works.github.io/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/profiling/</loc>
@@ -73,30 +244,33 @@
                 href="https://ths-dev-works.github.io/pt/tags/profiling/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/pt/tags/</loc>
+    <loc>https://ths-dev-works.github.io/pt/tags/scheduling/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/tags/"
+                href="https://ths-dev-works.github.io/tags/scheduling/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/tags/"
+                href="https://ths-dev-works.github.io/pt/tags/scheduling/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/pt/</loc>
+    <loc>https://ths-dev-works.github.io/pt/tags/sem%C3%A2ntica/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/workloads/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/"
+                href="https://ths-dev-works.github.io/tags/workloads/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/"
+                href="https://ths-dev-works.github.io/pt/tags/workloads/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/ardanlabs/</loc>

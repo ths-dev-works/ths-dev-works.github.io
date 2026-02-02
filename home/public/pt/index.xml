@@ -11,8 +11,56 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>pt</language>
-    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/pt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Mechanics: O Comportamento dos Canais</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-channels-behavior/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-channels-behavior/</guid>
+      <description>Compreender os canais Go como mecanismos de sinalização para orquestrar goroutines e escrever melhor código concorrente.</description>
+    </item>
+    <item>
+      <title>Go Mechanics: Design Orientado a Dados e Semântica</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-data-oriented-design/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-data-oriented-design/</guid>
+      <description>&lt;p&gt;Em Go, entender design orientado a dados e escolher entre semântica de valor e de ponteiro é fundamental para escrever software manutenível e performático. Aqui está um resumo abrangente da filosofia de design de Bill Kennedy sobre dados e semântica da Ardan Labs.&lt;/p&gt;
+&lt;h2 id=&#34;filosofias-de-design-a-fundação&#34;&gt;Filosofias de Design: A Fundação&lt;/h2&gt;
+&lt;h3 id=&#34;semântica-de-valor-vs-semântica-de-ponteiro&#34;&gt;Semântica de Valor vs. Semântica de Ponteiro&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Semântica de valor mantém valores na stack, o que reduz pressão no Garbage Collector (GC). No entanto, semântica de valor requer várias cópias de qualquer valor dado para serem armazenadas, rastreadas e mantidas. Semântica de ponteiro coloca valores no heap, o que pode colocar pressão no GC. No entanto, semântica de ponteiro é eficiente porque apenas um valor precisa ser armazenado, rastreado e mantido.&amp;rdquo; - Bill Kennedy&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Go Mechanics: Entendendo Slices e Internals</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-slices/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-slices/</guid>
+      <description>&lt;p&gt;Em Go, slices são uma das estruturas de dados mais poderosas e frequentemente utilizadas. Elas fornecem uma forma flexível e eficiente de trabalhar com sequências de dados. Aqui está um resumo abrangente da mecânica de slices baseado no blog oficial do Go e insights da Ardan Labs.&lt;/p&gt;
+&lt;h2 id=&#34;arrays-a-fundação&#34;&gt;Arrays: A Fundação&lt;/h2&gt;
+&lt;p&gt;Antes de entender slices, devemos entender arrays. Arrays em Go são coleções de tamanho fixo com o tamanho sendo parte do tipo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Parte I - Fundamentos do OS Scheduler</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</guid>
+      <description>Compreender os fundamentos do scheduler do sistema operacional que formam a base para o sistema de scheduling do Go.</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Parte II - Go Scheduler</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/</guid>
+      <description>Compreender a mecânica do scheduler do Go e como se baseia nos fundamentos do scheduler do SO.</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Parte III - Concorrência</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/</guid>
+      <description>Compreender quando e como usar concorrência efetivamente em Go com diferentes tipos de workload.</description>
+    </item>
     <item>
       <title>Mecânica Go: Memory Profiling e Otimização de Performance</title>
       <link>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</link>

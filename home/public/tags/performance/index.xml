@@ -32,5 +32,26 @@
 &lt;h3 id=&#34;the-problem&#34;&gt;The Problem&lt;/h3&gt;
 &lt;p&gt;Create a function that finds &amp;ldquo;elvis&amp;rdquo; in a byte stream and replaces it with &amp;ldquo;Elvis&amp;rdquo;.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Go Scheduling: Part I - OS Scheduler Fundamentals</title>
+      <link>https://ths-dev-works.github.io/posts/go-scheduling-part1/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-scheduling-part1/</guid>
+      <description>Understanding the operating system scheduler fundamentals that form the foundation for Go&amp;#39;s scheduling system.</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Part II - Go Scheduler</title>
+      <link>https://ths-dev-works.github.io/posts/go-scheduling-part2/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-scheduling-part2/</guid>
+      <description>Understanding Go&amp;#39;s scheduler mechanics and how it builds upon OS scheduler fundamentals.</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Part III - Concurrency</title>
+      <link>https://ths-dev-works.github.io/posts/go-scheduling-part3/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-scheduling-part3/</guid>
+      <description>Understanding when and how to use concurrency effectively in Go with different workload types.</description>
+    </item>
   </channel>
 </rss>
