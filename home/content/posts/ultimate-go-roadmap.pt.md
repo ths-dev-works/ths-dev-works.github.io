@@ -53,10 +53,10 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
   - [X] Criar um handler de servidor que usa context para timeout de request e propagação de cancelamento.
   
 ### Tarde: Filosofia de Design (Peso: ~20%)
-- [ ] **Poluição de Interfaces:** Descobrir interfaces, não projetá-las.
+- [X] **Poluição de Interfaces:** Descobrir interfaces, não projetá-las.
 - [ ] **Integridade de Erros:** Tratar erros como valores.
-- [ ] **Leitura:** [Interface Semântica](https://www.ardanlabs.com/blog/2017/07/interface-semantics.html)
-- [ ] **Leitura:** [Interface Values Are Valueless](https://www.ardanlabs.com/blog/2018/03/interface-values-are-valueless.html)
+- [X] **Leitura:** [Interface Semântica](https://www.ardanlabs.com/blog/2017/07/interface-semantics.html)
+- [X] **Leitura:** [Interface Values Are Valueless](https://www.ardanlabs.com/blog/2018/03/interface-values-are-valueless.html)
 - [ ] **Leitura:** [Filosofia de Tratamento de Erros I](https://www.ardanlabs.com/blog/2014/10/error-handling-in-go-part-i.html)
 - [ ] **Leitura:** [Filosofia de Tratamento de Erros II](https://www.ardanlabs.com/blog/2014/11/error-handling-in-go-part-ii.html)
 - [ ] **Prática:**

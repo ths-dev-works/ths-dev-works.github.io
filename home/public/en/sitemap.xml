@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ths-dev-works.github.io/tags/behavior/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ths-dev-works.github.io/tags/cancellation/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -23,6 +26,9 @@
                 hreflang="en"
                 href="https://ths-dev-works.github.io/tags/context/"
                 />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/data-oriented-design/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/go/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
@@ -61,6 +67,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ths-dev-works.github.io/posts/go-interface-semantics/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/posts/go-interface-values-valueless/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-interface-values-valueless/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-interface-values-valueless/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/posts/go-channels-behavior/</loc>
@@ -114,6 +133,9 @@
                 hreflang="en"
                 href="https://ths-dev-works.github.io/tags/method-sets/"
                 />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/polymorphism/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/posts/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>

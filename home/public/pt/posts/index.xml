@@ -35,6 +35,13 @@
       <description>Compreender as semânticas essenciais do pacote context de Go para cancelamento adequado, timeouts e gestão de dados com escopo de requisição.</description>
     </item>
     <item>
+      <title>Go Mechanics: Valores de Interface São Sem Valor</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-interface-values-valueless/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-interface-values-valueless/</guid>
+      <description>Compreender como as interfaces Go são sem valor e como permitem polimorfismo através do comportamento de dados concretos.</description>
+    </item>
+    <item>
       <title>Go Mechanics: Design Orientado a Dados e Semântica</title>
       <link>https://ths-dev-works.github.io/pt/posts/go-data-oriented-design/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>

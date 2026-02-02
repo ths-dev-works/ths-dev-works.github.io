@@ -20,5 +20,12 @@
       <guid>https://ths-dev-works.github.io/posts/go-interface-semantics/</guid>
       <description>Understanding how Go interfaces provide both value and pointer semantic forms, and the method set rules that ensure integrity.</description>
     </item>
+    <item>
+      <title>Go Mechanics: Interface Values Are Valueless</title>
+      <link>https://ths-dev-works.github.io/posts/go-interface-values-valueless/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-interface-values-valueless/</guid>
+      <description>Understanding how Go interfaces are valueless and how they enable polymorphism through concrete data behavior.</description>
+    </item>
   </channel>
 </rss>

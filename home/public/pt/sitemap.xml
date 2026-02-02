@@ -8,6 +8,9 @@
     <loc>https://ths-dev-works.github.io/pt/tags/cancelamento/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/comportamento/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/concorr%C3%AAncia/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -23,6 +26,9 @@
                 hreflang="pt"
                 href="https://ths-dev-works.github.io/pt/tags/context/"
                 />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/design-orientado-a-dados/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/go/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
@@ -76,6 +82,19 @@
                 href="https://ths-dev-works.github.io/pt/posts/go-context-semantics/"
                 />
   </url><url>
+    <loc>https://ths-dev-works.github.io/pt/posts/go-interface-values-valueless/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-interface-values-valueless/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-interface-values-valueless/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/pt/tags/goroutines/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -114,6 +133,9 @@
                 hreflang="pt"
                 href="https://ths-dev-works.github.io/pt/tags/method-sets/"
                 />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/pt/tags/polimorfismo/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/pt/posts/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>

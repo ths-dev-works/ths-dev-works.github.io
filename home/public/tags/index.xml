@@ -14,6 +14,13 @@
     <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Behavior</title>
+      <link>https://ths-dev-works.github.io/tags/behavior/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/behavior/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Cancellation</title>
       <link>https://ths-dev-works.github.io/tags/cancellation/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -42,6 +49,13 @@
       <description></description>
     </item>
     <item>
+      <title>Data-Oriented Design</title>
+      <link>https://ths-dev-works.github.io/tags/data-oriented-design/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/data-oriented-design/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Go</title>
       <link>https://ths-dev-works.github.io/tags/go/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -67,6 +81,13 @@
       <link>https://ths-dev-works.github.io/tags/method-sets/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://ths-dev-works.github.io/tags/method-sets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polymorphism</title>
+      <link>https://ths-dev-works.github.io/tags/polymorphism/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/polymorphism/</guid>
       <description></description>
     </item>
     <item>

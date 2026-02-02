@@ -20,5 +20,12 @@
       <guid>https://ths-dev-works.github.io/pt/posts/go-interface-semantics/</guid>
       <description>Compreender como as interfaces Go fornecem formas semânticas de valor e ponteiro, e as regras de method sets que garantem integridade.</description>
     </item>
+    <item>
+      <title>Go Mechanics: Valores de Interface São Sem Valor</title>
+      <link>https://ths-dev-works.github.io/pt/posts/go-interface-values-valueless/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/posts/go-interface-values-valueless/</guid>
+      <description>Compreender como as interfaces Go são sem valor e como permitem polimorfismo através do comportamento de dados concretos.</description>
+    </item>
   </channel>
 </rss>
