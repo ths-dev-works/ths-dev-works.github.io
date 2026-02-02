@@ -55,6 +55,7 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
 ### Tarde: Filosofia de Design (Peso: ~20%)
 - [X] **Poluição de Interfaces:** Descobrir interfaces, não projetá-las.
 - [X] **Integridade de Erros:** Tratar erros como valores.
+- [X] **Métodos & Tipos Embutidos:** Entender method sets, promoção e composição.
 - [X] **Leitura:** [Interface Semântica](https://www.ardanlabs.com/blog/2017/07/interface-semantics.html)
 - [X] **Leitura:** [Interface Values Are Valueless](https://www.ardanlabs.com/blog/2018/03/interface-values-are-valueless.html)
 - [X] **Leitura:** [Filosofia de Tratamento de Erros I](https://www.ardanlabs.com/blog/2014/10/error-handling-in-go-part-i.html)
@@ -64,6 +65,8 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
   - [X] Criar um struct `User` concreto. Implemente uma interface `Printer` apenas **depois** de ter uma função que precisa dela. (Descoberta sobre Design).
   - [X] Criar um tipo de erro customizado que envolve outro erro usando `fmt.Errorf("... %w", err)`.
   - [X] **Usar** `errors.As` para recuperar o erro customizado e os seus campos.
+  - [X] Criar um struct com um tipo embutido e demonstrar as regras de promoção de métodos.
+  - [X] Implementar a mesma interface nos tipos externo e embutido para mostrar prioridade de resolução.
 ---
 
 ## Regras Chave "Cheat Sheet" para o Exame
