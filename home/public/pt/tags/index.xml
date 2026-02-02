@@ -14,6 +14,13 @@
     <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/pt/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Boas Práticas</title>
+      <link>https://ths-dev-works.github.io/pt/tags/boas-pr%C3%A1ticas/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/boas-pr%C3%A1ticas/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Canais</title>
       <link>https://ths-dev-works.github.io/pt/tags/canais/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -32,6 +39,13 @@
       <link>https://ths-dev-works.github.io/pt/tags/comportamento/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://ths-dev-works.github.io/pt/tags/comportamento/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Composição</title>
+      <link>https://ths-dev-works.github.io/pt/tags/composi%C3%A7%C3%A3o/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/composi%C3%A7%C3%A3o/</guid>
       <description></description>
     </item>
     <item>
@@ -70,6 +84,13 @@
       <description></description>
     </item>
     <item>
+      <title>Interface</title>
+      <link>https://ths-dev-works.github.io/pt/tags/interface/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/interface/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Interfaces</title>
       <link>https://ths-dev-works.github.io/pt/tags/interfaces/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -81,6 +102,13 @@
       <link>https://ths-dev-works.github.io/pt/tags/method-sets/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://ths-dev-works.github.io/pt/tags/method-sets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Métodos</title>
+      <link>https://ths-dev-works.github.io/pt/tags/m%C3%A9todos/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/m%C3%A9todos/</guid>
       <description></description>
     </item>
     <item>
@@ -109,6 +137,20 @@
       <link>https://ths-dev-works.github.io/pt/tags/timeouts/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://ths-dev-works.github.io/pt/tags/timeouts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tipos Embutidos</title>
+      <link>https://ths-dev-works.github.io/pt/tags/tipos-embutidos/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/tipos-embutidos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tratamento De Erros</title>
+      <link>https://ths-dev-works.github.io/pt/tags/tratamento-de-erros/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/tags/tratamento-de-erros/</guid>
       <description></description>
     </item>
     <item>

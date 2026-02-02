@@ -57,8 +57,9 @@ A certificação "Ultimate Go" da Ardan Labs não é sobre sintaxe; é sobre **S
 - [ ] **Integridade de Erros:** Tratar erros como valores.
 - [X] **Leitura:** [Interface Semântica](https://www.ardanlabs.com/blog/2017/07/interface-semantics.html)
 - [X] **Leitura:** [Interface Values Are Valueless](https://www.ardanlabs.com/blog/2018/03/interface-values-are-valueless.html)
-- [ ] **Leitura:** [Filosofia de Tratamento de Erros I](https://www.ardanlabs.com/blog/2014/10/error-handling-in-go-part-i.html)
+- [X] **Leitura:** [Filosofia de Tratamento de Erros I](https://www.ardanlabs.com/blog/2014/10/error-handling-in-go-part-i.html)
 - [ ] **Leitura:** [Filosofia de Tratamento de Erros II](https://www.ardanlabs.com/blog/2014/11/error-handling-in-go-part-ii.html)
+- [X] **Leitura:** [Methods, Interfaces and Embedded Types](https://www.ardanlabs.com/blog/2014/05/methods-interfaces-and-embedded-types.html)
 - [ ] **Prática:**
   - [ ] Criar um struct `User` concreto. Implemente uma interface `Printer` apenas **depois** de ter uma função que precisa dela. (Descoberta sobre Design).
   - [ ] Criar um tipo de erro customizado que envolve outro erro usando `fmt.Errorf("... %w", err)`.

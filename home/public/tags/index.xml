@@ -21,6 +21,13 @@
       <description></description>
     </item>
     <item>
+      <title>Best Practices</title>
+      <link>https://ths-dev-works.github.io/tags/best-practices/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Cancellation</title>
       <link>https://ths-dev-works.github.io/tags/cancellation/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -32,6 +39,13 @@
       <link>https://ths-dev-works.github.io/tags/channels/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://ths-dev-works.github.io/tags/channels/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Composition</title>
+      <link>https://ths-dev-works.github.io/tags/composition/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/composition/</guid>
       <description></description>
     </item>
     <item>
@@ -56,6 +70,20 @@
       <description></description>
     </item>
     <item>
+      <title>Embedded Types</title>
+      <link>https://ths-dev-works.github.io/tags/embedded-types/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/embedded-types/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Error Handling</title>
+      <link>https://ths-dev-works.github.io/tags/error-handling/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/error-handling/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Go</title>
       <link>https://ths-dev-works.github.io/tags/go/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -70,6 +98,13 @@
       <description></description>
     </item>
     <item>
+      <title>Interface</title>
+      <link>https://ths-dev-works.github.io/tags/interface/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/interface/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Interfaces</title>
       <link>https://ths-dev-works.github.io/tags/interfaces/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -81,6 +116,13 @@
       <link>https://ths-dev-works.github.io/tags/method-sets/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://ths-dev-works.github.io/tags/method-sets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Methods</title>
+      <link>https://ths-dev-works.github.io/tags/methods/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/tags/methods/</guid>
       <description></description>
     </item>
     <item>

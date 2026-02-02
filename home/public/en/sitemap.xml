@@ -5,10 +5,16 @@
     <loc>https://ths-dev-works.github.io/tags/behavior/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ths-dev-works.github.io/tags/best-practices/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ths-dev-works.github.io/tags/cancellation/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/channels/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/composition/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/concurrency/</loc>
@@ -28,6 +34,12 @@
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/data-oriented-design/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/embedded-types/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/error-handling/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/go/</loc>
@@ -56,6 +68,19 @@
                 href="https://ths-dev-works.github.io/posts/go-context-semantics/"
                 />
   </url><url>
+    <loc>https://ths-dev-works.github.io/posts/go-error-handling-part1/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-error-handling-part1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-error-handling-part1/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/posts/go-interface-semantics/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -80,6 +105,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ths-dev-works.github.io/posts/go-interface-values-valueless/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/posts/go-methods-interfaces-embedded-types/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/posts/go-methods-interfaces-embedded-types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/posts/go-methods-interfaces-embedded-types/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/posts/go-channels-behavior/</loc>
@@ -108,6 +146,19 @@
                 href="https://ths-dev-works.github.io/tags/goroutines/"
                 />
   </url><url>
+    <loc>https://ths-dev-works.github.io/tags/interface/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/interface/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/interface/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/tags/interfaces/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -133,6 +184,9 @@
                 hreflang="en"
                 href="https://ths-dev-works.github.io/tags/method-sets/"
                 />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/methods/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/polymorphism/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Interface on THS Dev Works</title>
+    <link>https://ths-dev-works.github.io/tags/interface/</link>
+    <description>Recent content in Interface on THS Dev Works</description>
+    <image>
+      <title>THS Dev Works</title>
+      <url>https://ths-dev-works.github.io/images/cover.jpg</url>
+      <link>https://ths-dev-works.github.io/images/cover.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ths-dev-works.github.io/tags/interface/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Mechanics: Error Handling Fundamentals - Part I</title>
+      <link>https://ths-dev-works.github.io/posts/go-error-handling-part1/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-error-handling-part1/</guid>
+      <description>&lt;p&gt;In Go, error handling uses a simple interface-based approach. Here&amp;rsquo;s a concise summary of Go&amp;rsquo;s error handling fundamentals from William Kennedy&amp;rsquo;s Ardan Labs article.&lt;/p&gt;
+&lt;h2 id=&#34;the-error-interface&#34;&gt;The Error Interface&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;error&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;interface&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Error&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;key-characteristics&#34;&gt;Key Characteristics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Single Method&lt;/strong&gt;: Only requires &lt;code&gt;Error()&lt;/code&gt; returning string&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Universal&lt;/strong&gt;: Used throughout standard library&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexible&lt;/strong&gt;: Any type implementing &lt;code&gt;Error()&lt;/code&gt; can be an error&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;standard-library-implementation&#34;&gt;Standard Library Implementation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;errorString&lt;/code&gt; struct&lt;/strong&gt;: Unexported type with pointer receiver&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pointer semantics&lt;/strong&gt;: Ensures unique error values&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Encapsulation&lt;/strong&gt;: Access only via &lt;code&gt;Error()&lt;/code&gt; method&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;creating-error-values&#34;&gt;Creating Error Values&lt;/h2&gt;
+&lt;h3 id=&#34;errorsnew-for-simple-messages&#34;&gt;&lt;code&gt;errors.New()&lt;/code&gt; for Simple Messages&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ErrInvalidParam&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;errors&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;New&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;mypackage: invalid parameter&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;fmterrorf-for-formatted-messages&#34;&gt;&lt;code&gt;fmt.Errorf()&lt;/code&gt; for Formatted Messages&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ErrInvalidParam&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Errorf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;invalid parameter [%s]&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;param&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Both create &lt;code&gt;errorString&lt;/code&gt; pointers under the hood.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
