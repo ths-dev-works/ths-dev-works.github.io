@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Design on THS Dev Works</title>
+    <link>https://ths-dev-works.github.io/tags/design/</link>
+    <description>Recent content in Design on THS Dev Works</description>
+    <image>
+      <title>THS Dev Works</title>
+      <url>https://ths-dev-works.github.io/images/cover.jpg</url>
+      <link>https://ths-dev-works.github.io/images/cover.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ths-dev-works.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Mechanics: Data-Oriented Design and Semantics</title>
+      <link>https://ths-dev-works.github.io/posts/go-data-oriented-design/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-data-oriented-design/</guid>
+      <description>&lt;p&gt;In Go, understanding data-oriented design and choosing between value and pointer semantics is fundamental to writing maintainable, performant software. Here&amp;rsquo;s a comprehensive summary of Bill Kennedy&amp;rsquo;s design philosophy on data and semantics from Ardan Labs.&lt;/p&gt;
+&lt;h2 id=&#34;design-philosophies-the-foundation&#34;&gt;Design Philosophies: The Foundation&lt;/h2&gt;
+&lt;h3 id=&#34;value-vs-pointer-semantics&#34;&gt;Value vs. Pointer Semantics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Value semantics keep values on the stack, which reduces pressure on the Garbage Collector (GC). However, value semantics require various copies of any given value to be stored, tracked and maintained. Pointer semantics place values on the heap, which can put pressure on the GC. However, pointer semantics are efficient because only one value needs to be stored, tracked and maintained.&amp;rdquo; - Bill Kennedy&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

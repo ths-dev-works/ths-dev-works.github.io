@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Concurrency on THS Dev Works</title>
+    <link>https://ths-dev-works.github.io/tags/concurrency/</link>
+    <description>Recent content in Concurrency on THS Dev Works</description>
+    <image>
+      <title>THS Dev Works</title>
+      <url>https://ths-dev-works.github.io/images/cover.jpg</url>
+      <link>https://ths-dev-works.github.io/images/cover.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ths-dev-works.github.io/tags/concurrency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Mechanics: The Behavior of Channels</title>
+      <link>https://ths-dev-works.github.io/posts/go-channels-behavior/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-channels-behavior/</guid>
+      <description>Understanding Go channels as signaling mechanisms for orchestrating goroutines and writing better concurrent code.</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Part I - OS Scheduler Fundamentals</title>
+      <link>https://ths-dev-works.github.io/posts/go-scheduling-part1/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-scheduling-part1/</guid>
+      <description>Understanding the operating system scheduler fundamentals that form the foundation for Go&amp;#39;s scheduling system.</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Part II - Go Scheduler</title>
+      <link>https://ths-dev-works.github.io/posts/go-scheduling-part2/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-scheduling-part2/</guid>
+      <description>Understanding Go&amp;#39;s scheduler mechanics and how it builds upon OS scheduler fundamentals.</description>
+    </item>
+    <item>
+      <title>Go Scheduling: Part III - Concurrency</title>
+      <link>https://ths-dev-works.github.io/posts/go-scheduling-part3/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-scheduling-part3/</guid>
+      <description>Understanding when and how to use concurrency effectively in Go with different workload types.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Signaling on THS Dev Works</title>
+    <link>https://ths-dev-works.github.io/tags/signaling/</link>
+    <description>Recent content in Signaling on THS Dev Works</description>
+    <image>
+      <title>THS Dev Works</title>
+      <url>https://ths-dev-works.github.io/images/cover.jpg</url>
+      <link>https://ths-dev-works.github.io/images/cover.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ths-dev-works.github.io/tags/signaling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Mechanics: The Behavior of Channels</title>
+      <link>https://ths-dev-works.github.io/posts/go-channels-behavior/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/posts/go-channels-behavior/</guid>
+      <description>Understanding Go channels as signaling mechanisms for orchestrating goroutines and writing better concurrent code.</description>
+    </item>
+  </channel>
+</rss>
