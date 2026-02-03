@@ -1,0 +1,660 @@
+<!doctype html><html lang=en dir=auto data-theme=auto><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Go Recruitment Exam - Batch 1 | THS Dev Works</title><meta name=keywords content="go,programming,interview,exam,ardanlabs"><meta name=description content="Full Go Recruitment Exam - Batch 1 of 4. 100 multiple-choice questions following Ardan Labs style."><meta name=author content="Tiago Simões"><link rel=canonical href=http://localhost:1313/posts/go-recruitment-exam-batch-1/><meta name=google-site-verification content="Qv4cFg7MaUWT7Y4EmgX-dIYP-z-ZHXC35_hav3PvSW8"><link crossorigin=anonymous href=/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css integrity="sha256-NDzEgLn/yPBMy+XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/favicon.ico><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/favicon-32x32.png><link rel=apple-touch-icon href=http://localhost:1313/apple-touch-icon.png><link rel=mask-icon href=http://localhost:1313/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=http://localhost:1313/posts/go-recruitment-exam-batch-1/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="http://localhost:1313/posts/go-recruitment-exam-batch-1/"><meta property="og:site_name" content="THS Dev Works"><meta property="og:title" content="Go Recruitment Exam - Batch 1"><meta property="og:description" content="Full Go Recruitment Exam - Batch 1 of 4. 100 multiple-choice questions following Ardan Labs style."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2026-02-02T22:00:00+00:00"><meta property="article:modified_time" content="2026-02-02T22:00:00+00:00"><meta property="article:tag" content="Go"><meta property="article:tag" content="Programming"><meta property="article:tag" content="Interview"><meta property="article:tag" content="Exam"><meta property="article:tag" content="ArdanLabs"><meta property="og:image" content="http://localhost:1313/images/cover.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="http://localhost:1313/images/cover.jpg"><meta name=twitter:title content="Go Recruitment Exam - Batch 1"><meta name=twitter:description content="Full Go Recruitment Exam - Batch 1 of 4. 100 multiple-choice questions following Ardan Labs style."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"http://localhost:1313/posts/"},{"@type":"ListItem","position":2,"name":"Go Recruitment Exam - Batch 1","item":"http://localhost:1313/posts/go-recruitment-exam-batch-1/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Go Recruitment Exam - Batch 1","name":"Go Recruitment Exam - Batch 1","description":"Full Go Recruitment Exam - Batch 1 of 4. 100 multiple-choice questions following Ardan Labs style.","keywords":["go","programming","interview","exam","ardanlabs"],"articleBody":"Welcome to the first batch of our comprehensive Go Recruitment Exam. This exam consists of 100 multiple-choice questions designed to test your knowledge of Go programming fundamentals, advanced concepts, and best practices following the Ardan Labs methodology.\nInstructions Read each question carefully Choose the best answer from the provided options Answers are provided at the end of this post Time limit: 90 minutes recommended Questions 1-25: Go Fundamentals 1. What is the zero value for a slice in Go? A) nil B) [] (empty slice) C) []{} (slice with zero elements) D) panic\n2. Which of the following is NOT a valid way to declare a variable in Go? A) var x int = 10 B) x := 10 C) var x = 10 D) int x = 10\n3. What is the output of this code?\npackage main import \"fmt\" func main() { var s []int fmt.Println(len(s), cap(s)) } A) 0 0 B) 0 nil C) nil nil D) panic\n4. Which statement about Go’s garbage collection is true? A) Go uses reference counting B) Go uses a concurrent mark-and-sweep garbage collector C) Go requires manual memory management D) Go does not have garbage collection\n5. What is the purpose of the init() function in Go? A) To initialize package-level variables B) To serve as the main entry point C) To handle errors D) To clean up resources\n6. Which of the following is a valid Go keyword? A) class B) inherit C) defer D) virtual\n7. What does the make() function do? A) Creates new values of maps, slices, and channels B) Allocates memory for any type C) Initializes variables D) Compiles the program\n8. Which statement about Go interfaces is correct? A) Interfaces are explicitly implemented B) Interfaces are implicitly satisfied C) Interfaces can only contain methods D) Interfaces cannot be nested\n9. What is the output of this code?\npackage main import \"fmt\" func main() { x := []int{1, 2, 3} y := x[1:2] y[0] = 99 fmt.Println(x) } A) [1 2 3] B) [1 99 3] C) [99 2 3] D) panic\n10. Which of the following is NOT a built-in type in Go? A) int B) string C) map D) list\n11. What is the zero value for a map in Go? A) nil B) empty map C) map{} D) panic\n12. Which statement about Go’s range clause is correct? A) It always returns index and value B) It can return only index or only value C) It works on all types D) It modifies the original collection\n13. What is the output of this code?\npackage main import \"fmt\" func main() { ch := make(chan int, 1) ch \u003c- 1 fmt.Println(\u003c-ch) } A) 1 B) deadlock C) panic D) compilation error\n14. Which of the following is a valid Go package name? A) 1package B) my-package C) my_package D) my package\n15. What does the select statement do in Go? A) Chooses between multiple channel operations B) Selects elements from a slice C) Handles multiple conditions D) Filters data\n16. Which statement about Go structs is correct? A) Structs can have methods B) Structs support inheritance C) Structs are reference types D) Structs cannot be compared\n17. What is the output of this code?\npackage main import \"fmt\" func main() { var i interface{} = \"hello\" switch v := i.(type) { case string: fmt.Println(v) default: fmt.Println(\"unknown\") } } A) hello B) unknown C) panic D) compilation error\n18. Which of the following is NOT a valid Go control flow statement? A) if B) switch C) for D) while\n19. What is the purpose of the defer statement? A) To execute a function call after the surrounding function returns B) To delay execution indefinitely C) To handle errors D) To optimize performance\n20. Which statement about Go’s error handling is correct? A) Go uses exceptions for error handling B) Go uses error values returned from functions C) Go ignores errors by default D) Go requires try-catch blocks\n21. What is the output of this code?\npackage main import \"fmt\" func main() { x := 5 fmt.Println(\u0026x) } A) 5 B) memory address C) compilation error D) panic\n22. Which of the following is a valid Go constant declaration? A) const x = 10 B) const x int = 10 C) const x := 10 D) All of the above\n23. What is the zero value for a pointer in Go? A) nil B) 0 C) empty D) panic\n24. Which statement about Go’s append() function is correct? A) It always creates a new slice B) It may modify the original slice if capacity allows C) It only works on slices of the same type D) It returns a boolean indicating success\n25. What is the output of this code?\npackage main import \"fmt\" func main() { m := make(map[string]int) m[\"a\"] = 1 fmt.Println(m[\"b\"]) } A) 0 B) nil C) panic D) key not found error\nQuestions 26-50: Intermediate Go Concepts 26. Which statement about Go’s goroutines is correct? A) Goroutines are heavier than threads B) Goroutines are managed by the Go runtime C) Goroutines require explicit creation of threads D) Goroutines cannot communicate with each other\n27. What is the purpose of the sync.Mutex type? A) To synchronize access to shared resources B) To create goroutines C) To handle channels D) To manage memory\n28. Which of the following is a valid way to close a channel? A) close(ch) B) ch.close() C) ch \u003c- nil D) Channels cannot be closed\n29. What is the output of this code?\npackage main import \"fmt\" func main() { ch := make(chan int) go func() { ch \u003c- 1 }() fmt.Println(\u003c-ch) } A) 1 B) deadlock C) panic D) compilation error\n30. Which statement about Go’s context package is correct? A) It’s used for handling HTTP requests only B) It provides cancellation and timeout capabilities C) It replaces error handling D) It’s only available in Go 1.18+\n31. What is the output of this code?\npackage main import \"fmt\" func add(a, b int) int { return a + b } func main() { f := add fmt.Println(f(2, 3)) } A) 5 B) compilation error C) panic D) 0\n32. Which of the following is NOT a valid Go method receiver? A) func (s *Struct) Method() B) func (s Struct) Method() C) func (Struct) Method() D) func (s map[string]int) Method()\n33. What is the purpose of the interface{} type in Go? A) To represent any type B) To define empty interfaces C) To replace all other types D) To improve performance\n34. Which statement about Go’s panic() and recover() is correct? A) panic() always terminates the program B) recover() can only be called in a deferred function C) panic() should be used for normal error handling D) recover() can catch any type of error\n35. What is the output of this code?\npackage main import \"fmt\" func main() { var x interface{} = 10 if i, ok := x.(int); ok { fmt.Println(i * 2) } } A) 20 B) 10 C) panic D) compilation error\n36. Which of the following is a valid Go tag? A) json:\"name\" B) json:name C) json='name' D) json(name)\n37. What is the purpose of the sync.WaitGroup type? A) To wait for a collection of goroutines to finish B) To synchronize access to shared resources C) To create goroutines D) To handle channels\n38. Which statement about Go’s reflect package is correct? A) It’s used for runtime type inspection B) It’s faster than static typing C) It’s recommended for regular operations D) It can modify private fields\n39. What is the output of this code?\npackage main import \"fmt\" func main() { s := []int{1, 2, 3, 4, 5} s = append(s[:2], s[3:]...) fmt.Println(s) } A) [1 2 4 5] B) [1 2 3 4 5] C) [1 2 3 5] D) panic\n40. Which of the following is NOT a valid Go build tag? A) // +build linux B) // +build !windows C) // +build linux,amd64 D) // +build “linux”\n41. What is the purpose of the runtime.GOMAXPROCS() function? A) To set the maximum number of CPUs B) To limit memory usage C) To control goroutine scheduling D) To optimize garbage collection\n42. Which statement about Go’s time package is correct? A) It only works with UTC time B) It provides duration and time types C) It cannot handle time zones D) It’s deprecated in Go 1.20\n43. What is the output of this code?\npackage main import \"fmt\" func main() { ch := make(chan int, 2) ch \u003c- 1 ch \u003c- 2 close(ch) for v := range ch { fmt.Println(v) } } A) 1 2 B) 1 2 panic C) deadlock D) compilation error\n44. Which of the following is a valid Go embedding syntax? A) type A struct { B } B) type A struct { *B } C) type A struct { B; C } D) All of the above\n45. What is the purpose of the io.Reader interface? A) To read data from a source B) To write data to a destination C) To handle both read and write operations D) To manage file operations\n46. Which statement about Go’s sort package is correct? A) It only sorts slices B) It can sort any collection that implements sort.Interface C) It uses bubble sort by default D) It cannot sort custom types\n47. What is the output of this code?\npackage main import \"fmt\" func main() { x := []string{\"a\", \"b\", \"c\"} for i, v := range x { if i == 1 { x = append(x, \"d\") } fmt.Println(i, v) } } A) 0 a 1 b 2 c B) 0 a 1 b 2 c 3 d C) 0 a 1 b 2 c D) infinite loop\n48. Which of the following is NOT a valid Go escape sequence? A) \\n B) \\t C) \\v D) \\d\n49. What is the purpose of the unsafe package in Go? A) To bypass type safety B) To improve performance C) To handle memory management D) To provide security features\n50. Which statement about Go’s testing package is correct? A) It only supports unit tests B) It provides benchmarking capabilities C) It cannot test concurrent code D) It requires external frameworks\nQuestions 51-75: Advanced Go Concepts 51. Which statement about Go’s type assertion is correct? A) It always succeeds B) It can panic if the type is wrong C) It’s only used with interfaces D) It’s a compile-time operation\n52. What is the purpose of the sync.Pool type? A) To reuse objects to reduce garbage collection pressure B) To synchronize access to shared resources C) To manage memory pools D) To create object pools\n53. Which of the following is a valid Go generic type constraint? A) any B) comparable C) interface{ int | string } D) All of the above\n54. What is the output of this code?\npackage main import \"fmt\" func main() { var f func() int fmt.Println(f == nil) } A) true B) false C) panic D) compilation error\n55. Which statement about Go’s cgo is correct? A) It allows calling C code from Go B) It’s automatically enabled C) It’s faster than pure Go D) It’s recommended for all projects\n56. What is the purpose of the context.WithCancel() function? A) To create a cancelable context B) To cancel all operations C) To handle timeouts D) To manage deadlines\n57. Which of the following is NOT a valid Go channel direction? A) chan\u003c- int B) \u003c-chan int C) chan int D) int\u003c-chan\n58. What is the output of this code?\npackage main import \"fmt\" func main() { ch := make(chan int) select { case \u003c-ch: fmt.Println(\"received\") default: fmt.Println(\"default\") } } A) received B) default C) deadlock D) panic\n59. Which statement about Go’s runtime package is correct? A) It provides low-level runtime information B) It’s only for debugging C) It’s deprecated D) It’s not thread-safe\n60. What is the purpose of the encoding/json package? A) To encode and decode JSON data B) To validate JSON C) To parse XML D) To handle HTTP requests\n61. Which of the following is a valid Go struct literal? A) Point{x: 1, y: 2} B) Point{1, 2} C) Point{x: 1} D) All of the above\n62. What is the output of this code?\npackage main import \"fmt\" func main() { m := map[string]int{\"a\": 1, \"b\": 2} for k, v := range m { fmt.Println(k, v) } } A) a 1 b 2 (order may vary) B) a 1 b 2 (always in this order) C) compilation error D) panic\n63. Which statement about Go’s flag package is correct? A) It’s used for command-line flag parsing B) It’s only available in main packages C) It cannot handle boolean flags D) It’s deprecated\n64. What is the purpose of the io.Closer interface? A) To close resources B) To read data C) To write data D) To handle errors\n65. Which of the following is NOT a valid Go slice operation? A) s[1:3] B) s[:3] C) s[1:] D) s[::]\n66. What is the output of this code?\npackage main import \"fmt\" func main() { var x [3]int fmt.Println(len(x), cap(x)) } A) 3 3 B) 3 0 C) 0 3 D) compilation error\n67. Which statement about Go’s log package is correct? A) It provides structured logging B) It only writes to stderr C) It cannot be customized D) It’s thread-safe by default\n68. What is the purpose of the math/big package? A) To handle arbitrary-precision arithmetic B) To provide mathematical functions C) To optimize calculations D) To handle floating-point operations\n69. Which of the following is a valid Go type switch? A) switch v := i.(type) { … } B) switch i.(type) { … } C) switch type i { … } D) All of the above\n70. What is the output of this code?\npackage main import \"fmt\" func main() { f := func(x int) int { return x * 2 } fmt.Println(f(f(3))) } A) 12 B) 6 C) 3 D) compilation error\n71. Which statement about Go’s net/http package is correct? A) It provides HTTP client and server implementations B) It only supports HTTP/1.1 C) It cannot handle HTTPS D) It’s deprecated\n72. What is the purpose of the strings.Builder type? A) To efficiently build strings B) To parse strings C) To format strings D) To validate strings\n73. Which of the following is NOT a valid Go rune literal? A) ‘a’ B) ‘\\n’ C) ‘\\u0061’ D) “a”\n74. What is the output of this code?\npackage main import \"fmt\" func main() { x := make([]int, 0, 5) x = append(x, 1, 2, 3) fmt.Println(len(x), cap(x)) } A) 3 5 B) 3 3 C) 0 5 D) compilation error\n75. Which statement about Go’s database/sql package is correct? A) It provides a generic database interface B) It only works with PostgreSQL C) It cannot handle transactions D) It’s deprecated\nQuestions 76-100: Expert Level \u0026 Best Practices 76. Which statement about Go’s memory model is correct? A) Go uses a happens-before relationship B) Go guarantees sequential consistency C) Go doesn’t have a memory model D) Go uses locks for all operations\n77. What is the purpose of the sync/atomic package? A) To provide atomic operations B) To synchronize goroutines C) To handle memory barriers D) To manage atomic types\n78. Which of the following is a valid Go build constraint? A) //go:build linux B) // +build linux C) //build:linux D) All of the above\n79. What is the output of this code?\npackage main import \"fmt\" func main() { var x interface{} = []int{1, 2, 3} switch v := x.(type) { case []int: fmt.Println(len(v)) default: fmt.Println(\"not a slice\") } } A) 3 B) not a slice C) panic D) compilation error\n80. Which statement about Go’s trace tool is correct? A) It traces execution events B) It’s only available in debug mode C) It cannot trace goroutines D) It’s deprecated\n81. What is the purpose of the pprof tool? A) To profile Go programs B) To debug memory leaks C) To optimize performance D) All of the above\n82. Which of the following is NOT a valid Go module command? A) go mod init B) go mod get C) go mod update D) go mod tidy\n83. What is the output of this code?\npackage main import \"fmt\" func main() { ch := make(chan int, 1) ch \u003c- 1 v, ok := \u003c-ch fmt.Println(v, ok) v, ok = \u003c-ch fmt.Println(v, ok) } A) 1 true 0 false B) 1 true 1 true C) 1 true panic D) compilation error\n84. Which statement about Go’s vet tool is correct? A) It finds suspicious constructs B) It’s a compiler C) It’s only for security D) It’s deprecated\n85. What is the purpose of the gofmt tool? A) To format Go source code B) To compile Go programs C) To test Go programs D) To lint Go programs\n86. Which of the following is a valid Go module version? A) v1.0.0 B) v1.0.0-pre C) v1.0.0+meta D) All of the above\n87. What is the output of this code?\npackage main import \"fmt\" func main() { var x []int = nil if x == nil { fmt.Println(\"nil\") } else { fmt.Println(\"not nil\") } } A) nil B) not nil C) compilation error D) panic\n88. Which statement about Go’s race detector is correct? A) It detects race conditions B) It’s enabled by default C) It slows down compilation D) It’s only available on Linux\n89. What is the purpose of the embed package? A) To embed files in the binary B) To embed HTML templates C) To embed static assets D) All of the above\n90. Which of the following is NOT a valid Go pointer operation? A) \u0026x B) *p C) p++ D) p == nil\n91. What is the output of this code?\npackage main import \"fmt\" func main() { m := make(map[int]string) m[1] = \"a\" delete(m, 2) fmt.Println(len(m)) } A) 1 B) 0 C) panic D) compilation error\n92. Which statement about Go’s cover tool is correct? A) It measures test coverage B) It’s only for unit tests C) It cannot measure branch coverage D) It’s deprecated\n93. What is the purpose of the go:generate directive? A) To generate code B) To compile code C) To test code D) To format code\n94. Which of the following is a valid Go workspace mode? A) go work init B) go work use C) go work sync D) All of the above\n95. What is the output of this code?\npackage main import \"fmt\" func main() { var x interface{} = func() int { return 42 } if f, ok := x.(func() int); ok { fmt.Println(f()) } } A) 42 B) compilation error C) panic D) 0\n96. Which statement about Go’s linkname directive is correct? A) It links symbols across packages B) It’s recommended for regular use C) It’s only available in C D) It’s deprecated\n97. What is the purpose of the go.mod file? A) To define module dependencies B) To store build configuration C) To manage versions D) All of the above\n98. Which of the following is NOT a valid Go compiler flag? A) -gcflags B) -ldflags C) -tags D) -debug\n99. What is the output of this code?\npackage main import \"fmt\" func main() { ch := make(chan struct{}) go func() { close(ch) }() _, ok := \u003c-ch fmt.Println(ok) } A) false B) true C) panic D) deadlock\n100. Which statement about Go’s go.mod and go.sum files is correct? A) go.mod stores module requirements, go.sum stores checksums B) go.sum stores module requirements, go.mod stores checksums C) Both files store the same information D) Only go.mod is required\nAnswers 1-25:\nA) nil D) int x = 10 A) 0 0 B) Go uses a concurrent mark-and-sweep garbage collector A) To initialize package-level variables C) defer A) Creates new values of maps, slices, and channels B) Interfaces are implicitly satisfied B) [1 99 3] D) list A) nil B) It can return only index or only value A) 1 C) my_package A) Chooses between multiple channel operations A) Structs can have methods A) hello D) while A) To execute a function call after the surrounding function returns B) Go uses error values returned from functions B) memory address D) All of the above A) nil B) It may modify the original slice if capacity allows A) 0 26-50: 26. B) Goroutines are managed by the Go runtime 27. A) To synchronize access to shared resources 28. A) close(ch) 29. A) 1 30. B) It provides cancellation and timeout capabilities 31. A) 5 32. C) func (Struct) Method() 33. A) To represent any type 34. B) recover() can only be called in a deferred function 35. A) 20 36. A) json:\"name\" 37. A) To wait for a collection of goroutines to finish 38. A) It’s used for runtime type inspection 39. A) [1 2 4 5] 40. D) // +build “linux” 41. A) To set the maximum number of CPUs 42. B) It provides duration and time types 43. A) 1 2 44. D) All of the above 45. A) To read data from a source 46. B) It can sort any collection that implements sort.Interface 47. C) 0 a 1 b 2 c 48. D) \\d 49. A) To bypass type safety 50. B) It provides benchmarking capabilities\n51-75: 51. B) It can panic if the type is wrong 52. A) To reuse objects to reduce garbage collection pressure 53. D) All of the above 54. A) true 55. A) It allows calling C code from Go 56. A) To create a cancelable context 57. D) int\u003c-chan 58. B) default 59. A) It provides low-level runtime information 60. A) To encode and decode JSON data 61. D) All of the above 62. A) a 1 b 2 (order may vary) 63. A) It’s used for command-line flag parsing 64. A) To close resources 65. D) s[::] 66. A) 3 3 67. D) It’s thread-safe by default 68. A) To handle arbitrary-precision arithmetic 69. A) switch v := i.(type) { … } 70. A) 12 71. A) It provides HTTP client and server implementations 72. A) To efficiently build strings 73. D) “a” 74. A) 3 5 75. A) It provides a generic database interface\n76-100: 76. A) Go uses a happens-before relationship 77. A) To provide atomic operations 78. D) All of the above 79. A) 3 80. A) It traces execution events 81. D) All of the above 82. C) go mod update 83. A) 1 true 0 false 84. A) It finds suspicious constructs 85. A) To format Go source code 86. D) All of the above 87. A) nil 88. A) It detects race conditions 89. D) All of the above 90. C) p++ 91. A) 1 92. A) It measures test coverage 93. A) To generate code 94. D) All of the above 95. A) 42 96. A) It links symbols across packages 97. D) All of the above 98. D) -debug 99. A) false 100. A) go.mod stores module requirements, go.sum stores checksums\nScore Interpretation:\n90-100: Expert Level 80-89: Advanced Level 70-79: Intermediate Level 60-69: Junior Level Below 60: Needs Improvement Good luck with your Go recruitment process!\n","wordCount":"3879","inLanguage":"en","image":"http://localhost:1313/images/cover.jpg","datePublished":"2026-02-02T22:00:00Z","dateModified":"2026-02-02T22:00:00Z","author":{"@type":"Person","name":"Tiago Simões"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:1313/posts/go-recruitment-exam-batch-1/"},"publisher":{"@type":"Organization","name":"THS Dev Works","logo":{"@type":"ImageObject","url":"http://localhost:1313/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/ accesskey=h title="THS Dev Works (Alt + H)">THS Dev Works</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li><li><a href=http://localhost:1313/pt/ title=Português aria-label=Português>Pt</a></li></ul></div></div><ul id=menu><li><a href=http://localhost:1313/services/ title=Services><span>Services</span></a></li><li><a href=http://localhost:1313/posts/ title=Posts><span>Posts</span></a></li><li><a href=http://localhost:1313/about/ title="About / Stack"><span>About / Stack</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=http://localhost:1313/>Home</a>&nbsp;»&nbsp;<a href=http://localhost:1313/posts/>Posts</a></div><h1 class="post-title entry-hint-parent">Go Recruitment Exam - Batch 1</h1><div class=post-description>Full Go Recruitment Exam - Batch 1 of 4. 100 multiple-choice questions following Ardan Labs style.</div><div class=post-meta><span title='2026-02-02 22:00:00 +0000 UTC'>February 2, 2026</span>&nbsp;·&nbsp;<span>19 min</span>&nbsp;·&nbsp;<span>Tiago Simões</span></div></header><div class=post-content><p>Welcome to the first batch of our comprehensive Go Recruitment Exam. This exam consists of 100 multiple-choice questions designed to test your knowledge of Go programming fundamentals, advanced concepts, and best practices following the Ardan Labs methodology.</p><h2 id=instructions>Instructions<a hidden class=anchor aria-hidden=true href=#instructions>#</a></h2><ul><li>Read each question carefully</li><li>Choose the best answer from the provided options</li><li>Answers are provided at the end of this post</li><li>Time limit: 90 minutes recommended</li></ul><hr><h2 id=questions-1-25-go-fundamentals>Questions 1-25: Go Fundamentals<a hidden class=anchor aria-hidden=true href=#questions-1-25-go-fundamentals>#</a></h2><p><strong>1. What is the zero value for a slice in Go?</strong>
+A) nil
+B) [] (empty slice)
+C) []{} (slice with zero elements)
+D) panic</p><p><strong>2. Which of the following is NOT a valid way to declare a variable in Go?</strong>
+A) var x int = 10
+B) x := 10
+C) var x = 10
+D) int x = 10</p><p><strong>3. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>var</span><span class=w> </span><span class=nx>s</span><span class=w> </span><span class=p>[]</span><span class=kt>int</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=nx>s</span><span class=p>),</span><span class=w> </span><span class=nb>cap</span><span class=p>(</span><span class=nx>s</span><span class=p>))</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 0 0
+B) 0 nil
+C) nil nil
+D) panic</p><p><strong>4. Which statement about Go&rsquo;s garbage collection is true?</strong>
+A) Go uses reference counting
+B) Go uses a concurrent mark-and-sweep garbage collector
+C) Go requires manual memory management
+D) Go does not have garbage collection</p><p><strong>5. What is the purpose of the <code>init()</code> function in Go?</strong>
+A) To initialize package-level variables
+B) To serve as the main entry point
+C) To handle errors
+D) To clean up resources</p><p><strong>6. Which of the following is a valid Go keyword?</strong>
+A) class
+B) inherit
+C) defer
+D) virtual</p><p><strong>7. What does the <code>make()</code> function do?</strong>
+A) Creates new values of maps, slices, and channels
+B) Allocates memory for any type
+C) Initializes variables
+D) Compiles the program</p><p><strong>8. Which statement about Go interfaces is correct?</strong>
+A) Interfaces are explicitly implemented
+B) Interfaces are implicitly satisfied
+C) Interfaces can only contain methods
+D) Interfaces cannot be nested</p><p><strong>9. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>x</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=p>[]</span><span class=kt>int</span><span class=p>{</span><span class=mi>1</span><span class=p>,</span><span class=w> </span><span class=mi>2</span><span class=p>,</span><span class=w> </span><span class=mi>3</span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>y</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nx>x</span><span class=p>[</span><span class=mi>1</span><span class=p>:</span><span class=mi>2</span><span class=p>]</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>y</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=mi>99</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>x</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) [1 2 3]
+B) [1 99 3]
+C) [99 2 3]
+D) panic</p><p><strong>10. Which of the following is NOT a built-in type in Go?</strong>
+A) int
+B) string
+C) map
+D) list</p><p><strong>11. What is the zero value for a map in Go?</strong>
+A) nil
+B) empty map
+C) map{}
+D) panic</p><p><strong>12. Which statement about Go&rsquo;s <code>range</code> clause is correct?</strong>
+A) It always returns index and value
+B) It can return only index or only value
+C) It works on all types
+D) It modifies the original collection</p><p><strong>13. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>ch</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nb>make</span><span class=p>(</span><span class=kd>chan</span><span class=w> </span><span class=kt>int</span><span class=p>,</span><span class=w> </span><span class=mi>1</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>ch</span><span class=w> </span><span class=o>&lt;-</span><span class=w> </span><span class=mi>1</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=o>&lt;-</span><span class=nx>ch</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 1
+B) deadlock
+C) panic
+D) compilation error</p><p><strong>14. Which of the following is a valid Go package name?</strong>
+A) 1package
+B) my-package
+C) my_package
+D) my package</p><p><strong>15. What does the <code>select</code> statement do in Go?</strong>
+A) Chooses between multiple channel operations
+B) Selects elements from a slice
+C) Handles multiple conditions
+D) Filters data</p><p><strong>16. Which statement about Go structs is correct?</strong>
+A) Structs can have methods
+B) Structs support inheritance
+C) Structs are reference types
+D) Structs cannot be compared</p><p><strong>17. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>var</span><span class=w> </span><span class=nx>i</span><span class=w> </span><span class=kd>interface</span><span class=p>{}</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=s>&#34;hello&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>switch</span><span class=w> </span><span class=nx>v</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nx>i</span><span class=p>.(</span><span class=kd>type</span><span class=p>)</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>case</span><span class=w> </span><span class=kt>string</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>v</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>default</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=s>&#34;unknown&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) hello
+B) unknown
+C) panic
+D) compilation error</p><p><strong>18. Which of the following is NOT a valid Go control flow statement?</strong>
+A) if
+B) switch
+C) for
+D) while</p><p><strong>19. What is the purpose of the <code>defer</code> statement?</strong>
+A) To execute a function call after the surrounding function returns
+B) To delay execution indefinitely
+C) To handle errors
+D) To optimize performance</p><p><strong>20. Which statement about Go&rsquo;s error handling is correct?</strong>
+A) Go uses exceptions for error handling
+B) Go uses error values returned from functions
+C) Go ignores errors by default
+D) Go requires try-catch blocks</p><p><strong>21. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>x</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=mi>5</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=o>&amp;</span><span class=nx>x</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 5
+B) memory address
+C) compilation error
+D) panic</p><p><strong>22. Which of the following is a valid Go constant declaration?</strong>
+A) const x = 10
+B) const x int = 10
+C) const x := 10
+D) All of the above</p><p><strong>23. What is the zero value for a pointer in Go?</strong>
+A) nil
+B) 0
+C) empty
+D) panic</p><p><strong>24. Which statement about Go&rsquo;s <code>append()</code> function is correct?</strong>
+A) It always creates a new slice
+B) It may modify the original slice if capacity allows
+C) It only works on slices of the same type
+D) It returns a boolean indicating success</p><p><strong>25. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>m</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nb>make</span><span class=p>(</span><span class=kd>map</span><span class=p>[</span><span class=kt>string</span><span class=p>]</span><span class=kt>int</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>m</span><span class=p>[</span><span class=s>&#34;a&#34;</span><span class=p>]</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=mi>1</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>m</span><span class=p>[</span><span class=s>&#34;b&#34;</span><span class=p>])</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 0
+B) nil
+C) panic
+D) key not found error</p><hr><h2 id=questions-26-50-intermediate-go-concepts>Questions 26-50: Intermediate Go Concepts<a hidden class=anchor aria-hidden=true href=#questions-26-50-intermediate-go-concepts>#</a></h2><p><strong>26. Which statement about Go&rsquo;s goroutines is correct?</strong>
+A) Goroutines are heavier than threads
+B) Goroutines are managed by the Go runtime
+C) Goroutines require explicit creation of threads
+D) Goroutines cannot communicate with each other</p><p><strong>27. What is the purpose of the <code>sync.Mutex</code> type?</strong>
+A) To synchronize access to shared resources
+B) To create goroutines
+C) To handle channels
+D) To manage memory</p><p><strong>28. Which of the following is a valid way to close a channel?</strong>
+A) close(ch)
+B) ch.close()
+C) ch &lt;- nil
+D) Channels cannot be closed</p><p><strong>29. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>ch</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nb>make</span><span class=p>(</span><span class=kd>chan</span><span class=w> </span><span class=kt>int</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>go</span><span class=w> </span><span class=kd>func</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>ch</span><span class=w> </span><span class=o>&lt;-</span><span class=w> </span><span class=mi>1</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}()</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=o>&lt;-</span><span class=nx>ch</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 1
+B) deadlock
+C) panic
+D) compilation error</p><p><strong>30. Which statement about Go&rsquo;s <code>context</code> package is correct?</strong>
+A) It&rsquo;s used for handling HTTP requests only
+B) It provides cancellation and timeout capabilities
+C) It replaces error handling
+D) It&rsquo;s only available in Go 1.18+</p><p><strong>31. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>add</span><span class=p>(</span><span class=nx>a</span><span class=p>,</span><span class=w> </span><span class=nx>b</span><span class=w> </span><span class=kt>int</span><span class=p>)</span><span class=w> </span><span class=kt>int</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>return</span><span class=w> </span><span class=nx>a</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=nx>b</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>f</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nx>add</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nf>f</span><span class=p>(</span><span class=mi>2</span><span class=p>,</span><span class=w> </span><span class=mi>3</span><span class=p>))</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 5
+B) compilation error
+C) panic
+D) 0</p><p><strong>32. Which of the following is NOT a valid Go method receiver?</strong>
+A) func (s *Struct) Method()
+B) func (s Struct) Method()
+C) func (Struct) Method()
+D) func (s map[string]int) Method()</p><p><strong>33. What is the purpose of the <code>interface{}</code> type in Go?</strong>
+A) To represent any type
+B) To define empty interfaces
+C) To replace all other types
+D) To improve performance</p><p><strong>34. Which statement about Go&rsquo;s <code>panic()</code> and <code>recover()</code> is correct?</strong>
+A) panic() always terminates the program
+B) recover() can only be called in a deferred function
+C) panic() should be used for normal error handling
+D) recover() can catch any type of error</p><p><strong>35. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>var</span><span class=w> </span><span class=nx>x</span><span class=w> </span><span class=kd>interface</span><span class=p>{}</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=mi>10</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>if</span><span class=w> </span><span class=nx>i</span><span class=p>,</span><span class=w> </span><span class=nx>ok</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nx>x</span><span class=p>.(</span><span class=kt>int</span><span class=p>);</span><span class=w> </span><span class=nx>ok</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>i</span><span class=w> </span><span class=o>*</span><span class=w> </span><span class=mi>2</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 20
+B) 10
+C) panic
+D) compilation error</p><p><strong>36. Which of the following is a valid Go tag?</strong>
+A) <code>json:"name"</code>
+B) <code>json:name</code>
+C) <code>json='name'</code>
+D) <code>json(name)</code></p><p><strong>37. What is the purpose of the <code>sync.WaitGroup</code> type?</strong>
+A) To wait for a collection of goroutines to finish
+B) To synchronize access to shared resources
+C) To create goroutines
+D) To handle channels</p><p><strong>38. Which statement about Go&rsquo;s <code>reflect</code> package is correct?</strong>
+A) It&rsquo;s used for runtime type inspection
+B) It&rsquo;s faster than static typing
+C) It&rsquo;s recommended for regular operations
+D) It can modify private fields</p><p><strong>39. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>s</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=p>[]</span><span class=kt>int</span><span class=p>{</span><span class=mi>1</span><span class=p>,</span><span class=w> </span><span class=mi>2</span><span class=p>,</span><span class=w> </span><span class=mi>3</span><span class=p>,</span><span class=w> </span><span class=mi>4</span><span class=p>,</span><span class=w> </span><span class=mi>5</span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>s</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=nb>append</span><span class=p>(</span><span class=nx>s</span><span class=p>[:</span><span class=mi>2</span><span class=p>],</span><span class=w> </span><span class=nx>s</span><span class=p>[</span><span class=mi>3</span><span class=p>:]</span><span class=o>...</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>s</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) [1 2 4 5]
+B) [1 2 3 4 5]
+C) [1 2 3 5]
+D) panic</p><p><strong>40. Which of the following is NOT a valid Go build tag?</strong>
+A) // +build linux
+B) // +build !windows
+C) // +build linux,amd64
+D) // +build &ldquo;linux&rdquo;</p><p><strong>41. What is the purpose of the <code>runtime.GOMAXPROCS()</code> function?</strong>
+A) To set the maximum number of CPUs
+B) To limit memory usage
+C) To control goroutine scheduling
+D) To optimize garbage collection</p><p><strong>42. Which statement about Go&rsquo;s <code>time</code> package is correct?</strong>
+A) It only works with UTC time
+B) It provides duration and time types
+C) It cannot handle time zones
+D) It&rsquo;s deprecated in Go 1.20</p><p><strong>43. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>ch</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nb>make</span><span class=p>(</span><span class=kd>chan</span><span class=w> </span><span class=kt>int</span><span class=p>,</span><span class=w> </span><span class=mi>2</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>ch</span><span class=w> </span><span class=o>&lt;-</span><span class=w> </span><span class=mi>1</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>ch</span><span class=w> </span><span class=o>&lt;-</span><span class=w> </span><span class=mi>2</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nb>close</span><span class=p>(</span><span class=nx>ch</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>for</span><span class=w> </span><span class=nx>v</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=k>range</span><span class=w> </span><span class=nx>ch</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>v</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 1 2
+B) 1 2 panic
+C) deadlock
+D) compilation error</p><p><strong>44. Which of the following is a valid Go embedding syntax?</strong>
+A) type A struct { B }
+B) type A struct { *B }
+C) type A struct { B; C }
+D) All of the above</p><p><strong>45. What is the purpose of the <code>io.Reader</code> interface?</strong>
+A) To read data from a source
+B) To write data to a destination
+C) To handle both read and write operations
+D) To manage file operations</p><p><strong>46. Which statement about Go&rsquo;s <code>sort</code> package is correct?</strong>
+A) It only sorts slices
+B) It can sort any collection that implements sort.Interface
+C) It uses bubble sort by default
+D) It cannot sort custom types</p><p><strong>47. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>x</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=p>[]</span><span class=kt>string</span><span class=p>{</span><span class=s>&#34;a&#34;</span><span class=p>,</span><span class=w> </span><span class=s>&#34;b&#34;</span><span class=p>,</span><span class=w> </span><span class=s>&#34;c&#34;</span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>for</span><span class=w> </span><span class=nx>i</span><span class=p>,</span><span class=w> </span><span class=nx>v</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=k>range</span><span class=w> </span><span class=nx>x</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>if</span><span class=w> </span><span class=nx>i</span><span class=w> </span><span class=o>==</span><span class=w> </span><span class=mi>1</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nx>x</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=nb>append</span><span class=p>(</span><span class=nx>x</span><span class=p>,</span><span class=w> </span><span class=s>&#34;d&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>i</span><span class=p>,</span><span class=w> </span><span class=nx>v</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 0 a 1 b 2 c
+B) 0 a 1 b 2 c 3 d
+C) 0 a 1 b 2 c
+D) infinite loop</p><p><strong>48. Which of the following is NOT a valid Go escape sequence?</strong>
+A) \n
+B) \t
+C) \v
+D) \d</p><p><strong>49. What is the purpose of the <code>unsafe</code> package in Go?</strong>
+A) To bypass type safety
+B) To improve performance
+C) To handle memory management
+D) To provide security features</p><p><strong>50. Which statement about Go&rsquo;s <code>testing</code> package is correct?</strong>
+A) It only supports unit tests
+B) It provides benchmarking capabilities
+C) It cannot test concurrent code
+D) It requires external frameworks</p><hr><h2 id=questions-51-75-advanced-go-concepts>Questions 51-75: Advanced Go Concepts<a hidden class=anchor aria-hidden=true href=#questions-51-75-advanced-go-concepts>#</a></h2><p><strong>51. Which statement about Go&rsquo;s type assertion is correct?</strong>
+A) It always succeeds
+B) It can panic if the type is wrong
+C) It&rsquo;s only used with interfaces
+D) It&rsquo;s a compile-time operation</p><p><strong>52. What is the purpose of the <code>sync.Pool</code> type?</strong>
+A) To reuse objects to reduce garbage collection pressure
+B) To synchronize access to shared resources
+C) To manage memory pools
+D) To create object pools</p><p><strong>53. Which of the following is a valid Go generic type constraint?</strong>
+A) any
+B) comparable
+C) interface{ int | string }
+D) All of the above</p><p><strong>54. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>var</span><span class=w> </span><span class=nx>f</span><span class=w> </span><span class=kd>func</span><span class=p>()</span><span class=w> </span><span class=kt>int</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>f</span><span class=w> </span><span class=o>==</span><span class=w> </span><span class=kc>nil</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) true
+B) false
+C) panic
+D) compilation error</p><p><strong>55. Which statement about Go&rsquo;s <code>cgo</code> is correct?</strong>
+A) It allows calling C code from Go
+B) It&rsquo;s automatically enabled
+C) It&rsquo;s faster than pure Go
+D) It&rsquo;s recommended for all projects</p><p><strong>56. What is the purpose of the <code>context.WithCancel()</code> function?</strong>
+A) To create a cancelable context
+B) To cancel all operations
+C) To handle timeouts
+D) To manage deadlines</p><p><strong>57. Which of the following is NOT a valid Go channel direction?</strong>
+A) chan&lt;- int
+B) &lt;-chan int
+C) chan int
+D) int&lt;-chan</p><p><strong>58. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>ch</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nb>make</span><span class=p>(</span><span class=kd>chan</span><span class=w> </span><span class=kt>int</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>select</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>case</span><span class=w> </span><span class=o>&lt;-</span><span class=nx>ch</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=s>&#34;received&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>default</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=s>&#34;default&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) received
+B) default
+C) deadlock
+D) panic</p><p><strong>59. Which statement about Go&rsquo;s <code>runtime</code> package is correct?</strong>
+A) It provides low-level runtime information
+B) It&rsquo;s only for debugging
+C) It&rsquo;s deprecated
+D) It&rsquo;s not thread-safe</p><p><strong>60. What is the purpose of the <code>encoding/json</code> package?</strong>
+A) To encode and decode JSON data
+B) To validate JSON
+C) To parse XML
+D) To handle HTTP requests</p><p><strong>61. Which of the following is a valid Go struct literal?</strong>
+A) Point{x: 1, y: 2}
+B) Point{1, 2}
+C) Point{x: 1}
+D) All of the above</p><p><strong>62. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>m</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=kd>map</span><span class=p>[</span><span class=kt>string</span><span class=p>]</span><span class=kt>int</span><span class=p>{</span><span class=s>&#34;a&#34;</span><span class=p>:</span><span class=w> </span><span class=mi>1</span><span class=p>,</span><span class=w> </span><span class=s>&#34;b&#34;</span><span class=p>:</span><span class=w> </span><span class=mi>2</span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>for</span><span class=w> </span><span class=nx>k</span><span class=p>,</span><span class=w> </span><span class=nx>v</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=k>range</span><span class=w> </span><span class=nx>m</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>k</span><span class=p>,</span><span class=w> </span><span class=nx>v</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) a 1 b 2 (order may vary)
+B) a 1 b 2 (always in this order)
+C) compilation error
+D) panic</p><p><strong>63. Which statement about Go&rsquo;s <code>flag</code> package is correct?</strong>
+A) It&rsquo;s used for command-line flag parsing
+B) It&rsquo;s only available in main packages
+C) It cannot handle boolean flags
+D) It&rsquo;s deprecated</p><p><strong>64. What is the purpose of the <code>io.Closer</code> interface?</strong>
+A) To close resources
+B) To read data
+C) To write data
+D) To handle errors</p><p><strong>65. Which of the following is NOT a valid Go slice operation?</strong>
+A) s[1:3]
+B) s[:3]
+C) s[1:]
+D) s[::]</p><p><strong>66. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>var</span><span class=w> </span><span class=nx>x</span><span class=w> </span><span class=p>[</span><span class=mi>3</span><span class=p>]</span><span class=kt>int</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=nx>x</span><span class=p>),</span><span class=w> </span><span class=nb>cap</span><span class=p>(</span><span class=nx>x</span><span class=p>))</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 3 3
+B) 3 0
+C) 0 3
+D) compilation error</p><p><strong>67. Which statement about Go&rsquo;s <code>log</code> package is correct?</strong>
+A) It provides structured logging
+B) It only writes to stderr
+C) It cannot be customized
+D) It&rsquo;s thread-safe by default</p><p><strong>68. What is the purpose of the <code>math/big</code> package?</strong>
+A) To handle arbitrary-precision arithmetic
+B) To provide mathematical functions
+C) To optimize calculations
+D) To handle floating-point operations</p><p><strong>69. Which of the following is a valid Go type switch?</strong>
+A) switch v := i.(type) { &mldr; }
+B) switch i.(type) { &mldr; }
+C) switch type i { &mldr; }
+D) All of the above</p><p><strong>70. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>f</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=kd>func</span><span class=p>(</span><span class=nx>x</span><span class=w> </span><span class=kt>int</span><span class=p>)</span><span class=w> </span><span class=kt>int</span><span class=w> </span><span class=p>{</span><span class=w> </span><span class=k>return</span><span class=w> </span><span class=nx>x</span><span class=w> </span><span class=o>*</span><span class=w> </span><span class=mi>2</span><span class=w> </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nf>f</span><span class=p>(</span><span class=nf>f</span><span class=p>(</span><span class=mi>3</span><span class=p>)))</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 12
+B) 6
+C) 3
+D) compilation error</p><p><strong>71. Which statement about Go&rsquo;s <code>net/http</code> package is correct?</strong>
+A) It provides HTTP client and server implementations
+B) It only supports HTTP/1.1
+C) It cannot handle HTTPS
+D) It&rsquo;s deprecated</p><p><strong>72. What is the purpose of the <code>strings.Builder</code> type?</strong>
+A) To efficiently build strings
+B) To parse strings
+C) To format strings
+D) To validate strings</p><p><strong>73. Which of the following is NOT a valid Go rune literal?</strong>
+A) &lsquo;a&rsquo;
+B) &lsquo;\n&rsquo;
+C) &lsquo;\u0061&rsquo;
+D) &ldquo;a&rdquo;</p><p><strong>74. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>x</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nb>make</span><span class=p>([]</span><span class=kt>int</span><span class=p>,</span><span class=w> </span><span class=mi>0</span><span class=p>,</span><span class=w> </span><span class=mi>5</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>x</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=nb>append</span><span class=p>(</span><span class=nx>x</span><span class=p>,</span><span class=w> </span><span class=mi>1</span><span class=p>,</span><span class=w> </span><span class=mi>2</span><span class=p>,</span><span class=w> </span><span class=mi>3</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=nx>x</span><span class=p>),</span><span class=w> </span><span class=nb>cap</span><span class=p>(</span><span class=nx>x</span><span class=p>))</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 3 5
+B) 3 3
+C) 0 5
+D) compilation error</p><p><strong>75. Which statement about Go&rsquo;s <code>database/sql</code> package is correct?</strong>
+A) It provides a generic database interface
+B) It only works with PostgreSQL
+C) It cannot handle transactions
+D) It&rsquo;s deprecated</p><hr><h2 id=questions-76-100-expert-level--best-practices>Questions 76-100: Expert Level & Best Practices<a hidden class=anchor aria-hidden=true href=#questions-76-100-expert-level--best-practices>#</a></h2><p><strong>76. Which statement about Go&rsquo;s memory model is correct?</strong>
+A) Go uses a happens-before relationship
+B) Go guarantees sequential consistency
+C) Go doesn&rsquo;t have a memory model
+D) Go uses locks for all operations</p><p><strong>77. What is the purpose of the <code>sync/atomic</code> package?</strong>
+A) To provide atomic operations
+B) To synchronize goroutines
+C) To handle memory barriers
+D) To manage atomic types</p><p><strong>78. Which of the following is a valid Go build constraint?</strong>
+A) //go:build linux
+B) // +build linux
+C) //build:linux
+D) All of the above</p><p><strong>79. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>var</span><span class=w> </span><span class=nx>x</span><span class=w> </span><span class=kd>interface</span><span class=p>{}</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=p>[]</span><span class=kt>int</span><span class=p>{</span><span class=mi>1</span><span class=p>,</span><span class=w> </span><span class=mi>2</span><span class=p>,</span><span class=w> </span><span class=mi>3</span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>switch</span><span class=w> </span><span class=nx>v</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nx>x</span><span class=p>.(</span><span class=kd>type</span><span class=p>)</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>case</span><span class=w> </span><span class=p>[]</span><span class=kt>int</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=nx>v</span><span class=p>))</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>default</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=s>&#34;not a slice&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 3
+B) not a slice
+C) panic
+D) compilation error</p><p><strong>80. Which statement about Go&rsquo;s <code>trace</code> tool is correct?</strong>
+A) It traces execution events
+B) It&rsquo;s only available in debug mode
+C) It cannot trace goroutines
+D) It&rsquo;s deprecated</p><p><strong>81. What is the purpose of the <code>pprof</code> tool?</strong>
+A) To profile Go programs
+B) To debug memory leaks
+C) To optimize performance
+D) All of the above</p><p><strong>82. Which of the following is NOT a valid Go module command?</strong>
+A) go mod init
+B) go mod get
+C) go mod update
+D) go mod tidy</p><p><strong>83. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>ch</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nb>make</span><span class=p>(</span><span class=kd>chan</span><span class=w> </span><span class=kt>int</span><span class=p>,</span><span class=w> </span><span class=mi>1</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>ch</span><span class=w> </span><span class=o>&lt;-</span><span class=w> </span><span class=mi>1</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>v</span><span class=p>,</span><span class=w> </span><span class=nx>ok</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=o>&lt;-</span><span class=nx>ch</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>v</span><span class=p>,</span><span class=w> </span><span class=nx>ok</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>v</span><span class=p>,</span><span class=w> </span><span class=nx>ok</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=o>&lt;-</span><span class=nx>ch</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>v</span><span class=p>,</span><span class=w> </span><span class=nx>ok</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 1 true 0 false
+B) 1 true 1 true
+C) 1 true panic
+D) compilation error</p><p><strong>84. Which statement about Go&rsquo;s <code>vet</code> tool is correct?</strong>
+A) It finds suspicious constructs
+B) It&rsquo;s a compiler
+C) It&rsquo;s only for security
+D) It&rsquo;s deprecated</p><p><strong>85. What is the purpose of the <code>gofmt</code> tool?</strong>
+A) To format Go source code
+B) To compile Go programs
+C) To test Go programs
+D) To lint Go programs</p><p><strong>86. Which of the following is a valid Go module version?</strong>
+A) v1.0.0
+B) v1.0.0-pre
+C) v1.0.0+meta
+D) All of the above</p><p><strong>87. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>var</span><span class=w> </span><span class=nx>x</span><span class=w> </span><span class=p>[]</span><span class=kt>int</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=kc>nil</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>if</span><span class=w> </span><span class=nx>x</span><span class=w> </span><span class=o>==</span><span class=w> </span><span class=kc>nil</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=s>&#34;nil&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w> </span><span class=k>else</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=s>&#34;not nil&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) nil
+B) not nil
+C) compilation error
+D) panic</p><p><strong>88. Which statement about Go&rsquo;s <code>race</code> detector is correct?</strong>
+A) It detects race conditions
+B) It&rsquo;s enabled by default
+C) It slows down compilation
+D) It&rsquo;s only available on Linux</p><p><strong>89. What is the purpose of the <code>embed</code> package?</strong>
+A) To embed files in the binary
+B) To embed HTML templates
+C) To embed static assets
+D) All of the above</p><p><strong>90. Which of the following is NOT a valid Go pointer operation?</strong>
+A) &amp;x
+B) *p
+C) p++
+D) p == nil</p><p><strong>91. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>m</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nb>make</span><span class=p>(</span><span class=kd>map</span><span class=p>[</span><span class=kt>int</span><span class=p>]</span><span class=kt>string</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>m</span><span class=p>[</span><span class=mi>1</span><span class=p>]</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=s>&#34;a&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nb>delete</span><span class=p>(</span><span class=nx>m</span><span class=p>,</span><span class=w> </span><span class=mi>2</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=nx>m</span><span class=p>))</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 1
+B) 0
+C) panic
+D) compilation error</p><p><strong>92. Which statement about Go&rsquo;s <code>cover</code> tool is correct?</strong>
+A) It measures test coverage
+B) It&rsquo;s only for unit tests
+C) It cannot measure branch coverage
+D) It&rsquo;s deprecated</p><p><strong>93. What is the purpose of the <code>go:generate</code> directive?</strong>
+A) To generate code
+B) To compile code
+C) To test code
+D) To format code</p><p><strong>94. Which of the following is a valid Go workspace mode?</strong>
+A) go work init
+B) go work use
+C) go work sync
+D) All of the above</p><p><strong>95. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>var</span><span class=w> </span><span class=nx>x</span><span class=w> </span><span class=kd>interface</span><span class=p>{}</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=kd>func</span><span class=p>()</span><span class=w> </span><span class=kt>int</span><span class=w> </span><span class=p>{</span><span class=w> </span><span class=k>return</span><span class=w> </span><span class=mi>42</span><span class=w> </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>if</span><span class=w> </span><span class=nx>f</span><span class=p>,</span><span class=w> </span><span class=nx>ok</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nx>x</span><span class=p>.(</span><span class=kd>func</span><span class=p>()</span><span class=w> </span><span class=kt>int</span><span class=p>);</span><span class=w> </span><span class=nx>ok</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nf>f</span><span class=p>())</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) 42
+B) compilation error
+C) panic
+D) 0</p><p><strong>96. Which statement about Go&rsquo;s <code>linkname</code> directive is correct?</strong>
+A) It links symbols across packages
+B) It&rsquo;s recommended for regular use
+C) It&rsquo;s only available in C
+D) It&rsquo;s deprecated</p><p><strong>97. What is the purpose of the <code>go.mod</code> file?</strong>
+A) To define module dependencies
+B) To store build configuration
+C) To manage versions
+D) All of the above</p><p><strong>98. Which of the following is NOT a valid Go compiler flag?</strong>
+A) -gcflags
+B) -ldflags
+C) -tags
+D) -debug</p><p><strong>99. What is the output of this code?</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=s>&#34;fmt&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>ch</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nb>make</span><span class=p>(</span><span class=kd>chan</span><span class=w> </span><span class=kd>struct</span><span class=p>{})</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>go</span><span class=w> </span><span class=kd>func</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nb>close</span><span class=p>(</span><span class=nx>ch</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}()</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>_</span><span class=p>,</span><span class=w> </span><span class=nx>ok</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=o>&lt;-</span><span class=nx>ch</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=nx>ok</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><p>A) false
+B) true
+C) panic
+D) deadlock</p><p><strong>100. Which statement about Go&rsquo;s <code>go.mod</code> and <code>go.sum</code> files is correct?</strong>
+A) go.mod stores module requirements, go.sum stores checksums
+B) go.sum stores module requirements, go.mod stores checksums
+C) Both files store the same information
+D) Only go.mod is required</p><hr><h2 id=answers>Answers<a hidden class=anchor aria-hidden=true href=#answers>#</a></h2><p><strong>1-25:</strong></p><ol><li>A) nil</li><li>D) int x = 10</li><li>A) 0 0</li><li>B) Go uses a concurrent mark-and-sweep garbage collector</li><li>A) To initialize package-level variables</li><li>C) defer</li><li>A) Creates new values of maps, slices, and channels</li><li>B) Interfaces are implicitly satisfied</li><li>B) [1 99 3]</li><li>D) list</li><li>A) nil</li><li>B) It can return only index or only value</li><li>A) 1</li><li>C) my_package</li><li>A) Chooses between multiple channel operations</li><li>A) Structs can have methods</li><li>A) hello</li><li>D) while</li><li>A) To execute a function call after the surrounding function returns</li><li>B) Go uses error values returned from functions</li><li>B) memory address</li><li>D) All of the above</li><li>A) nil</li><li>B) It may modify the original slice if capacity allows</li><li>A) 0</li></ol><p><strong>26-50:</strong>
+26. B) Goroutines are managed by the Go runtime
+27. A) To synchronize access to shared resources
+28. A) close(ch)
+29. A) 1
+30. B) It provides cancellation and timeout capabilities
+31. A) 5
+32. C) func (Struct) Method()
+33. A) To represent any type
+34. B) recover() can only be called in a deferred function
+35. A) 20
+36. A) <code>json:"name"</code>
+37. A) To wait for a collection of goroutines to finish
+38. A) It&rsquo;s used for runtime type inspection
+39. A) [1 2 4 5]
+40. D) // +build &ldquo;linux&rdquo;
+41. A) To set the maximum number of CPUs
+42. B) It provides duration and time types
+43. A) 1 2
+44. D) All of the above
+45. A) To read data from a source
+46. B) It can sort any collection that implements sort.Interface
+47. C) 0 a 1 b 2 c
+48. D) \d
+49. A) To bypass type safety
+50. B) It provides benchmarking capabilities</p><p><strong>51-75:</strong>
+51. B) It can panic if the type is wrong
+52. A) To reuse objects to reduce garbage collection pressure
+53. D) All of the above
+54. A) true
+55. A) It allows calling C code from Go
+56. A) To create a cancelable context
+57. D) int&lt;-chan
+58. B) default
+59. A) It provides low-level runtime information
+60. A) To encode and decode JSON data
+61. D) All of the above
+62. A) a 1 b 2 (order may vary)
+63. A) It&rsquo;s used for command-line flag parsing
+64. A) To close resources
+65. D) s[::]
+66. A) 3 3
+67. D) It&rsquo;s thread-safe by default
+68. A) To handle arbitrary-precision arithmetic
+69. A) switch v := i.(type) { &mldr; }
+70. A) 12
+71. A) It provides HTTP client and server implementations
+72. A) To efficiently build strings
+73. D) &ldquo;a&rdquo;
+74. A) 3 5
+75. A) It provides a generic database interface</p><p><strong>76-100:</strong>
+76. A) Go uses a happens-before relationship
+77. A) To provide atomic operations
+78. D) All of the above
+79. A) 3
+80. A) It traces execution events
+81. D) All of the above
+82. C) go mod update
+83. A) 1 true 0 false
+84. A) It finds suspicious constructs
+85. A) To format Go source code
+86. D) All of the above
+87. A) nil
+88. A) It detects race conditions
+89. D) All of the above
+90. C) p++
+91. A) 1
+92. A) It measures test coverage
+93. A) To generate code
+94. D) All of the above
+95. A) 42
+96. A) It links symbols across packages
+97. D) All of the above
+98. D) -debug
+99. A) false
+100. A) go.mod stores module requirements, go.sum stores checksums</p><hr><p><strong>Score Interpretation:</strong></p><ul><li>90-100: Expert Level</li><li>80-89: Advanced Level</li><li>70-79: Intermediate Level</li><li>60-69: Junior Level</li><li>Below 60: Needs Improvement</li></ul><p>Good luck with your Go recruitment process!</p></div><footer class=post-footer><ul class=post-tags><li><a href=http://localhost:1313/tags/go/>Go</a></li><li><a href=http://localhost:1313/tags/programming/>Programming</a></li><li><a href=http://localhost:1313/tags/interview/>Interview</a></li><li><a href=http://localhost:1313/tags/exam/>Exam</a></li><li><a href=http://localhost:1313/tags/ardanlabs/>ArdanLabs</a></li></ul><ul class=share-buttons><li><a target=_blank rel="noopener noreferrer" aria-label="share Go Recruitment Exam - Batch 1 on x" href="https://x.com/intent/tweet/?text=Go%20Recruitment%20Exam%20-%20Batch%201&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fgo-recruitment-exam-batch-1%2f&amp;hashtags=go%2cprogramming%2cinterview%2cexam%2cardanlabs"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M512 62.554V449.446C512 483.97 483.97 512 449.446 512H62.554C28.03 512 0 483.97.0 449.446V62.554C0 28.03 28.029.0 62.554.0H449.446C483.971.0 512 28.03 512 62.554zM269.951 190.75 182.567 75.216H56L207.216 272.95 63.9 436.783h61.366L235.9 310.383l96.667 126.4H456L298.367 228.367l134-153.151H371.033zM127.633 110h36.468l219.38 290.065H349.5z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share Go Recruitment Exam - Batch 1 on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fgo-recruitment-exam-batch-1%2f&amp;title=Go%20Recruitment%20Exam%20-%20Batch%201&amp;summary=Go%20Recruitment%20Exam%20-%20Batch%201&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2fgo-recruitment-exam-batch-1%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share Go Recruitment Exam - Batch 1 on reddit" href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fgo-recruitment-exam-batch-1%2f&title=Go%20Recruitment%20Exam%20-%20Batch%201"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share Go Recruitment Exam - Batch 1 on facebook" href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fgo-recruitment-exam-batch-1%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share Go Recruitment Exam - Batch 1 on whatsapp" href="https://api.whatsapp.com/send?text=Go%20Recruitment%20Exam%20-%20Batch%201%20-%20http%3a%2f%2flocalhost%3a1313%2fposts%2fgo-recruitment-exam-batch-1%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share Go Recruitment Exam - Batch 1 on telegram" href="https://telegram.me/share/url?text=Go%20Recruitment%20Exam%20-%20Batch%201&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fgo-recruitment-exam-batch-1%2f"><svg viewBox="2 2 28 28" height="30" width="30" fill="currentColor"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share Go Recruitment Exam - Batch 1 on ycombinator" href="https://news.ycombinator.com/submitlink?t=Go%20Recruitment%20Exam%20-%20Batch%201&u=http%3a%2f%2flocalhost%3a1313%2fposts%2fgo-recruitment-exam-batch-1%2f"><svg width="30" height="30" viewBox="0 0 512 512" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554V449.446C512 483.97 483.97 512 449.446 512H62.554C28.03 512 0 483.97.0 449.446V62.554C0 28.03 28.029.0 62.554.0H449.446zM183.8767 87.9921h-62.034L230.6673 292.4508V424.0079h50.6655V292.4508L390.1575 87.9921H328.1233L256 238.2489z"/></svg></a></li></ul></footer></article></main><footer class=footer><span>&copy; 2026 <a href=http://localhost:1313/>THS Dev Works</a></span> ·
+Built with Go & Hugo. ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
