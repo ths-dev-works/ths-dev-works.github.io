@@ -8,7 +8,7 @@ Welcome to the final batch of our comprehensive Go Recruitment Exam. This exam c
 
 ### Section 1: Language Mechanics & Memory
 
-**1. What is the main purpose of a Stack Frame?**
+**1. What is the main purpose of a Stack Frame?**. 
 A) To store global variables.
 B) To provide a private memory space for function execution.
 C) To manage heap allocations.
