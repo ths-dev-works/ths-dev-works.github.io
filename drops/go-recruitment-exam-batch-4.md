@@ -15,7 +15,7 @@ C) To manage heap allocations.
 D) To store the iTable of an interface.
 
 **2. In Go, "Sharing Up" usually results in:**
-A) Stack allocation.
+A) Stack allocation.  
 B) A compiler error.
 C) Heap allocation (Escape).
 D) Improved performance.
