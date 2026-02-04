@@ -1,10 +1,4 @@
----
-title: "Go Recruitment Exam - Batch 1"
-date: 2026-02-02T22:00:00Z
-tags: ["go", "programming", "interview", "exam", "ardanlabs"]
-categories: ["Ultimate Go Series"]
-description: "Full Go Recruitment Exam - Batch 1 of 4. 100 multiple-choice questions following Ardan Labs style."
----
+
 
 Welcome to the first batch of our comprehensive Go Recruitment Exam. This exam consists of 100 multiple-choice questions designed to test your knowledge of Go programming fundamentals, advanced concepts, and best practices following the Ardan Labs methodology.
 
