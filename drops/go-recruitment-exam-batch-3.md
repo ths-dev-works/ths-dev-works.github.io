@@ -1,10 +1,4 @@
----
-title: "Go Recruitment Exam - Batch 3"
-date: 2026-02-02T23:00:00Z
-tags: ["go", "programming", "interview", "exam", "ardanlabs"]
-categories: ["Ultimate Go Series"]
-description: "Full Go Recruitment Exam - Batch 3 of 4. 100 multiple-choice questions following Ardan Labs style."
----
+
 
 Welcome to third batch of our comprehensive Go Recruitment Exam. This exam consists of 100 multiple-choice questions covering expert-level Go concepts, real-world scenarios, and production-ready patterns following the Ardan Labs methodology.
 
