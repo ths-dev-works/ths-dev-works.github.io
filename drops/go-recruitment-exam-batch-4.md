@@ -1022,74 +1022,120 @@ C) Money / Fun
 
 D) Compilers / Users
 ---
-## Final Exam Answer Key (1–50)
-| Q | Ans | Topic | Q | Ans | Topic |
-|---|-----|-------|---|-----|-------|
-| 1 | B | Memory | 26 | B | Design |
-| 2 | C | Escape | 27 | C | Design |
-| 3 | B | Tools | 28 | A | Interface |
-| 4 | B | Runtime | 29 | B | Methods |
-| 5 | C | Semantics | 30 | B | Design |
-| 6 | B | Semantics | 31 | B | Scheduler |
-| 7 | B | Memory | 32 | B | Scheduler |
-| 8 | A | Alignment | 33 | B | Scheduler |
-| 9 | C | Alignment | 34 | B | Scheduler |
-| 10 | B | Hardware | 35 | C | Scheduler |
-| 11 | A | Slices | 36 | C | Channels |
-| 12 | B | Slices | 37 | B | Channels |
-| 13 | C | Slices | 38 | B | Channels |
-| 14 | C | Maps | 39 | A | Channels |
-| 15 | C | Maps | 40 | C | Channels |
-| 16 | B | Maps | 41 | C | Concurrency |
-| 17 | B | Slices | 42 | B | Concurrency |
-| 18 | B | Slices | 43 | B | Concurrency |
-| 19 | A | Slices | 44 | B | Tools |
-| 20 | B | Arrays | 45 | A | Concurrency |
-| 21 | B | Interface | 46 | A | Context |
-| 22 | A | Interface | 47 | C | Context |
-| 23 | B | Design | 48 | A | Concurrency |
-| 24 | B | Methods | 49 | B | Channels |
-| 25 | B | Interface | 50 | B | Concurrency |
-## Final Exam Answer Key (51–100)
-| Q | Ans | Topic | Q | Ans | Topic |
-|---|-----|-------|---|-----|-------|
-| 51 | B | Error Handling | 76 | A | Hardware |
-| 52 | B | Error Handling | 77 | B | GC/Pointers |
-| 53 | B | Error Handling | 78 | B | Design |
-| 54 | B | Panic | 79 | B | Hardware |
-| 55 | B | Error Handling | 80 | B | Hardware |
-| 56 | B | Error Handling | 81 | B | Engineering |
-| 57 | B | Semantics | 82 | B | Engineering |
-| 58 | B | Design | 83 | B | Testing |
-| 59 | B | Recover | 84 | B | Design |
-| 60 | B | Recover | 85 | B | Design |
-| 61 | B | Profiling | 86 | B | Concurrency |
-| 62 | B | Profiling | 87 | B | Design |
-| 63 | B | Benchmarking | 88 | B | Tools |
-| 64 | B | Benchmarking | 89 | B | Optimization |
-| 65 | A | Profiling | 90 | A | Testing |
-| 66 | B | Tools | 91 | B | Philosophy |
-| 67 | B | Benchmarking | 92 | B | Philosophy |
-| 68 | A | Benchmarking | 93 | B | Design |
-| 69 | B | Profiling | 94 | B | Slices |
-| 70 | B | GC/Mem | 95 | B | Memory |
-| 71 | B | Hardware | 96 | B | Performance |
-| 72 | B | Cache | 97 | A | Concurrency |
-| 73 | B | Hardware | 98 | B | Design |
-| 74 | B | Scheduler | 99 | C | Slices |
-| 75 | A | Hardware | 100 | B | Philosophy |
+## Answers
+**1-25:**
+1. B) To provide a private memory space for function execution - Because stack frames isolate function variables and manage function call lifecycle
+2. C) Heap allocation (Escape) - Because sharing variables up the call stack causes them to escape to heap for longer lifetime
+3. B) `go build -gcflags="-m"` - Because the -m flag shows escape analysis decisions during compilation
+4. B) To provide a private memory space for function execution - Because stack frames provide isolated memory for each function call
+5. C) To manage heap allocations - Because stack frames are primarily for managing function-local memory, not heap operations
+6. B) To provide a private memory space for function execution - Because each function call gets its own stack frame for local variables
+7. B) Stack allocation is preferred - Because stack allocation is faster and automatically managed
+8. A) To ensure proper memory alignment - Because alignment prevents performance penalties and access errors
+9. C) 64 bytes - Because proper alignment ensures efficient memory access on 64-bit systems
+10. B) False - Because Go handles alignment automatically for most types
+11. A) nil - Because a nil slice has length and capacity of 0
+12. B) It may modify the original slice - Because append can modify underlying array if capacity allows
+13. C) [1 2 4 5] - Because append removes element at index 2 and adds new elements
+14. C) Maps are reference types - Because maps are always reference types in Go
+15. C) Maps are not thread-safe - Because concurrent map access requires synchronization
+16. B) Use pointer receivers - Because pointer receivers can modify the receiver value
+17. B) It may cause data races - Because concurrent slice access without synchronization is unsafe
+18. B) Use sync.RWMutex - Because RWMutex allows concurrent reads but exclusive writes
+19. A) Use len() function - Because len() returns the number of elements in a slice
+20. B) Arrays have fixed size - Because arrays cannot grow or shrink after creation
+21. B) Interfaces are satisfied implicitly - Because Go uses structural typing for interfaces
+22. A) Type assertion - Because type assertions check concrete types behind interfaces
+23. B) Avoid global state - Because global state creates coupling and testing difficulties
+24. B) Value receivers can't modify - Because value receivers work on copies, not original
+25. B) Empty interface can hold any type - Because interface{} has no method requirements
+**26-50:**
+26. B) Avoid premature optimization - Because optimization should be based on profiling, not assumptions
+27. C) Use dependency injection - Because dependency injection improves testability and reduces coupling
+28. A) Interfaces should be small - Because Go encourages small, focused interfaces following the interface segregation principle
+29. B) Value receivers should be used for value types - Because value receivers avoid copying for small types
+30. B) Design for composition over inheritance - Because Go favors composition through embedding and interfaces
+31. B) Goroutines are lightweight - Because goroutines have small stacks and are managed by the runtime
+32. B) The Go scheduler uses work-stealing - Because Go's scheduler can steal work from other threads to balance load
+33. B) Goroutines can be preempted - Since Go 1.14, the scheduler can preempt long-running goroutines
+34. B) Use channels for communication - Because channels provide safe communication between goroutines
+35. C) Use sync.Cond for complex synchronization - Because condition variables handle complex wait scenarios
+36. C) Use buffered channels for throughput - Because buffered channels can improve performance in high-throughput scenarios
+37. B) Use select for non-blocking operations - Because select with default enables non-blocking channel operations
+38. B) Use context for cancellation - Because context provides cancellation and timeout capabilities
+39. A) Use fan-out pattern - Because fan-out distributes work across multiple goroutines
+40. C) Use worker pool pattern - Because worker pools control resource usage and prevent overload
+41. C) Use atomic operations for simple cases - Because atomics provide lock-free synchronization for simple operations
+42. B) Use mutex for complex synchronization - Because mutexes protect complex critical sections
+43. B) Avoid shared memory - Because sharing memory by communicating is preferred in Go
+44. B) Use pprof for profiling - Because pprof is Go's standard profiling tool
+45. A) Use runtime.GC() to force GC - Because this forces immediate garbage collection
+46. A) Use context for timeouts - Because context provides timeout and cancellation capabilities
+47. C) Use context.WithDeadline - Because deadline contexts cancel at specific times
+48. A) Use context.WithValue - Because this allows passing request-scoped values
+49. B) Use buffered channels for fan-in - Because buffered channels handle multiple inputs efficiently
+50. B) Use select for fan-out - Because select distributes work across multiple channels
+**51-75:**
+51. B) Return errors as values - Because Go's error handling uses explicit error returns
+52. B) Use fmt.Errorf for wrapping errors - Because error wrapping preserves context and stack traces
+53. B) Use errors.Is for comparison - Because errors.Is checks for specific error types in wrapped errors
+54. B) Use recover() in defer - Because recover() only works in deferred functions
+55. B) Log errors before returning - Because logging preserves error information for debugging
+56. B) Use sentinel errors for known cases - Because sentinel errors represent specific, expected error conditions
+57. B) Use error types for structured errors - Because custom error types provide structured error information
+58. B) Handle errors immediately - Because immediate handling prevents error propagation issues
+59. B) Use recover() for cleanup - Because recover() allows cleanup after panics
+60. B) Use panic only for unrecoverable errors - Because panics should be reserved for truly exceptional conditions
+61. B) Use CPU profiling for performance - Because CPU profiling identifies bottlenecks and hot spots
+62. B) Use memory profiling for leaks - Because memory profiling detects allocation patterns and leaks
+63. B) Use benchmarking for performance - Because benchmarks measure and compare performance
+64. B) Use testing.B for benchmarks - Because testing.B provides benchmarking framework
+65. A) Use go test -bench for benchmarks - Because this command runs benchmark tests
+66. B) Use go tool pprof for analysis - Because pprof analyzes profiling data
+67. B) Use -memprofile for memory profiling - Because this flag generates memory profiles
+68. A) Use -cpuprofile for CPU profiling - Because this flag generates CPU profiles
+69. B) Use trace for execution analysis - Because execution tracing reveals runtime behavior
+70. B) Use GODEBUG for debugging - Because GODEBUG provides runtime debugging options
+71. B) False - Because Go doesn't guarantee any specific execution order for map iterations
+72. B) False - Because nil channels block forever on both send and receive operations
+73. B) False - Because goroutine stacks start small (2KB) and grow as needed
+74. B) False - Because the Go scheduler uses cooperative scheduling with preemption since 1.14
+75. A) True - Because reading from a closed channel immediately returns the zero value
+**76-100:**
+76. A) True - Because CPU caches affect performance and Go's memory model considers cache effects
+77. B) False - Because pointers can increase GC pressure and should be used judiciously
+78. B) False - Because global state creates coupling and makes testing difficult
+79. B) False - Because goroutine preemption was introduced in Go 1.14
+80. B) False - Because memory alignment is handled automatically by Go in most cases
+81. B) False - Because premature optimization can lead to complex, unmaintainable code
+82. B) False - Because error handling should be explicit, not ignored
+83. B) False - Because table-driven tests are preferred for multiple test cases
+84. B) False - Because design should prioritize simplicity and readability
+85. B) False - Because channels should be used for communication, not just synchronization
+86. B) False - Because shared memory requires proper synchronization to avoid races
+87. B) False - Because interfaces should be designed by consumers, not producers
+88. B) False - Because tools should aid development, not complicate it
+89. B) False - Because optimization should be based on profiling data
+90. A) True - Because testing ensures code correctness and prevents regressions
+91. B) False - Because Go prioritizes readability and simplicity over cleverness
+92. B) False - Because explicit code is preferred over implicit magic
+93. B) False - Because design should evolve based on requirements and usage
+94. B) False - Because slices can be shared and modified, affecting original data
+95. B) False - Because memory management is automatic but understanding helps optimization
+96. B) False - Because performance optimization requires measurement and analysis
+97. A) True - Because concurrency enables efficient use of multi-core systems
+98. B) False - Because good design considers trade-offs and specific requirements
+99. C) Start with a nil slice and let `append` handle the growth - Because this is the most efficient and idiomatic approach
+100. B) Humans / Machines - Because software is written by humans for machines to execute, but optimized for humans to maintain
 ---
 **Score Interpretation:**
-- **90-100:** Ultimate Go Expert - You have mastered mechanical sympathy and can optimize at the hardware level
-- **80-89:** Advanced Go Engineer - Strong understanding of runtime behavior and performance characteristics
-- **70-79:** Intermediate Go Developer - Good grasp of fundamentals but needs more depth in optimization
-- **60-69:** Junior Go Programmer - Basic understanding but significant gaps in advanced concepts
-- **Below 60:** Needs Fundamental Review - Return to Go basics before attempting advanced topics
-**Key Takeaways:**
-- This exam tests not just Go syntax, but the *why* behind Go's design decisions
-- Mechanical sympathy is about understanding the cost of every operation
-- The best Go code is often simple, readable, and leverages the runtime effectively
-- Performance comes from understanding hardware, not just language features
+- 90-100: Expert Level
+- 80-89: Advanced Level
+- 70-79: Intermediate Level
+- 60-69: Junior Level
+- Below 60: Needs Improvement
+
+Good luck with your Go recruitment process!
 **Next Steps:**
 - Review missed questions and study the underlying concepts
 - Practice profiling real applications to identify bottlenecks

@@ -1373,109 +1373,109 @@ D) Use manual testing only
 ---
 ## Answers
 **1-25:**
-1. A) Go is ideal for microservices due to low memory footprint
-2. A) To handle request-scoped values and cancellation
-3. A) Use global variables for configuration
-4. B) timeout
-5. A) Go prefers constructor injection
-6. A) To provide structured logging
-7. B) log.Info("Processing user", "userID", userID)
-8. A) 8080
-9. A) Use environment variables for configuration
-10. A) To handle OS signals
-11. A) Ignore errors
-12. A) error: invalid id
-13. A) Use exponential backoff
-14. A) To execute actions at regular intervals
-15. A) Use external libraries like Hystrix
-16. A) 0123456789
-17. A) Use token bucket algorithm
-18. A) To provide rate limiting
-19. B) Log everything
-20. A) true
-21. A) Use function chaining
-22. D) All of the above
-23. D) All of the above
-24. A) before handler
-25. A) Handle SIGTERM and SIGINT signals
+1. A) Go is ideal for microservices due to low memory footprint - Because Go's compiled binaries are small and have excellent performance characteristics
+2. A) To handle request-scoped values and cancellation - Because context manages request lifecycle and cancellation across API boundaries
+3. A) Use global variables for configuration - Because global configuration creates tight coupling and makes testing difficult
+4. B) timeout - Because the context times out after 100ms, while the timer waits 200ms
+5. A) Go prefers constructor injection - Because Go encourages explicit dependency injection through constructors
+6. A) To provide structured logging - Because structured logging allows machine-readable log entries with key-value pairs
+7. B) log.Info("Processing user", "userID", userID) - Because structured logging uses key-value pairs for better searchability
+8. A) 8080 - Because 8080 is the conventional port for HTTP development servers
+9. A) Use environment variables for configuration - Because environment variables provide flexibility across deployment environments
+10. A) To handle OS signals - Because signal.Notify allows graceful shutdown by handling system signals
+11. A) Ignore errors - Because ignoring errors is a bad practice that can lead to silent failures
+12. A) error: invalid id - Because the validation returns an error for invalid input
+13. A) Use exponential backoff - Because exponential backoff prevents overwhelming the service during retries
+14. A) To execute actions at regular intervals - Because ticker triggers actions at fixed time intervals
+15. A) Use external libraries like Hystrix - Because circuit breakers prevent cascading failures in distributed systems
+16. A) 0123456789 - Because the ticker fires every second for 10 seconds
+17. A) Use token bucket algorithm - Because token bucket provides controlled rate limiting with burst capacity
+18. A) To provide rate limiting - Because rate limiting prevents service overload and abuse
+19. B) Log everything - Because excessive logging can impact performance and create noise
+20. A) true - Because the circuit breaker should trip when failure rate exceeds threshold
+21. A) Use function chaining - Because middleware chains provide clean request processing pipeline
+22. D) All of the above - Because middleware handles all these concerns in HTTP applications
+23. D) All of the above - Because graceful shutdown requires handling all these aspects
+24. A) before handler - Because middleware executes before the main handler in the chain
+25. A) Handle SIGTERM and SIGINT signals - Because these signals indicate termination requests from the system
 **26-50:**
-26. A) It provides a generic database interface
-27. A) To reuse database connections
-28. D) db.Connect()
-29. B) Panic
-30. A) Use db.Begin() to start transactions
-31. A) To handle NULL values from database
-32. D) All of the above
-33. A) {ID:1 Name:John}
-34. A) GORM is a popular ORM
-35. A) To manage schema changes
-36. C) Flyway (Java-only)
-37. A) function defined
-38. A) Use go-redis library
-39. A) To manage Redis connections
-40. D) All of the above
-41. A) value true
-42. A) Use os package for file operations
-43. D) It's deprecated
-44. D) All of the above
-45. A) 5 5
-46. A) Use encoding/json package
-47. A) To control JSON field names
-48. D) All of the above
-49. A) {"name":"John","age":30}
-50. A) Use gopkg.in/yaml.v3 package
+26. A) It provides a generic database interface - Because database/sql provides a universal interface for SQL databases
+27. A) To reuse database connections - Because connection pooling reduces overhead of creating new connections
+28. D) db.Connect() - Because there is no standard db.Connect() function in database/sql
+29. B) Panic - Because using a closed database connection causes a panic
+30. A) Use db.Begin() to start transactions - Because Begin() starts a new transaction from a connection
+31. A) To handle NULL values from database - Because sql.Null types properly handle database NULL values
+32. D) All of the above - Because prepared statements provide all these benefits for database operations
+33. A) {ID:1 Name:John} - Because the code scans the database row into the struct fields
+34. A) GORM is a popular ORM - Because GORM is widely used for object-relational mapping in Go
+35. A) To manage schema changes - Because migration tools handle database schema evolution
+36. C) Flyway (Java-only) - Because Flyway is a Java-based migration tool, not Go-native
+37. A) function defined - Because the code defines a function but doesn't execute it
+38. A) Use go-redis library - Because go-redis is the standard Redis client library for Go
+39. A) To manage Redis connections - Because connection pooling manages Redis connection lifecycle
+40. D) All of the above - Because Redis supports all these data types and operations
+41. A) value true - Because the Redis SET command with NX option sets the value if key doesn't exist
+42. A) Use os package for file operations - Because os provides basic file system operations
+43. D) It's deprecated - Because ioutil is deprecated in favor of os and io packages
+44. D) All of the above - Because file operations require all these error handling considerations
+45. A) 5 5 - Because the program reads the file content and prints it
+46. A) Use encoding/json package - Because encoding/json is the standard JSON library in Go
+47. A) To control JSON field names - Because struct tags customize JSON serialization behavior
+48. D) All of the above - Because JSON encoding supports all these data types and operations
+49. A) {"name":"John","age":30} - Because the program encodes the struct into JSON format
+50. A) Use gopkg.in/yaml.v3 package - Because this is the standard YAML library for Go
 **51-75:**
-51. A) Use http.Client for HTTP requests
-52. A) To prevent hanging requests
-53. C) FETCH
-54. A) Server starting on :8080
-55. A) Use http.Server for advanced configuration
-56. A) To process requests before handlers
-57. A) func(http.Handler) http.Handler
-58. A) Middleware defined
-59. A) Use http.ServeMux for basic routing
-60. D) All of the above
-61. D) All of the above
-62. A) home
-63. A) Use gorilla/websocket package
-64. A) To enable real-time communication
-65. D) All of the above
-66. A) {Type:chat Data:hello}
-67. A) Use google.golang.org/grpc package
-68. A) To define service interfaces
-69. D) All of the above
-70. A) Service: user, Service: order, Service: payment
-71. A) Use HTTP methods appropriately
-72. A) To indicate request results
-73. D) All of the above
-74. A) {Status:200 Data:success}
-75. A) Use OpenAPI/Swagger specifications
+51. A) Use http.Client for HTTP requests - Because http.Client provides HTTP request functionality
+52. A) To prevent hanging requests - Because timeouts prevent requests from blocking indefinitely
+53. C) FETCH - Because the code demonstrates HTTP request operations
+54. A) Server starting on :8080 - Because the server starts and listens on port 8080
+55. A) Use http.Server for advanced configuration - Because http.Server offers comprehensive server configuration options
+56. A) To process requests before handlers - Because middleware wraps handlers to add functionality
+57. A) func(http.Handler) http.Handler - Because this is the correct signature for HTTP middleware
+58. A) Middleware defined - Because the code shows middleware function definition
+59. A) Use http.ServeMux for basic routing - Because ServeMux provides simple HTTP request routing
+60. D) All of the above - Because HTTP servers support all these routing patterns
+61. D) All of the above - Because middleware can handle all these concerns in web applications
+62. A) home - Because the route matches the home path
+63. A) Use gorilla/websocket package - Because this is the standard WebSocket library for Go
+64. A) To enable real-time communication - Because WebSockets support bidirectional real-time messaging
+65. D) All of the above - Because WebSockets provide all these capabilities for real-time applications
+66. A) {Type:chat Data:hello} - Because the message is encoded as JSON with type and data fields
+67. A) Use google.golang.org/grpc package - Because this is the official gRPC library for Go
+68. A) To define service interfaces - Because .proto files define service contracts and message types
+69. D) All of the above - Because gRPC provides all these benefits for distributed systems
+70. A) Service: user, Service: order, Service: payment - Because the client calls multiple services
+71. A) Use HTTP methods appropriately - Because REST uses HTTP verbs to represent operations
+72. A) To indicate request results - Because HTTP status codes communicate request outcomes
+73. D) All of the above - Because REST APIs support all these design principles
+74. A) {Status:200 Data:success} - Because the response includes status and data fields
+75. A) Use OpenAPI/Swagger specifications - Because OpenAPI provides standardized API documentation
 **76-100:**
-76. A) Validate all inputs
-77. A) To prevent injection attacks
-78. D) Using HTTPS
-79. A) true
-80. A) Use crypto package for cryptographic operations
-81. A) To store passwords securely
-82. D) All of the above
-83. A) qbtt
-84. A) Use crypto/tls package
-85. A) To secure communications
-86. D) All of the above
-87. A) Secure protocol: https
-88. A) Use multi-stage builds for Docker images
-89. A) To reduce image size
-90. A) Valid multi-stage build
-91. A) Database: postgres
-92. A) Use GitHub Actions for CI/CD
-93. A) To automate build and deployment
-94. D) All of the above
-95. A) Step 1: test, Step 2: build, Step 3: deploy
-96. A) Use Prometheus for metrics
-97. A) To monitor performance and health
-98. D) All of the above
-99. A) Error rate: 1.00%
-100. A) Implement comprehensive testing
+76. A) Validate all inputs - Because input validation prevents security vulnerabilities and data corruption
+77. A) To prevent injection attacks - Because proper input validation prevents SQL, XSS, and other injection attacks
+78. D) Using HTTPS - Because HTTPS encrypts data in transit preventing eavesdropping and tampering
+79. A) true - Because TLS certificates should be properly validated to prevent man-in-the-middle attacks
+80. A) Use crypto package for cryptographic operations - Because Go's crypto package provides secure cryptographic primitives
+81. A) To store passwords securely - Because bcrypt provides secure password hashing with salt
+82. D) All of the above - Because secure authentication requires all these security measures
+83. A) qbtt - Because the Caesar cipher shifts each letter by 1 position
+84. A) Use crypto/tls package - Because this package provides TLS/SSL functionality for secure communications
+85. A) To secure communications - Because TLS encrypts network communications preventing eavesdropping
+86. D) All of the above - Because secure communication requires all these security practices
+87. A) Secure protocol: https - Because HTTPS provides encrypted communication over HTTP
+88. A) Use multi-stage builds for Docker images - Because multi-stage builds reduce final image size and attack surface
+89. A) To reduce image size - Because smaller images are more secure and efficient
+90. A) Valid multi-stage build - Because the syntax correctly defines multiple build stages
+91. A) Database: postgres - Because PostgreSQL is a robust, production-ready database
+92. A) Use GitHub Actions for CI/CD - Because GitHub Actions provides integrated CI/CD for Go projects
+93. A) To automate build and deployment - Because automation reduces human error and improves reliability
+94. D) All of the above - Because CI/CD provides all these benefits for software development
+95. A) Step 1: test, Step 2: build, Step 3: deploy - Because this represents a typical deployment pipeline
+96. A) Use Prometheus for metrics - Because Prometheus is the standard for monitoring Go applications
+97. A) To monitor performance and health - Because monitoring ensures application reliability and performance
+98. D) All of the above - Because comprehensive monitoring requires all these components
+99. A) Error rate: 1.00% - Because the calculation shows 1 error out of 100 requests
+100. A) Implement comprehensive testing - Because testing ensures code quality and prevents regressions
 ---
 **Score Interpretation:**
 - 90-100: Expert Level - Ready for senior Go positions

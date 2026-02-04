@@ -1268,109 +1268,109 @@ D) Only go.mod is required
 ---
 ## Answers
 **1-25:**
-1. A) nil
-2. D) int x = 10
-3. A) 0 0
-4. B) Go uses a concurrent mark-and-sweep garbage collector
-5. A) To initialize package-level variables
-6. C) defer
-7. A) Creates new values of maps, slices, and channels
-8. B) Interfaces are implicitly satisfied
-9. B) [1 99 3]
-10. D) list
-11. A) nil
-12. B) It can return only index or only value
-13. A) 1
-14. C) my_package
-15. A) Chooses between multiple channel operations
-16. A) Structs can have methods
-17. A) hello
-18. D) while
-19. A) To execute a function call after the surrounding function returns
-20. B) Go uses error values returned from functions
-21. B) memory address
-22. C) const x := 10
-23. A) nil
-24. B) It may modify the original slice if capacity allows
-25. A) 0
+1. A) nil - Because in Go, the zero value of a slice type is nil, not an empty slice
+2. D) int x = 10 - Because this is C-style syntax and not valid in Go; Go uses var keyword or := for declaration
+3. A) 0 0 - Because len() and cap() on a nil slice both return 0
+4. B) Go uses a concurrent mark-and-sweep garbage collector - Because Go implements a tri-color mark-and-sweep GC that runs concurrently with the program
+5. A) To initialize package-level variables - Because init() functions are called before main() to set up package state
+6. C) defer - Because defer statements are used to schedule function calls to be executed after the surrounding function returns
+7. A) Creates new values of maps, slices, and channels - Because make() creates initialized values for these reference types, while new() only allocates memory
+8. B) Interfaces are implicitly satisfied - Because Go uses structural typing; types automatically implement interfaces if they have the required methods
+9. B) [1 99 3] - Because append() modifies the slice, and the original slice at index 1 gets updated to 99
+10. D) list - Because 'list' is not a built-in collection type in Go (unlike slice, map, array)
+11. A) nil - Because reading from a closed channel returns the zero value for the channel type
+12. B) It can return only index or only value - Because range over slices can use either single value (index) or double value (index, element)
+13. A) 1 - Because the goroutine increments x to 1, then the main goroutine reads it
+14. C) my_package - Because Go package names should be short, lowercase, and descriptive
+15. A) Chooses between multiple channel operations - Because select allows waiting on multiple channel operations simultaneously
+16. A) Structs can have methods - Because both structs and pointers can have methods in Go
+17. A) hello - Because strings are immutable in Go, so the original string is not modified
+18. D) while - Because 'while' is not a keyword in Go; Go uses 'for' for all loops
+19. A) To execute a function call after the surrounding function returns - Because defer schedules function calls to be executed in LIFO order
+20. B) Go uses error values returned from functions - Because Go's error handling approach uses explicit error returns rather than exceptions
+21. B) memory address - Because the & operator returns the memory address of a variable
+22. C) const x := 10 - Because const declarations cannot use := syntax; they must use const keyword with explicit type or inference
+23. A) nil - Because attempting to read from a nil map causes a panic at runtime
+24. B) It may modify the original slice if capacity allows - Because append can modify the underlying array if there's enough capacity
+25. A) 0 - Because the zero value of an int in Go is 0
 **26-50:**
-26. B) Goroutines are managed by the Go runtime
-27. A) To synchronize access to shared resources
-28. A) close(ch)
-29. A) 1
-30. B) It provides cancellation and timeout capabilities
-31. A) 5
-32. D) func (s map[string]int) Method()
-33. A) To represent any type
-34. B) recover() can only be called in a deferred function
-35. A) 20
-36. A) `json:"name"`
-37. A) To wait for a collection of goroutines to finish
-38. A) It's used for runtime type inspection
-39. A) [1 2 4 5]
-40. D) // +build "linux"
-41. A) To set the maximum number of CPUs
-42. B) It provides duration and time types
-43. A) 1 2
-44. D) All of the above
-45. A) To read data from a source
-46. B) It can sort any collection that implements sort.Interface
-47. C) 0 a 1 b 2 c
-48. D) \d
-49. A) To bypass type safety
-50. B) It provides benchmarking capabilities
+26. B) Goroutines are managed by the Go runtime - Because the Go runtime handles goroutine scheduling, not the OS directly
+27. A) To synchronize access to shared resources - Because mutexes prevent race conditions by ensuring only one goroutine accesses critical sections at a time
+28. A) close(ch) - Because close() is the built-in function to close a channel in Go
+29. A) 1 - Because the select statement chooses the first ready case, and the timer fires after 1ms
+30. B) It provides cancellation and timeout capabilities - Because context allows canceling operations and setting timeouts
+31. A) 5 - Because the loop runs 5 times, incrementing i from 0 to 4
+32. D) func (s map[string]int) Method() - Because maps are reference types and cannot have pointer receivers
+33. A) To represent any type - Because interface{} is the empty interface that can hold values of any type
+34. B) recover() can only be called in a deferred function - Because recover() only works within deferred functions to catch panics
+35. A) 20 - Because the goroutine increments x 20 times before the main goroutine reads it
+36. A) `json:"name"` - Because struct tags control JSON field names using the json package
+37. A) To wait for a collection of goroutines to finish - Because WaitGroup is designed to synchronize multiple goroutines
+38. A) It's used for runtime type inspection - Because reflection allows examining type information at runtime
+39. A) [1 2 4 5] - Because the code removes the element at index 2 (value 3) from the slice
+40. D) // +build "linux" - Because build constraints control platform-specific compilation
+41. A) To set the maximum number of CPUs - Because GOMAXPROCS controls the number of OS threads that can execute simultaneously
+42. B) It provides duration and time types - Because the time package offers time.Duration and time.Time types
+43. A) 1 2 - Because the channels are unbuffered, so each send blocks until the corresponding receive
+44. D) All of the above - Because make() is required for all these reference types before use
+45. A) To read data from a source - Because io.Reader is the interface for reading data from various sources
+46. B) It can sort any collection that implements sort.Interface - Because sort.Sort requires implementing Len(), Less(), and Swap() methods
+47. C) 0 a 1 b 2 c - Because the range iterates over the map, printing each key-value pair
+48. D) \d - Because \d is the regex pattern for matching digits in Go
+49. A) To bypass type safety - Because unsafe package allows direct memory manipulation bypassing Go's type system
+50. B) It provides benchmarking capabilities - Because testing.B provides benchmarking functionality for performance testing
 **51-75:**
-51. B) It can panic if the type is wrong
-52. A) To reuse objects to reduce garbage collection pressure
-53. D) All of the above
-54. A) true
-55. A) It allows calling C code from Go
-56. A) To create a cancelable context
-57. D) int<-chan
-58. B) default
-59. A) It provides low-level runtime information
-60. A) To encode and decode JSON data
-61. D) All of the above
-62. A) a 1 b 2 (order may vary)
-63. A) It's used for command-line flag parsing
-64. A) To close resources
-65. D) s[::]
-66. A) 3 3
-67. D) It's thread-safe by default
-68. A) To handle arbitrary-precision arithmetic
-69. A) switch v := i.(type) { ... }
-70. A) 12
-71. A) It provides HTTP client and server implementations
-72. A) To efficiently build strings
-73. D) "a"
-74. A) 3 5
-75. A) It provides a generic database interface
+51. B) It can panic if the type is wrong - Because type assertions panic if the type doesn't match the asserted type
+52. A) To reuse objects to reduce garbage collection pressure - Because sync.Pool allows object reuse to minimize allocations
+53. D) All of the above - Because unsafe pointers provide all these low-level capabilities
+54. A) true - Because the race detector can detect data races in concurrent code
+55. A) It allows calling C code from Go - Because cgo enables interoperability between Go and C code
+56. A) To create a cancelable context - Because context.WithCancel creates a context that can be canceled
+57. D) int<-chan - Because this is the correct syntax for a receive-only channel of integers
+58. B) default - Because the default case in select executes when no other case is ready
+59. A) It provides low-level runtime information - Because runtime package offers low-level system and runtime information
+60. A) To encode and decode JSON data - Because encoding/json is the standard package for JSON operations
+61. D) All of the above - Because reflection provides all these capabilities for runtime type inspection
+62. A) a 1 b 2 (order may vary) - Because map iteration order is not guaranteed in Go
+63. A) It's used for command-line flag parsing - Because flag package provides command-line argument parsing
+64. A) To close resources - Because defer ensures cleanup happens even when panics occur
+65. D) s[::] - Because this is invalid slice syntax in Go (Python-style)
+66. A) 3 3 - Because both slices share the same underlying array after assignment
+67. D) It's thread-safe by default - Because Go's map operations are not thread-safe without synchronization
+68. A) To handle arbitrary-precision arithmetic - Because big package provides arbitrary-precision math operations
+69. A) switch v := i.(type) { ... } - Because this is the correct syntax for type switches in Go
+70. A) 12 - Because the program calculates the sum of the slice elements
+71. A) It provides HTTP client and server implementations - Because net/http offers comprehensive HTTP functionality
+72. A) To efficiently build strings - Because strings.Builder minimizes allocations when building strings
+73. D) "a" - Because the string contains only one character
+74. A) 3 5 - Because the program prints the length and capacity of the slice
+75. A) It provides a generic database interface - Because database/sql offers a universal interface for SQL databases
 **76-100:**
-76. A) Go uses a happens-before relationship
-77. A) To provide atomic operations
-78. D) All of the above
-79. A) 3
-80. A) It traces execution events
-81. D) All of the above
-82. C) go mod update
-83. D) Deadlock
-84. A) It finds suspicious constructs
-85. A) To format Go source code
-86. D) All of the above
-87. A) nil
-88. A) It detects race conditions
-89. D) All of the above
-90. C) p++
-91. A) 1
-92. A) It measures test coverage
-93. A) To generate code
-94. D) All of the above
-95. A) 42
-96. A) It links symbols across packages
-97. D) All of the above
-98. D) -debug
-99. A) false
-100. A) go.mod stores module requirements, go.sum stores checksums
+76. A) Go uses a happens-before relationship - Because Go's memory model defines synchronization points using happens-before relationships
+77. A) To provide atomic operations - Because sync/atomic provides lock-free atomic operations for simple synchronization
+78. D) All of the above - Because atomic operations provide all these benefits for concurrent programming
+79. A) 3 - Because the atomic increment operation safely increments the counter
+80. A) It traces execution events - Because execution tracing reveals runtime behavior and performance characteristics
+81. D) All of the above - Because Go tooling provides all these development and debugging capabilities
+82. C) go mod update - Because there is no standard `go mod update` command in Go modules
+83. D) Deadlock - Because the code creates a circular dependency causing deadlock
+84. A) It finds suspicious constructs - Because go vet analyzes code for potential issues and bugs
+85. A) To format Go source code - Because gofmt standardizes code formatting across Go projects
+86. D) All of the above - Because Go tooling supports all these development workflows
+87. A) nil - Because attempting to receive from a nil channel blocks forever
+88. A) It detects race conditions - Because the race detector identifies data races in concurrent code
+89. D) All of the above - Because testing provides all these benefits for code quality
+90. C) p++ - Because ++ is a valid increment operator in Go
+91. A) 1 - Because the program demonstrates basic pointer operations
+92. A) It measures test coverage - Because test coverage shows which code is exercised by tests
+93. A) To generate code - Because go generate runs tools to generate source code automatically
+94. D) All of the above - Because code generation provides all these development benefits
+95. A) 42 - Because the program calculates the result of the computation
+96. A) It links symbols across packages - Because the linker resolves symbol references between compiled packages
+97. D) All of the above - Because Go's build system provides all these capabilities
+98. D) -debug - Because this is not a standard Go build flag
+99. A) false - Because the condition evaluates to false in this context
+100. A) go.mod stores module requirements, go.sum stores checksums - Because go.mod manages dependencies while go.sum ensures integrity
 ---
 **Score Interpretation:**
 - 90-100: Expert Level

@@ -1334,109 +1334,109 @@ D) Use reflection for regular operations
 ---
 ## Answers
 **1-25:**
-1. B) Goroutines are scheduled by the Go runtime using M:N scheduling
-2. A) 1 2
-3. E) All of above
-4. A) To ensure a function is executed exactly once
-5. A) 1 2
-6. B) Mutex is not reentrant
-7. A) To provide non-blocking communication
-8. A) 12 (order may vary)
-9. A) make(chan int, 10)
-10. A) To create a context with timeout
-11. C) default
-12. B) It may miss some race conditions
-13. A) To allow multiple readers or one writer
-14. A) helloworld
-15. D) go := myFunction()
-16. A) To yield the processor
-17. A) 012
-18. C) Channels can be buffered or unbuffered
-19. A) To notify goroutines of conditions
-20. A) 1 or 2 (non-deterministic)
-21. D) All of the above
-22. A) To create a cancelable context
-23. A) 1 true
-24. A) It uses a fixed number of goroutines
-25. A) 12 or 21 (order may vary)
+1. B) Goroutines are scheduled by the Go runtime using M:N scheduling - Because Go uses M:N scheduling where M goroutines run on N OS threads
+2. A) 1 2 - Because the goroutine sends 1 then 2, and main receives them in order
+3. E) All of above - Because all listed operations are valid channel operations in Go
+4. A) To ensure a function is executed exactly once - Because sync.Once guarantees a function is called only once regardless of concurrent calls
+5. A) 1 2 - Because the unbuffered channel blocks until both sender and receiver are ready
+6. B) Mutex is not reentrant - Because Go's mutex cannot be locked multiple times by the same goroutine without deadlocking
+7. A) To provide non-blocking communication - Because select with default allows non-blocking channel operations
+8. A) 12 (order may vary) - Because both goroutines send values, and main receives them as they become available
+9. A) make(chan int, 10) - Because make() with buffer size creates a buffered channel
+10. A) To create a context with timeout - Because context.WithTimeout creates a context that cancels after specified duration
+11. C) default - Because the default case in select executes when no other case is ready
+12. B) It may miss some race conditions - Because the race detector only catches races that occur during testing, not all possible races
+13. A) To allow multiple readers or one writer - Because RWMutex allows concurrent reads or exclusive writes
+14. A) helloworld - Because the program prints "hello" then "world" without newlines
+15. D) go := myFunction() - Because 'go' is a keyword and cannot be used as a variable name
+16. A) To yield the processor - Because runtime.Gosched() yields the processor allowing other goroutines to run
+17. A) 012 - Because the buffered channel allows all sends without blocking, then receives print values
+18. C) Channels can be buffered or unbuffered - Because Go supports both buffered and unbuffered channels
+19. A) To notify goroutines of conditions - Because condition variables sync.Cond allow goroutines to wait for conditions
+20. A) 1 or 2 (non-deterministic) - Because the race condition makes the output unpredictable
+21. D) All of the above - Because atomic operations provide all these benefits for concurrent programming
+22. A) To create a cancelable context - Because context.WithCancel creates a context that can be canceled
+23. A) 1 true - Because the channel has capacity 1, so first send succeeds, second blocks
+24. A) It uses a fixed number of goroutines - Because worker pool pattern uses a fixed set of goroutines
+25. A) 12 or 21 (order may vary) - Because the select chooses randomly when multiple cases are ready
 **26-50:**
-26. B) It uses concurrent collection
-27. A) To force garbage collection
-28. C) Use pointers everywhere
-29. A) true
-30. A) It determines if variables escape to heap
-31. A) To provide a concurrent-safe map
-32. A) 5 5
-33. A) Avoid unnecessary allocations
-34. A) To read memory statistics
-35. A) 1000
-36. A) Stacks grow automatically
-37. A) To efficiently build strings
-38. B) 3 4
-39. B) Use pointer receivers
-40. A) To set finalizers for objects
-41. A) 99
-42. A) Go handles alignment automatically
-43. A) To efficiently build byte slices
-44. A) nil
-45. D) All of the above
-46. A) To set maximum number of CPUs
-47. A) 1
-48. A) Stack allocation is faster
-49. A) To reuse objects
-50. A) 15 20
+26. B) It uses concurrent collection - Because Go's GC runs concurrently with the program to minimize pause times
+27. A) To force garbage collection - Because runtime.GC() triggers a garbage collection cycle
+28. C) Use pointers everywhere - Because excessive pointer usage can increase GC pressure and reduce performance
+29. A) true - Because the race detector can detect data races in concurrent code
+30. A) It determines if variables escape to heap - Because escape analysis determines if variables can stay on stack or must go to heap
+31. A) To provide a concurrent-safe map - Because sync.Map is designed for concurrent access without external synchronization
+32. A) 5 5 - Because both goroutines increment the counter, but due to race conditions the result is unpredictable
+33. A) Avoid unnecessary allocations - Because object pooling reduces garbage collection overhead
+34. A) To read memory statistics - Because runtime.MemStats provides detailed memory usage information
+35. A) 1000 - Because the loop runs 1000 iterations, incrementing the counter
+36. A) Stacks grow automatically - Because Go's goroutine stacks start small and grow as needed
+37. A) To efficiently build strings - Because strings.Builder minimizes allocations when building strings
+38. B) 3 4 - Because the program prints the values after the goroutine modifies them
+39. B) Use pointer receivers - Because pointer receivers can modify the receiver and avoid copying
+40. A) To set finalizers for objects - Because runtime.SetFinalizer sets functions to run when objects are garbage collected
+41. A) 99 - Because the loop runs 100 times but starts from 0, so i goes from 0 to 99
+42. A) Go handles alignment automatically - Because Go ensures proper memory alignment for all types
+43. A) To efficiently build byte slices - Because bytes.Builder minimizes allocations when building byte slices
+44. A) nil - Because reading from a nil channel blocks forever
+45. D) All of the above - Because context provides all these capabilities for managing concurrent operations
+46. A) To set maximum number of CPUs - Because GOMAXPROCS controls CPU utilization
+47. A) 1 - Because the WaitGroup waits for one goroutine to finish
+48. A) Stack allocation is faster - Because stack allocation is simpler and doesn't require garbage collection
+49. A) To reuse objects - Because object pooling reduces allocation overhead and GC pressure
+50. A) 15 20 - Because the program calculates the sum and product of the array elements
 **51-75:**
-51. A) Generics are available since Go 1.18
-52. D) All of the above
-53. A) 2
-54. D) All of the above
-55. D) All of the above
-56. A) 10
-57. A) They are specified in square brackets
-58. A) To represent underlying types
-59. A) 1
-60. D) All of the above
-61. A) Runtime type inspection
-62. A) Int
-63. A) It bypasses type safety
-64. A) To interface with C code
-65. A) 2
-66. A) They control conditional compilation
-67. A) To generate code
-68. A) 10
-69. D) All of the above
-70. D) All of the above
-71. A) test
-72. A) It's written in Plan 9 assembly
-73. A) To link symbols across packages
-74. A) 3
-75. A) It loads Go plugins at runtime
+51. A) Generics are available since Go 1.18 - Because Go 1.18 introduced generics as a major language feature
+52. D) All of the above - Because generics provide all these benefits for type-safe programming
+53. A) 2 - Because the generic function works with any type, including integers
+54. D) All of the above - Because type parameters provide all these capabilities for generic programming
+55. D) All of the above - Because constraints enable all these generic programming patterns
+56. A) 10 - Because the generic function processes the slice of integers
+57. A) They are specified in square brackets - Because Go uses [T any] syntax for type parameters
+58. A) To represent underlying types - Because any constraint allows any type to be used
+59. A) 1 - Because the generic function returns the length of the slice
+60. D) All of the above - Because generics support all these use cases in Go
+61. A) Runtime type inspection - Because reflection allows examining types at runtime
+62. A) Int - Because the type assertion extracts the concrete type from interface
+63. A) It bypasses type safety - Because unsafe allows direct memory manipulation
+64. A) To interface with C code - Because cgo enables Go to call C functions and use C libraries
+65. A) 2 - Because the program demonstrates basic C interoperability
+66. A) They control conditional compilation - Because build tags allow platform-specific code
+67. A) To generate code - Because go generate runs tools to generate source code
+68. A) 10 - Because the generated code processes the input correctly
+69. D) All of the above - Because build tools provide all these development capabilities
+70. D) All of the above - Because Go tooling supports all these development workflows
+71. A) test - Because go test runs unit tests in Go packages
+72. A) It's written in Plan 9 assembly - Because Go runtime uses Plan 9 assembly for low-level operations
+73. A) To link symbols across packages - Because linkers resolve symbol references between object files
+74. A) 3 - Because the program demonstrates basic linking functionality
+75. A) It loads Go plugins at runtime - Because plugin package enables dynamic code loading
 **76-100:**
-76. A) Tests must be in files ending with _test.go
-77. A) To report test failures
-78. A) func TestXxx(t *testing.T)
-79. A) PASS
-80. A) They use the testing.B type
-81. A) To run tests
-82. A) func BenchmarkXxx(b *testing.B)
-83. A) To manage test main functions
-84. A) They use slices of test cases
-85. A) PASS
-86. A) func ExampleXxx()
-87. A) To find suspicious constructs
-88. A) It's enabled with -race flag
-89. A) To measure test coverage
-90. A) go test -cover
-91. A) To manage modules
-92. A) They replace GOPATH
-93. A) PASS with subtest
-94. D) All of the above
-95. A) To store checksums
-96. B) It uses semantic versioning with minimal version selection
-97. A) To manage workspaces
-98. D) All of the above
-99. A) PASS with parallel test
-100. A) Keep functions small and focused
+76. A) Tests must be in files ending with _test.go - Because Go's testing framework automatically recognizes test files by this naming convention
+77. A) To report test failures - Because t.Error() and t.Fatal() report test failures with descriptive messages
+78. A) func TestXxx(t *testing.T) - Because this is the standard signature for test functions in Go
+79. A) PASS - Because this indicates successful test execution
+80. A) They use the testing.B type - Because testing.B provides benchmarking functionality and timer control
+81. A) To run tests - Because go test is the command for executing Go tests
+82. A) func BenchmarkXxx(b *testing.B) - Because this is the standard signature for benchmark functions
+83. A) To manage test main functions - Because TestMain allows setup and teardown for test suites
+84. A) They use slices of test cases - Because table-driven tests use slices of input/output pairs
+85. A) PASS with subtest - Because subtests allow organizing tests into logical groups
+86. A) func ExampleXxx() - Because example functions demonstrate code usage and are verified by tests
+87. A) To find suspicious constructs - Because go vet analyzes code for potential issues and bugs
+88. A) It's enabled with -race flag - Because the race detector is enabled with go test -race
+89. A) To measure test coverage - Because test coverage shows which code is exercised by tests
+90. A) go test -cover - Because this flag enables test coverage analysis
+91. A) To manage modules - Because go mod provides commands for module management
+92. A) They replace GOPATH - Because modules provide better dependency management than GOPATH
+93. A) PASS with subtest - Because t.Run() creates subtests for better organization
+94. D) All of the above - Because modules provide all these benefits for dependency management
+95. A) To store checksums - Because go.sum ensures dependency integrity and prevents tampering
+96. B) It uses semantic versioning with minimal version selection - Because MVS ensures reproducible builds
+97. A) To manage workspaces - Because go work enables multi-module development
+98. D) All of the above - Because Go tooling provides all these development capabilities
+99. A) PASS with parallel test - Because t.Parallel() enables concurrent test execution
+100. A) Keep functions small and focused - Because small functions are easier to test, understand, and maintain
 ---
 **Score Interpretation:**
 - 90-100: Expert Level
