@@ -1,10 +1,4 @@
----
-title: "Go Recruitment Exam - Batch 4: Ultimate Go Style"
-date: 2026-02-02T23:30:00Z
-tags: ["go", "programming", "interview", "exam", "ardanlabs", "ultimate-go"]
-categories: ["Ultimate Go Series"]
-description: "Full Go Recruitment Exam - Batch 4 of 4. 100 multiple-choice questions following Ardan Labs Ultimate Go certification style, focusing on mechanical sympathy, runtime behavior, and engineering trade-offs."
----
+
 
 Welcome to the final batch of our comprehensive Go Recruitment Exam. This exam consists of 100 multiple-choice questions covering expert-level Go concepts, real-world scenarios, and production-ready patterns following the Ardan Labs methodology.
 
