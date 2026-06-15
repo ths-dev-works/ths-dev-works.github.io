@@ -1,11 +1,11 @@
 ---
 title: "Services & Consulting"
-description: "Fractional CTO, Technical Advisor, and Go Development services. Platform Engineering, SRE, microservices, Kubernetes, and cloud infrastructure consulting for startups and SMEs."
-keywords: ["Fractional CTO", "Technical Advisor", "Go Development", "Platform Engineering", "SRE", "Microservices", "Kubernetes Consulting"]
+description: "Fractional CTO, Technical Advisor, and Go Development services. Platform Engineering, SRE, microservices, Kubernetes, and cloud infrastructure consulting for startups and SMEs. AI solutions consulting with pragmatic use case filtering."
+keywords: ["Fractional CTO", "Technical Advisor", "Go Development", "Platform Engineering", "SRE", "Microservices", "Kubernetes Consulting", "AI Consulting", "AI Strategy"]
 layout: "simple"
 date: 2026-02-04
 lastmod: 2026-06-15
-tags: ["services", "consulting", "fractional-cto"]
+tags: ["services", "consulting", "fractional-cto", "ai"]
 categories: ["services"]
 images: ["images/cover.jpg"]
 type: page
@@ -38,6 +38,13 @@ When performance and concurrency are critical.
 * **Microservices Development:** Fast, typed, and documented APIs.
 * **CLI Tools:** Creating internal utilities to accelerate your team's productivity.
 * **Legacy Refactoring:** Rewriting performance bottlenecks (Node/Python) in Go.
+
+### 4. AI Solutions Consulting
+Pragmatic AI guidance—focus on solving real problems, not chasing hype.
+* **AI Use Case Filtering:** Analyze your requirements to determine if AI is actually needed. Many problems are better solved with traditional algorithms, databases, or simple automation.
+* **AI Strategy Assessment:** If AI is appropriate, identify the right approach (LLMs, ML models, rule-based systems) and implementation strategy.
+* **AI Implementation Planning:** Design and plan AI integrations that are maintainable, cost-effective, and aligned with business goals.
+* **AI vs. Traditional Trade-offs:** Help you understand when to use AI and when simpler solutions are more reliable and cost-effective.
 
 ---
 

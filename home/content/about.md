@@ -1,7 +1,7 @@
 ---
 title: "About / Stack"
 description: "Senior Backend Engineer and Technical Advisor. Expert in Go (Golang), microservices, Kubernetes, SRE, and cloud-native systems. Experience in fintech and telecom."
-keywords: ["Go Developer", "Backend Engineer", "Technical Advisor", "Golang", "Microservices", "Kubernetes", "SRE", "Cloud Infrastructure"]
+keywords: ["Go Specialist", "Backend Engineer", "Technical Advisor", "Golang", "Microservices", "Kubernetes", "SRE", "Cloud Infrastructure"]
 layout: "simple"
 date: 2026-02-04
 lastmod: 2026-06-15
@@ -40,6 +40,14 @@ Backend Engineer experienced in building scalable, cloud-native systems in finte
 - **Prometheus** — Metrics collection and alerting
 - **Grafana** — Visualization and dashboards
 - **Loki** — Log aggregation
+- **OpenTelemetry** — Unified observability data collection (traces, metrics, logs)
+
+### AI & LLM Tools
+- **OpenAI & Anthropic API** — Integration of market-leading LLMs for advanced reasoning and automation capabilities.
+- **LangChain** — Framework for orchestration and development of LLM-based applications.
+- **Ollama** — Local execution and inference of open-source models, ensuring privacy and cost reduction.
+- **Vector Databases (Qdrant & PGVector)** — Vector storage and semantic search for advanced RAG implementations.
+- **LangSmith / Phoenix** — Observability tools for execution tracing, cost control, and hallucination auditing.
 
 ### Core Competencies
 - Distributed systems architecture

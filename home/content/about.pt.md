@@ -40,6 +40,14 @@ Engenheiro Backend com experiência na construção de sistemas escaláveis e cl
 - **Prometheus** — Recolha de métricas e alertas
 - **Grafana** — Visualização e dashboards
 - **Loki** — Agregação de logs
+- **OpenTelemetry** — Recolha unificada de dados de observabilidade (traces, métricas, logs)
+
+### Ferramentas de IA & LLM
+- **OpenAI & Anthropic API** — Integração de LLMs líderes de mercado para capacidades avançadas de raciocínio e automação.
+- **LangChain** — Framework para orquestração e desenvolvimento de aplicações baseadas em LLM.
+- **Ollama** — Execução local e inferência de modelos open-source, garantindo privacidade e redução de custos.
+- **Bases de Dados Vetoriais (Qdrant & PGVector)** — Armazenamento vetorial e pesquisa semântica para implementações avançadas de RAG.
+- **LangSmith / Phoenix** — Ferramentas de observabilidade para tracing de execução, controlo de custos e auditoria de alucinações.
 
 ### Competências Principais
 - Arquitetura de sistemas distribuídos

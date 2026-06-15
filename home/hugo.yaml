@@ -127,16 +127,16 @@ taxonomies:
 # Global Parameters
 params:
   env: production
-  description: "Go Developer & Technical Advisor. Specialized in backend development, microservices, SRE, and Platform Engineering. Expert in Go, Kubernetes, cloud infrastructure, and scalable systems."
+  description: "Go Specialist & Technical Advisor. Specialized in backend development, microservices, SRE, and Platform Engineering. Expert in Go, Kubernetes, cloud infrastructure, and scalable systems."
   author: "Tiago Simões"
-  keywords: ["Go developer", "Golang", "Technical Advisor", "SRE", "Platform Engineering", "Microservices", "Kubernetes", "Backend Development", "Cloud Infrastructure", "DevOps"]
+  keywords: ["Go Specialist", "Golang", "Technical Advisor", "SRE", "Platform Engineering", "Microservices", "Kubernetes", "Backend Development", "Cloud Infrastructure", "DevOps"]
   defaultTheme: auto # auto, dark, light
   
   # Profile Mode (shared across languages)
   profileMode:
     enabled: true
     title: "Tiago Simões"
-    subtitle: "Go Developer • Technical Advisor"
+    subtitle: "Go Specialist • Technical Advisor"
     imageUrl: "/images/avatar.png"
     imageWidth: 120
     imageHeight: 120
@@ -209,8 +209,8 @@ params:
   ShowBreadCrumbs: true
   
   # Open Graph / Twitter Cards
-  ogTitle: "THS Dev Works - Go Developer & Technical Advisor"
-  ogDescription: "Go Developer & Technical Advisor. Specialized in backend development, microservices, SRE, and Platform Engineering."
+  ogTitle: "THS Dev Works - Go Specialist & Technical Advisor"
+  ogDescription: "Go Specialist & Technical Advisor. Specialized in backend development, microservices, SRE, and Platform Engineering."
   ogImage: "images/cover.jpg"
   ogSiteName: "THS Dev Works"
   

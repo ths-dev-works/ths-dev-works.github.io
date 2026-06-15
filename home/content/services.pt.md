@@ -1,11 +1,11 @@
 ---
 title: "Serviços e Consultoria"
-description: "Fractional CTO, Consultor Técnico e serviços de Desenvolvimento Go. Engenharia de Plataforma, SRE, microserviços, Kubernetes e consultoria em infraestrutura cloud para startups e PME."
-keywords: ["Fractional CTO", "Consultor Técnico", "Desenvolvimento Go", "Engenharia de Plataforma", "SRE", "Microserviços", "Consultoria Kubernetes"]
+description: "Fractional CTO, Consultor Técnico e serviços de Desenvolvimento Go. Engenharia de Plataforma, SRE, microserviços, Kubernetes e consultoria em infraestrutura cloud para startups e PME. Consultoria de soluções de IA com filtragem pragmática de casos de uso."
+keywords: ["Fractional CTO", "Consultor Técnico", "Desenvolvimento Go", "Engenharia de Plataforma", "SRE", "Microserviços", "Consultoria Kubernetes", "Consultoria IA", "Estratégia IA"]
 layout: "simple"
 date: 2026-02-04
 lastmod: 2026-06-15
-tags: ["servicos", "consultoria", "fractional-cto"]
+tags: ["servicos", "consultoria", "fractional-cto", "ia"]
 categories: ["servicos"]
 images: ["images/cover.jpg"]
 type: page
@@ -38,6 +38,13 @@ Quando o desempenho e a concorrência são críticos.
 * **Desenvolvimento de Microserviços:** APIs rápidas, tipadas e documentadas.
 * **Ferramentas CLI:** Criação de utilitários internos para acelerar a produtividade da sua equipa.
 * **Refatorização de Legacy:** Reescrever gargalos de performance (Node/Python) em Go.
+
+### 4. Consultoria de Soluções de IA
+Orientação pragmática de IA—foco em resolver problemas reais, não perseguir *hype*.
+* **Filtragem de Casos de Uso de IA:** Analisar requisitos para determinar se IA é realmente necessária. Muitos problemas são melhor resolvidos com algoritmos tradicionais, bases de dados ou automação simples.
+* **Avaliação de Estratégia de IA:** Se IA for apropriada, identificar a abordagem correta (LLMs, modelos ML, sistemas baseados em regras) e estratégia de implementação.
+* **Planeamento de Implementação de IA:** Desenhar e planear integrações de IA que são mantíveis, rentáveis e alinhadas com objetivos de negócio.
+* **Trade-offs IA vs. Tradicional:** Ajudar a entender quando usar IA e quando soluções mais simples são mais fiáveis e rentáveis.
 
 ---
 
