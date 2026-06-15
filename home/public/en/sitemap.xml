@@ -2,26 +2,175 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ths-dev-works.github.io/categories/about/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/about/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/about/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/about/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/categories/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/categories/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/consulting/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/fractional-cto/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/fractional-cto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/fractional-cto/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/resume/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/categories/services/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/services/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://ths-dev-works.github.io/services/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/services/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/stack/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/stack/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/stack/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/tags/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://ths-dev-works.github.io/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://ths-dev-works.github.io/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ths-dev-works.github.io/"
+                />
+  </url><url>
     <loc>https://ths-dev-works.github.io/tags/behavior/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/best-practices/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/cancellation/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/channels/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/composition/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/concurrency/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/context/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -35,18 +184,28 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/custom-types/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/data-oriented-design/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/embedded-types/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/error-handling/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/go/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -58,99 +217,115 @@
                 href="https://ths-dev-works.github.io/tags/go/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-context-semantics/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-mechanics-context-package-semantics/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-context-semantics/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-mechanics-sem%C3%A2ntica-do-pacote-context/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-context-semantics/"
+                href="https://ths-dev-works.github.io/2026/02/go-mechanics-context-package-semantics/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-error-handling-part2/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-mechanics-custom-error-types-part-ii/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-error-handling-part2/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-tipos-de-erro-personalizados-parte-ii/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-error-handling-part2/"
+                href="https://ths-dev-works.github.io/2026/02/go-mechanics-custom-error-types-part-ii/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-error-handling-part1/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-mechanics-error-handling-fundamentals-part-i/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-error-handling-part1/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-fundamentos-de-tratamento-de-erros-parte-i/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-error-handling-part1/"
+                href="https://ths-dev-works.github.io/2026/02/go-mechanics-error-handling-fundamentals-part-i/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-interface-semantics/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-mechanics-interface-semantics/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-interface-semantics/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-mechanics-sem%C3%A2ntica-de-interfaces/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-interface-semantics/"
+                href="https://ths-dev-works.github.io/2026/02/go-mechanics-interface-semantics/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-interface-values-valueless/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-mechanics-interface-values-are-valueless/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-interface-values-valueless/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-mechanics-valores-de-interface-s%C3%A3o-sem-valor/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-interface-values-valueless/"
+                href="https://ths-dev-works.github.io/2026/02/go-mechanics-interface-values-are-valueless/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-methods-interfaces-embedded-types/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-mechanics-methods-interfaces-and-embedded-types/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-methods-interfaces-embedded-types/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-m%C3%A9todos-interfaces-e-tipos-embutidos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-methods-interfaces-embedded-types/"
+                href="https://ths-dev-works.github.io/2026/02/go-mechanics-methods-interfaces-and-embedded-types/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-channels-behavior/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-mechanics-the-behavior-of-channels/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-channels-behavior/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-mechanics-o-comportamento-dos-canais/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-channels-behavior/"
+                href="https://ths-dev-works.github.io/2026/02/go-mechanics-the-behavior-of-channels/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/goroutines/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -164,6 +339,8 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/interface/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -177,6 +354,8 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/interfaces/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -190,6 +369,8 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/method-sets/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -203,12 +384,18 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/methods/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/polymorphism/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/posts/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -222,38 +409,18 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/semantics/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/signaling/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ths-dev-works.github.io/tags/</loc>
-    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ths-dev-works.github.io/tags/"
-                />
-  </url><url>
-    <loc>https://ths-dev-works.github.io/</loc>
-    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ths-dev-works.github.io/"
-                />
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/timeouts/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -267,15 +434,23 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/value-vs-pointer/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/architecture/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/data-structures/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/design/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -287,86 +462,100 @@
                 href="https://ths-dev-works.github.io/tags/design/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-data-oriented-design/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-mechanics-data-oriented-design-and-semantics/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-data-oriented-design/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-mechanics-design-orientado-a-dados-e-sem%C3%A2ntica/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-data-oriented-design/"
+                href="https://ths-dev-works.github.io/2026/02/go-mechanics-data-oriented-design-and-semantics/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-memory-profiling/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-mechanics-memory-profiling-and-performance-optimization/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-memory-profiling/"
+                href="https://ths-dev-works.github.io/pt/2026/02/mec%C3%A2nica-go-memory-profiling-e-otimiza%C3%A7%C3%A3o-de-performance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-memory-profiling/"
+                href="https://ths-dev-works.github.io/2026/02/go-mechanics-memory-profiling-and-performance-optimization/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-slices/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-mechanics-understanding-slices-and-internals/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-slices/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-mechanics-entendendo-slices-e-internals/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-slices/"
+                href="https://ths-dev-works.github.io/2026/02/go-mechanics-understanding-slices-and-internals/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-scheduling-part1/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-scheduling-part-i-os-scheduler-fundamentals/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-i-fundamentos-do-os-scheduler/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-scheduling-part1/"
+                href="https://ths-dev-works.github.io/2026/02/go-scheduling-part-i-os-scheduler-fundamentals/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-scheduling-part2/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-scheduling-part-ii-go-scheduler/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-ii-go-scheduler/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-scheduling-part2/"
+                href="https://ths-dev-works.github.io/2026/02/go-scheduling-part-ii-go-scheduler/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-scheduling-part3/</loc>
+    <loc>https://ths-dev-works.github.io/2026/02/go-scheduling-part-iii-concurrency/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/"
+                href="https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-iii-concorr%C3%AAncia/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-scheduling-part3/"
+                href="https://ths-dev-works.github.io/2026/02/go-scheduling-part-iii-concurrency/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/internals/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -380,9 +569,13 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/memory/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/os/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -396,6 +589,8 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/performance/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -409,6 +604,8 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/profiling/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -422,6 +619,8 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/scheduling/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -435,6 +634,8 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/workloads/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -448,6 +649,8 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/ardanlabs/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -461,9 +664,13 @@
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/career/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/gc/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -475,34 +682,40 @@
                 href="https://ths-dev-works.github.io/tags/gc/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-escape-analysis/</loc>
+    <loc>https://ths-dev-works.github.io/2026/01/go-mechanics-escape-analysis-and-the-heap/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-escape-analysis/"
+                href="https://ths-dev-works.github.io/pt/2026/01/mec%C3%A2nica-go-an%C3%A1lise-de-escape-e-o-heap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-escape-analysis/"
+                href="https://ths-dev-works.github.io/2026/01/go-mechanics-escape-analysis-and-the-heap/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/go-stacks-and-pointers/</loc>
+    <loc>https://ths-dev-works.github.io/2026/01/go-mechanics-stacks-pointers-and-frame-boundaries/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/go-stacks-and-pointers/"
+                href="https://ths-dev-works.github.io/pt/2026/01/mec%C3%A2nica-go-stacks-ponteiros-e-limites-de-frame/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/go-stacks-and-pointers/"
+                href="https://ths-dev-works.github.io/2026/01/go-mechanics-stacks-pointers-and-frame-boundaries/"
                 />
   </url><url>
     <loc>https://ths-dev-works.github.io/tags/golang/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -514,53 +727,19 @@
                 href="https://ths-dev-works.github.io/tags/golang/"
                 />
   </url><url>
-    <loc>https://ths-dev-works.github.io/posts/ultimate-go-roadmap/</loc>
+    <loc>https://ths-dev-works.github.io/2026/01/roadmap-48-hour-intensive-for-the-ultimate-go-certification/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/posts/ultimate-go-roadmap/"
+                href="https://ths-dev-works.github.io/pt/2026/01/roadmap-intensivo-de-48-horas-para-a-certifica%C3%A7%C3%A3o-ultimate-go/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ths-dev-works.github.io/posts/ultimate-go-roadmap/"
-                />
-  </url><url>
-    <loc>https://ths-dev-works.github.io/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ths-dev-works.github.io/about/"
-                />
-  </url><url>
-    <loc>https://ths-dev-works.github.io/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ths-dev-works.github.io/categories/"
-                />
-  </url><url>
-    <loc>https://ths-dev-works.github.io/services/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://ths-dev-works.github.io/pt/services/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ths-dev-works.github.io/services/"
+                href="https://ths-dev-works.github.io/2026/01/roadmap-48-hour-intensive-for-the-ultimate-go-certification/"
                 />
   </url>
 </urlset>

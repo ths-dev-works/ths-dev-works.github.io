@@ -1216,10 +1216,11 @@ C) To handle errors
 D) To manage memory
 
 **90. Which of the following is a valid Dockerfile pattern?**
+
 ```dockerfile
 FROM golang:1.21-alpine AS builder
 WORKDIR /app
-COPY . .
+COPY .. .
 RUN go build -o main .
 FROM alpine:latest
 RUN apk --no-cache add ca-certificates

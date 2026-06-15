@@ -3,6 +3,13 @@ title: "Serviços e Consultoria"
 description: "Fractional CTO, Consultor Técnico e serviços de Desenvolvimento Go. Engenharia de Plataforma, SRE, microserviços, Kubernetes e consultoria em infraestrutura cloud para startups e PME."
 keywords: ["Fractional CTO", "Consultor Técnico", "Desenvolvimento Go", "Engenharia de Plataforma", "SRE", "Microserviços", "Consultoria Kubernetes"]
 layout: "simple"
+date: 2026-02-04
+lastmod: 2026-06-15
+tags: ["servicos", "consultoria", "fractional-cto"]
+categories: ["servicos"]
+images: ["images/cover.jpg"]
+type: page
+draft: false
 ---
 
 Não vendo apenas código ou infraestrutura. Vendo a **paz de espírito** de saber que a sua tecnologia escala, é segura e não custa uma fortuna.

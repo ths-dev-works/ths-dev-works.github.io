@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/tags/custom-types/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: Custom Error Types - Part II</title>
-      <link>https://ths-dev-works.github.io/posts/go-error-handling-part2/</link>
+      <link>https://ths-dev-works.github.io/2026/02/go-mechanics-custom-error-types-part-ii/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/go-error-handling-part2/</guid>
+      <guid>https://ths-dev-works.github.io/2026/02/go-mechanics-custom-error-types-part-ii/</guid>
       <description>&lt;p&gt;In Go, custom error types provide additional context when simple error messages aren&amp;rsquo;t sufficient. Here&amp;rsquo;s a concise summary of custom error types from William Kennedy&amp;rsquo;s Ardan Labs article.&lt;/p&gt;
 &lt;h2 id=&#34;when-to-use-custom-error-types&#34;&gt;When to Use Custom Error Types&lt;/h2&gt;
 &lt;h3 id=&#34;use-simple-errors-when&#34;&gt;Use Simple Errors When&lt;/h3&gt;

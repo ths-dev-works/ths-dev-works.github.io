@@ -15,37 +15,37 @@
     <atom:link href="https://ths-dev-works.github.io/pt/tags/concorr%C3%AAncia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: O Comportamento dos Canais</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-channels-behavior/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-o-comportamento-dos-canais/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-channels-behavior/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-o-comportamento-dos-canais/</guid>
       <description>Compreender os canais Go como mecanismos de sinalização para orquestrar goroutines e escrever melhor código concorrente.</description>
     </item>
     <item>
       <title>Go Mechanics: Semântica do Pacote Context</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-context-semantics/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-sem%C3%A2ntica-do-pacote-context/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-context-semantics/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-sem%C3%A2ntica-do-pacote-context/</guid>
       <description>Compreender as semânticas essenciais do pacote context de Go para cancelamento adequado, timeouts e gestão de dados com escopo de requisição.</description>
     </item>
     <item>
       <title>Go Scheduling: Parte I - Fundamentos do OS Scheduler</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-i-fundamentos-do-os-scheduler/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-i-fundamentos-do-os-scheduler/</guid>
       <description>Compreender os fundamentos do scheduler do sistema operacional que formam a base para o sistema de scheduling do Go.</description>
     </item>
     <item>
       <title>Go Scheduling: Parte II - Go Scheduler</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-ii-go-scheduler/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-ii-go-scheduler/</guid>
       <description>Compreender a mecânica do scheduler do Go e como se baseia nos fundamentos do scheduler do SO.</description>
     </item>
     <item>
       <title>Go Scheduling: Parte III - Concorrência</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-iii-concorr%C3%AAncia/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-iii-concorr%C3%AAncia/</guid>
       <description>Compreender quando e como usar concorrência efetivamente em Go com diferentes tipos de workload.</description>
     </item>
   </channel>

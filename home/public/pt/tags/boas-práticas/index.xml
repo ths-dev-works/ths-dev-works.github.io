@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/pt/tags/boas-pr%C3%A1ticas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go: Fundamentos de Tratamento de Erros - Parte I</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-error-handling-part1/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-fundamentos-de-tratamento-de-erros-parte-i/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-error-handling-part1/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-fundamentos-de-tratamento-de-erros-parte-i/</guid>
       <description>&lt;p&gt;Resumo conciso dos fundamentos de tratamento de erros de Go do artigo de William Kennedy da Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;interface-error&#34;&gt;Interface Error&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;error&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;interface&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -101,9 +101,9 @@
     </item>
     <item>
       <title>Go: Tipos de Erro Personalizados - Parte II</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-error-handling-part2/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-tipos-de-erro-personalizados-parte-ii/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-error-handling-part2/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-tipos-de-erro-personalizados-parte-ii/</guid>
       <description>&lt;p&gt;Em Go, tipos de erro personalizados fornecem contexto adicional quando mensagens simples não são suficientes. Resumo conciso de tipos de erro personalizados do artigo de William Kennedy da Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;quando-usar-tipos-de-erro-personalizados&#34;&gt;Quando Usar Tipos de Erro Personalizados&lt;/h2&gt;
 &lt;h3 id=&#34;use-erros-simples-quando&#34;&gt;Use Erros Simples Quando&lt;/h3&gt;

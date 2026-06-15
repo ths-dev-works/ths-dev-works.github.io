@@ -27,12 +27,6 @@ languages:
           weight: 30
     params:
       profileMode:
-        enabled: true
-        title: "Tiago Simões"
-        subtitle: "Go Developer • Technical Advisor"
-        imageUrl: "/images/avatar.png"
-        imageWidth: 120
-        imageHeight: 120
         buttons:
           - name: Services
             url: /services/
@@ -58,12 +52,6 @@ languages:
           weight: 30
     params:
       profileMode:
-        enabled: true
-        title: "Tiago Simões"
-        subtitle: "Go Developer • Technical Advisor"
-        imageUrl: "/images/avatar.png"
-        imageWidth: 120
-        imageHeight: 120
         buttons:
           - name: Serviços
             url: /pt/services/
@@ -75,6 +63,42 @@ enableRobotsTXT: true
 canonicalURL: true
 build:
   writeStats: true
+
+# Sitemap
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
+# Permalinks
+permalinks:
+  posts: /:year/:month/:slug/
+
+# Privacy
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: false
+    anonymizeIP: true
+    respectDoNotTrack: true
+  youtube:
+    privacyEnhanced: true
+  twitter:
+    enableDNT: true
+  instagram:
+    simple: true
+
+# Security / CSP
+security:
+  csp:
+    defaultSrc: ["'self'"]
+    scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https://www.google-analytics.com", "https://giscus.app", "https://plausible.io"]
+    styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"]
+    fontSrc: ["'self'", "https://fonts.gstatic.com"]
+    imgSrc: ["'self'", "data:", "https:", "https://www.google-analytics.com"]
+    connectSrc: ["'self'", "https://www.google-analytics.com", "https://giscus.app", "https://plausible.io"]
+    frameSrc: ["'self'", "https://giscus.app", "https://www.youtube.com"]
 
 minify:
   disableXML: true
@@ -95,6 +119,11 @@ outputs:
     - RSS
     - JSON
 
+# Taxonomies
+taxonomies:
+  category: categories
+  tag: tags
+
 # Global Parameters
 params:
   env: production
@@ -102,6 +131,15 @@ params:
   author: "Tiago Simões"
   keywords: ["Go developer", "Golang", "Technical Advisor", "SRE", "Platform Engineering", "Microservices", "Kubernetes", "Backend Development", "Cloud Infrastructure", "DevOps"]
   defaultTheme: auto # auto, dark, light
+  
+  # Profile Mode (shared across languages)
+  profileMode:
+    enabled: true
+    title: "Tiago Simões"
+    subtitle: "Go Developer • Technical Advisor"
+    imageUrl: "/images/avatar.png"
+    imageWidth: 120
+    imageHeight: 120
   
   # Assets
   assets:
@@ -121,8 +159,43 @@ params:
 
   # UI/UX Settings
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
+  ShowToc: true
+  TocOpen: false
+  ShowCodeCopyButtons: true
+  
+  # Search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+  
+  # Comments (Giscus)
+  comments:
+    enabled: true
+    provider: giscus
+    giscus:
+      repo: "ths-dev-works/ths-dev-works"
+      repoId: ""
+      category: "Announcements"
+      categoryId: ""
+      mapping: "pathname"
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: "bottom"
+      lang: "en"
+      theme: "preferred_color_scheme"
+  
+  # Edit Post Link
+  editPost:
+    URL: "https://github.com/ths-dev-works/ths-dev-works/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
   
   # Footer
   footer:

@@ -3,6 +3,13 @@ title: "About / Stack"
 description: "Senior Backend Engineer and Technical Advisor. Expert in Go (Golang), microservices, Kubernetes, SRE, and cloud-native systems. Experience in fintech and telecom."
 keywords: ["Go Developer", "Backend Engineer", "Technical Advisor", "Golang", "Microservices", "Kubernetes", "SRE", "Cloud Infrastructure"]
 layout: "simple"
+date: 2026-02-04
+lastmod: 2026-06-15
+tags: ["about", "stack", "resume"]
+categories: ["about"]
+images: ["images/cover.jpg"]
+type: page
+draft: false
 ---
 
 ## Profile
@@ -34,7 +41,7 @@ Backend Engineer experienced in building scalable, cloud-native systems in finte
 - **Grafana** — Visualization and dashboards
 - **Loki** — Log aggregation
 
-### Core Strengths
+### Core Competencies
 - Distributed systems architecture
 - Microservices design and implementation
 - Performance optimization
@@ -48,38 +55,38 @@ Backend Engineer experienced in building scalable, cloud-native systems in finte
 ### Lux Condominios — Technical Advisor
 **Jul 2025 - Present | Remote | Contractor**
 
-- Act as a Technical Advisor, bridging communication between business stakeholders and the development team
-- Support requirement definition, guide technical decisions, and ensure scalable, maintainable solutions built with Node.js, React, and MongoDB
+- Acting as Technical Advisor, bridging communication between business stakeholders and the development team
+- Supporting requirements definition, guiding technical decisions, and ensuring scalable and maintainable solutions built with Node.js, React, and MongoDB
 
 ### Fintech Company — Backend Engineer
-**Jul 2024 - Present | Remote | Contractor**  
-*Note: Company name withheld due to NDA*
-| Contractor
+**Jul 2024 - Present | Remote | Contractor**
+*Note: Company name omitted due to NDA*
+
 - Led development of core business services
 - Migrated monorepo from Node.js to Go microservices architecture
 - Migrated messaging infrastructure from NSQ to NATS
-- Design and build Go microservices using gRPC, Kubernetes, GCP, NATS, and PostgreSQL
+- Designed and built Go microservices using gRPC, Kubernetes, GCP, NATS, and PostgreSQL
 
 ### 1Global — Backend Engineer
 **May 2022 - Jun 2024 | Hybrid**
 
-- Owned Entitlement Server handling customer provisioning at scale
+- Responsible for the Entitlement Server that manages customer provisioning at scale
 - Built and secured Go microservices using gRPC, Kubernetes, AWS, Vault, and PostgreSQL
 - Improved observability with Prometheus, Loki, and Grafana
-- Enhanced system reliability and reduced operational incidents through improved monitoring and CI/CD automation
+- Increased system reliability and reduced operational incidents through better monitoring and CI/CD automation
 
 ### LovelyStay — Backend Engineer
 **Nov 2021 - May 2022 | Remote**
 
-- Migrated property-management system to Docker + Drone.io
+- Migrated property management system to Docker + Drone.io
 - Built backend features using Node.js, TypeScript, and PostgreSQL
 
 ---
 
 ## Education
 
-**B.Sc., Computer Science & Engineering**  
-NOVA University Lisbon (Erasmus, Palermo)
+**Bachelor's Degree, Computer Engineering**
+Universidade NOVA de Lisboa (Erasmus, Palermo)
 
 ---
 
@@ -88,4 +95,3 @@ NOVA University Lisbon (Erasmus, Palermo)
 - **Email:** [ths.dev.works@gmail.com](mailto:ths.dev.works@gmail.com)
 - **LinkedIn:** [linkedin.com/in/tiago17546](https://linkedin.com/in/tiago17546)
 - **GitHub:** [github.com/ths-dev-works](https://github.com/ths-dev-works)
-

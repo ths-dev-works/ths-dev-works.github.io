@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/tags/signaling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: The Behavior of Channels</title>
-      <link>https://ths-dev-works.github.io/posts/go-channels-behavior/</link>
+      <link>https://ths-dev-works.github.io/2026/02/go-mechanics-the-behavior-of-channels/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/go-channels-behavior/</guid>
+      <guid>https://ths-dev-works.github.io/2026/02/go-mechanics-the-behavior-of-channels/</guid>
       <description>Understanding Go channels as signaling mechanisms for orchestrating goroutines and writing better concurrent code.</description>
     </item>
   </channel>

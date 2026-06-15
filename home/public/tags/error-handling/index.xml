@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/tags/error-handling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: Custom Error Types - Part II</title>
-      <link>https://ths-dev-works.github.io/posts/go-error-handling-part2/</link>
+      <link>https://ths-dev-works.github.io/2026/02/go-mechanics-custom-error-types-part-ii/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/go-error-handling-part2/</guid>
+      <guid>https://ths-dev-works.github.io/2026/02/go-mechanics-custom-error-types-part-ii/</guid>
       <description>&lt;p&gt;In Go, custom error types provide additional context when simple error messages aren&amp;rsquo;t sufficient. Here&amp;rsquo;s a concise summary of custom error types from William Kennedy&amp;rsquo;s Ardan Labs article.&lt;/p&gt;
 &lt;h2 id=&#34;when-to-use-custom-error-types&#34;&gt;When to Use Custom Error Types&lt;/h2&gt;
 &lt;h3 id=&#34;use-simple-errors-when&#34;&gt;Use Simple Errors When&lt;/h3&gt;
@@ -164,9 +164,9 @@
     </item>
     <item>
       <title>Go Mechanics: Error Handling Fundamentals - Part I</title>
-      <link>https://ths-dev-works.github.io/posts/go-error-handling-part1/</link>
+      <link>https://ths-dev-works.github.io/2026/02/go-mechanics-error-handling-fundamentals-part-i/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/go-error-handling-part1/</guid>
+      <guid>https://ths-dev-works.github.io/2026/02/go-mechanics-error-handling-fundamentals-part-i/</guid>
       <description>&lt;p&gt;In Go, error handling uses a simple interface-based approach. Here&amp;rsquo;s a concise summary of Go&amp;rsquo;s error handling fundamentals from William Kennedy&amp;rsquo;s Ardan Labs article.&lt;/p&gt;
 &lt;h2 id=&#34;the-error-interface&#34;&gt;The Error Interface&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;error&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;interface&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;

@@ -15,23 +15,23 @@
     <atom:link href="https://ths-dev-works.github.io/pt/tags/scheduling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Scheduling: Parte I - Fundamentos do OS Scheduler</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-i-fundamentos-do-os-scheduler/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-i-fundamentos-do-os-scheduler/</guid>
       <description>Compreender os fundamentos do scheduler do sistema operacional que formam a base para o sistema de scheduling do Go.</description>
     </item>
     <item>
       <title>Go Scheduling: Parte II - Go Scheduler</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-ii-go-scheduler/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-ii-go-scheduler/</guid>
       <description>Compreender a mecânica do scheduler do Go e como se baseia nos fundamentos do scheduler do SO.</description>
     </item>
     <item>
       <title>Go Scheduling: Parte III - Concorrência</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-iii-concorr%C3%AAncia/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-iii-concorr%C3%AAncia/</guid>
       <description>Compreender quando e como usar concorrência efetivamente em Go com diferentes tipos de workload.</description>
     </item>
   </channel>

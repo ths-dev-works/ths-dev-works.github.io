@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/tags/methods/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: Methods, Interfaces and Embedded Types</title>
-      <link>https://ths-dev-works.github.io/posts/go-methods-interfaces-embedded-types/</link>
+      <link>https://ths-dev-works.github.io/2026/02/go-mechanics-methods-interfaces-and-embedded-types/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/go-methods-interfaces-embedded-types/</guid>
+      <guid>https://ths-dev-works.github.io/2026/02/go-mechanics-methods-interfaces-and-embedded-types/</guid>
       <description>&lt;p&gt;In Go, methods, interfaces, and embedded types create a powerful system for code organization using composition rather than inheritance. Here&amp;rsquo;s a concise summary of these fundamental mechanics from William Kennedy&amp;rsquo;s Ardan Labs article.&lt;/p&gt;
 &lt;h2 id=&#34;methods-in-go&#34;&gt;Methods in Go&lt;/h2&gt;
 &lt;h3 id=&#34;what-is-a-method&#34;&gt;What is a Method?&lt;/h3&gt;

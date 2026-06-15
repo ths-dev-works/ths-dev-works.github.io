@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/pt/tags/internals/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: Entendendo Slices e Internals</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-slices/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-entendendo-slices-e-internals/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-slices/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-entendendo-slices-e-internals/</guid>
       <description>&lt;p&gt;Em Go, slices são uma das estruturas de dados mais poderosas e frequentemente utilizadas. Elas fornecem uma forma flexível e eficiente de trabalhar com sequências de dados. Aqui está um resumo abrangente da mecânica de slices baseado no blog oficial do Go e insights da Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;arrays-a-fundação&#34;&gt;Arrays: A Fundação&lt;/h2&gt;
 &lt;p&gt;Antes de entender slices, devemos entender arrays. Arrays em Go são coleções de tamanho fixo com o tamanho sendo parte do tipo.&lt;/p&gt;</description>

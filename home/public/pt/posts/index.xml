@@ -15,37 +15,37 @@
     <atom:link href="https://ths-dev-works.github.io/pt/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: O Comportamento dos Canais</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-channels-behavior/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-o-comportamento-dos-canais/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-channels-behavior/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-o-comportamento-dos-canais/</guid>
       <description>Compreender os canais Go como mecanismos de sinalização para orquestrar goroutines e escrever melhor código concorrente.</description>
     </item>
     <item>
       <title>Go Mechanics: Semântica de Interfaces</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-interface-semantics/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-sem%C3%A2ntica-de-interfaces/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-interface-semantics/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-sem%C3%A2ntica-de-interfaces/</guid>
       <description>Compreender como as interfaces Go fornecem formas semânticas de valor e ponteiro, e as regras de method sets que garantem integridade.</description>
     </item>
     <item>
       <title>Go Mechanics: Semântica do Pacote Context</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-context-semantics/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-sem%C3%A2ntica-do-pacote-context/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-context-semantics/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-sem%C3%A2ntica-do-pacote-context/</guid>
       <description>Compreender as semânticas essenciais do pacote context de Go para cancelamento adequado, timeouts e gestão de dados com escopo de requisição.</description>
     </item>
     <item>
       <title>Go Mechanics: Valores de Interface São Sem Valor</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-interface-values-valueless/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-valores-de-interface-s%C3%A3o-sem-valor/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-interface-values-valueless/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-valores-de-interface-s%C3%A3o-sem-valor/</guid>
       <description>Compreender como as interfaces Go são sem valor e como permitem polimorfismo através do comportamento de dados concretos.</description>
     </item>
     <item>
       <title>Go: Fundamentos de Tratamento de Erros - Parte I</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-error-handling-part1/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-fundamentos-de-tratamento-de-erros-parte-i/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-error-handling-part1/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-fundamentos-de-tratamento-de-erros-parte-i/</guid>
       <description>&lt;p&gt;Resumo conciso dos fundamentos de tratamento de erros de Go do artigo de William Kennedy da Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;interface-error&#34;&gt;Interface Error&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;error&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;interface&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -129,9 +129,9 @@
     </item>
     <item>
       <title>Go: Métodos, Interfaces e Tipos Embutidos</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-methods-interfaces-embedded-types/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-m%C3%A9todos-interfaces-e-tipos-embutidos/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-methods-interfaces-embedded-types/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-m%C3%A9todos-interfaces-e-tipos-embutidos/</guid>
       <description>&lt;p&gt;Em Go, métodos, interfaces e tipos embutidos criam um sistema poderoso para organização de código usando composição em vez de herança. Resumo conciso desses fundamentos do artigo de William Kennedy da Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;métodos-em-go&#34;&gt;Métodos em Go&lt;/h2&gt;
 &lt;h3 id=&#34;o-que-é-um-método&#34;&gt;O que é um Método?&lt;/h3&gt;
@@ -177,9 +177,9 @@
     </item>
     <item>
       <title>Go: Tipos de Erro Personalizados - Parte II</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-error-handling-part2/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-tipos-de-erro-personalizados-parte-ii/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-error-handling-part2/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-tipos-de-erro-personalizados-parte-ii/</guid>
       <description>&lt;p&gt;Em Go, tipos de erro personalizados fornecem contexto adicional quando mensagens simples não são suficientes. Resumo conciso de tipos de erro personalizados do artigo de William Kennedy da Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;quando-usar-tipos-de-erro-personalizados&#34;&gt;Quando Usar Tipos de Erro Personalizados&lt;/h2&gt;
 &lt;h3 id=&#34;use-erros-simples-quando&#34;&gt;Use Erros Simples Quando&lt;/h3&gt;
@@ -326,9 +326,9 @@
     </item>
     <item>
       <title>Go Mechanics: Design Orientado a Dados e Semântica</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-data-oriented-design/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-design-orientado-a-dados-e-sem%C3%A2ntica/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-data-oriented-design/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-design-orientado-a-dados-e-sem%C3%A2ntica/</guid>
       <description>&lt;p&gt;Em Go, entender design orientado a dados e escolher entre semântica de valor e de ponteiro é fundamental para escrever software manutenível e performático. Aqui está um resumo abrangente da filosofia de design de Bill Kennedy sobre dados e semântica da Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;filosofias-de-design-a-fundação&#34;&gt;Filosofias de Design: A Fundação&lt;/h2&gt;
 &lt;h3 id=&#34;semântica-de-valor-vs-semântica-de-ponteiro&#34;&gt;Semântica de Valor vs. Semântica de Ponteiro&lt;/h3&gt;
@@ -337,48 +337,48 @@
     </item>
     <item>
       <title>Go Mechanics: Entendendo Slices e Internals</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-slices/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-entendendo-slices-e-internals/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-slices/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-entendendo-slices-e-internals/</guid>
       <description>&lt;p&gt;Em Go, slices são uma das estruturas de dados mais poderosas e frequentemente utilizadas. Elas fornecem uma forma flexível e eficiente de trabalhar com sequências de dados. Aqui está um resumo abrangente da mecânica de slices baseado no blog oficial do Go e insights da Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;arrays-a-fundação&#34;&gt;Arrays: A Fundação&lt;/h2&gt;
 &lt;p&gt;Antes de entender slices, devemos entender arrays. Arrays em Go são coleções de tamanho fixo com o tamanho sendo parte do tipo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Go Scheduling: Parte I - Fundamentos do OS Scheduler</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-i-fundamentos-do-os-scheduler/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part1/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-i-fundamentos-do-os-scheduler/</guid>
       <description>Compreender os fundamentos do scheduler do sistema operacional que formam a base para o sistema de scheduling do Go.</description>
     </item>
     <item>
       <title>Go Scheduling: Parte II - Go Scheduler</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-ii-go-scheduler/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part2/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-ii-go-scheduler/</guid>
       <description>Compreender a mecânica do scheduler do Go e como se baseia nos fundamentos do scheduler do SO.</description>
     </item>
     <item>
       <title>Go Scheduling: Parte III - Concorrência</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-iii-concorr%C3%AAncia/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-scheduling-part3/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-scheduling-parte-iii-concorr%C3%AAncia/</guid>
       <description>Compreender quando e como usar concorrência efetivamente em Go com diferentes tipos de workload.</description>
     </item>
     <item>
       <title>Mecânica Go: Memory Profiling e Otimização de Performance</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/mec%C3%A2nica-go-memory-profiling-e-otimiza%C3%A7%C3%A3o-de-performance/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/mec%C3%A2nica-go-memory-profiling-e-otimiza%C3%A7%C3%A3o-de-performance/</guid>
       <description>&lt;p&gt;Em Go, compreender as alocações de memória e o seu impacto na performance é crucial para escrever código eficiente. Aqui está um resumo abrangente dos princípios fundamentais de Bill Kennedy sobre Memory Profiling da série Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;o-processo-de-profiling&#34;&gt;O Processo de Profiling&lt;/h2&gt;
 &lt;p&gt;Memory profiling em Go ajuda a identificar onde as alocações estão a acontecer e porquê que os valores escapam para o heap. Isto é essencial para otimização de performance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mecânica Go: Análise de Escape e o Heap</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-escape-analysis/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/01/mec%C3%A2nica-go-an%C3%A1lise-de-escape-e-o-heap/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-escape-analysis/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/01/mec%C3%A2nica-go-an%C3%A1lise-de-escape-e-o-heap/</guid>
       <description>&lt;p&gt;Em Go, entender quando os valores escapam para o heap é crucial para escrever código performático. Aqui está um resumo abrangente dos princípios fundamentais de Bill Kennedy sobre Análise de Escape da série Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;o-heap-vs-stack&#34;&gt;O Heap vs. Stack&lt;/h2&gt;
 &lt;h3 id=&#34;memória-stack&#34;&gt;Memória Stack&lt;/h3&gt;
@@ -400,18 +400,18 @@
     </item>
     <item>
       <title>Mecânica Go: Stacks, Ponteiros e Limites de Frame</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-stacks-and-pointers/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/01/mec%C3%A2nica-go-stacks-ponteiros-e-limites-de-frame/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-stacks-and-pointers/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/01/mec%C3%A2nica-go-stacks-ponteiros-e-limites-de-frame/</guid>
       <description>&lt;p&gt;Em Go, &amp;ldquo;Simpatia Mecânica&amp;rdquo; começa com a compreensão de onde os seus dados vivem. Aqui está um resumo abrangente dos princípios fundamentais de Bill Kennedy sobre Stacks e Ponteiros da série Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;limites-de-frame-a-fundação&#34;&gt;Limites de Frame: A Fundação&lt;/h2&gt;
 &lt;p&gt;Cada função executa dentro de &lt;strong&gt;stack frames&lt;/strong&gt; - espaços de memória privados que fornecem isolamento e contexto. Quando uma função é chamada, Go faz a transição entre frames, copiando dados &amp;ldquo;por valor&amp;rdquo; através do limite.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Roadmap: Intensivo de 48 Horas para a Certificação Ultimate Go</title>
-      <link>https://ths-dev-works.github.io/pt/posts/ultimate-go-roadmap/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/01/roadmap-intensivo-de-48-horas-para-a-certifica%C3%A7%C3%A3o-ultimate-go/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/ultimate-go-roadmap/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/01/roadmap-intensivo-de-48-horas-para-a-certifica%C3%A7%C3%A3o-ultimate-go/</guid>
       <description>Meu plano de estudo de 2 dias para dominar e passar no exame de 100 questões da Ardan Labs.</description>
     </item>
   </channel>

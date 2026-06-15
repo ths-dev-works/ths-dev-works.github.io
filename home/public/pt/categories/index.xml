@@ -11,6 +11,21 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>pt</language>
+    <lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ths-dev-works.github.io/pt/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Servicos</title>
+      <link>https://ths-dev-works.github.io/pt/categories/servicos/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/categories/servicos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sobre</title>
+      <link>https://ths-dev-works.github.io/pt/categories/sobre/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ths-dev-works.github.io/pt/categories/sobre/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

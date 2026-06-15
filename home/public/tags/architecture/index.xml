@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: Data-Oriented Design and Semantics</title>
-      <link>https://ths-dev-works.github.io/posts/go-data-oriented-design/</link>
+      <link>https://ths-dev-works.github.io/2026/02/go-mechanics-data-oriented-design-and-semantics/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/go-data-oriented-design/</guid>
+      <guid>https://ths-dev-works.github.io/2026/02/go-mechanics-data-oriented-design-and-semantics/</guid>
       <description>&lt;p&gt;In Go, understanding data-oriented design and choosing between value and pointer semantics is fundamental to writing maintainable, performant software. Here&amp;rsquo;s a comprehensive summary of Bill Kennedy&amp;rsquo;s design philosophy on data and semantics from Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;design-philosophies-the-foundation&#34;&gt;Design Philosophies: The Foundation&lt;/h2&gt;
 &lt;h3 id=&#34;value-vs-pointer-semantics&#34;&gt;Value vs. Pointer Semantics&lt;/h3&gt;

@@ -3,6 +3,13 @@ title: "Services & Consulting"
 description: "Fractional CTO, Technical Advisor, and Go Development services. Platform Engineering, SRE, microservices, Kubernetes, and cloud infrastructure consulting for startups and SMEs."
 keywords: ["Fractional CTO", "Technical Advisor", "Go Development", "Platform Engineering", "SRE", "Microservices", "Kubernetes Consulting"]
 layout: "simple"
+date: 2026-02-04
+lastmod: 2026-06-15
+tags: ["services", "consulting", "fractional-cto"]
+categories: ["services"]
+images: ["images/cover.jpg"]
+type: page
+draft: false
 ---
 
 I don’t just sell code or infrastructure. I sell **peace of mind**—knowing your technology scales, is secure, and won't cost a fortune.

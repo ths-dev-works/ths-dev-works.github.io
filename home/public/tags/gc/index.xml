@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/tags/gc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: Escape Analysis and the Heap</title>
-      <link>https://ths-dev-works.github.io/posts/go-escape-analysis/</link>
+      <link>https://ths-dev-works.github.io/2026/01/go-mechanics-escape-analysis-and-the-heap/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/go-escape-analysis/</guid>
+      <guid>https://ths-dev-works.github.io/2026/01/go-mechanics-escape-analysis-and-the-heap/</guid>
       <description>&lt;p&gt;In Go, understanding when values escape to the heap is crucial for writing performant code. Here&amp;rsquo;s a comprehensive summary of Bill Kennedy&amp;rsquo;s core principles on Escape Analysis from the Ardan Labs series.&lt;/p&gt;
 &lt;h2 id=&#34;the-heap-vs-stack&#34;&gt;The Heap vs. Stack&lt;/h2&gt;
 &lt;h3 id=&#34;stack-memory&#34;&gt;Stack Memory&lt;/h3&gt;

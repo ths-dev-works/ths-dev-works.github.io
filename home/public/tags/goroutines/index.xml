@@ -15,16 +15,16 @@
     <atom:link href="https://ths-dev-works.github.io/tags/goroutines/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: The Behavior of Channels</title>
-      <link>https://ths-dev-works.github.io/posts/go-channels-behavior/</link>
+      <link>https://ths-dev-works.github.io/2026/02/go-mechanics-the-behavior-of-channels/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/go-channels-behavior/</guid>
+      <guid>https://ths-dev-works.github.io/2026/02/go-mechanics-the-behavior-of-channels/</guid>
       <description>Understanding Go channels as signaling mechanisms for orchestrating goroutines and writing better concurrent code.</description>
     </item>
     <item>
       <title>Go Scheduling: Part II - Go Scheduler</title>
-      <link>https://ths-dev-works.github.io/posts/go-scheduling-part2/</link>
+      <link>https://ths-dev-works.github.io/2026/02/go-scheduling-part-ii-go-scheduler/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/go-scheduling-part2/</guid>
+      <guid>https://ths-dev-works.github.io/2026/02/go-scheduling-part-ii-go-scheduler/</guid>
       <description>Understanding Go&amp;#39;s scheduler mechanics and how it builds upon OS scheduler fundamentals.</description>
     </item>
   </channel>

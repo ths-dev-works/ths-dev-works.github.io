@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/pt/tags/tipos-personalizados/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go: Tipos de Erro Personalizados - Parte II</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-error-handling-part2/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-tipos-de-erro-personalizados-parte-ii/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-error-handling-part2/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-tipos-de-erro-personalizados-parte-ii/</guid>
       <description>&lt;p&gt;Em Go, tipos de erro personalizados fornecem contexto adicional quando mensagens simples não são suficientes. Resumo conciso de tipos de erro personalizados do artigo de William Kennedy da Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;quando-usar-tipos-de-erro-personalizados&#34;&gt;Quando Usar Tipos de Erro Personalizados&lt;/h2&gt;
 &lt;h3 id=&#34;use-erros-simples-quando&#34;&gt;Use Erros Simples Quando&lt;/h3&gt;

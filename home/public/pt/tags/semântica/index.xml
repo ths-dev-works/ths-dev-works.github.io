@@ -15,16 +15,16 @@
     <atom:link href="https://ths-dev-works.github.io/pt/tags/sem%C3%A2ntica/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: Semântica de Interfaces</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-interface-semantics/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-sem%C3%A2ntica-de-interfaces/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-interface-semantics/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-sem%C3%A2ntica-de-interfaces/</guid>
       <description>Compreender como as interfaces Go fornecem formas semânticas de valor e ponteiro, e as regras de method sets que garantem integridade.</description>
     </item>
     <item>
       <title>Go Mechanics: Design Orientado a Dados e Semântica</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-data-oriented-design/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-design-orientado-a-dados-e-sem%C3%A2ntica/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-data-oriented-design/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-design-orientado-a-dados-e-sem%C3%A2ntica/</guid>
       <description>&lt;p&gt;Em Go, entender design orientado a dados e escolher entre semântica de valor e de ponteiro é fundamental para escrever software manutenível e performático. Aqui está um resumo abrangente da filosofia de design de Bill Kennedy sobre dados e semântica da Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;filosofias-de-design-a-fundação&#34;&gt;Filosofias de Design: A Fundação&lt;/h2&gt;
 &lt;h3 id=&#34;semântica-de-valor-vs-semântica-de-ponteiro&#34;&gt;Semântica de Valor vs. Semântica de Ponteiro&lt;/h3&gt;

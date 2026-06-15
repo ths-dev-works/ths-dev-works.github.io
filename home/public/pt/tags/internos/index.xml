@@ -15,18 +15,18 @@
     <atom:link href="https://ths-dev-works.github.io/pt/tags/internos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mecânica Go: Memory Profiling e Otimização de Performance</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/mec%C3%A2nica-go-memory-profiling-e-otimiza%C3%A7%C3%A3o-de-performance/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/mec%C3%A2nica-go-memory-profiling-e-otimiza%C3%A7%C3%A3o-de-performance/</guid>
       <description>&lt;p&gt;Em Go, compreender as alocações de memória e o seu impacto na performance é crucial para escrever código eficiente. Aqui está um resumo abrangente dos princípios fundamentais de Bill Kennedy sobre Memory Profiling da série Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;o-processo-de-profiling&#34;&gt;O Processo de Profiling&lt;/h2&gt;
 &lt;p&gt;Memory profiling em Go ajuda a identificar onde as alocações estão a acontecer e porquê que os valores escapam para o heap. Isto é essencial para otimização de performance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mecânica Go: Análise de Escape e o Heap</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-escape-analysis/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/01/mec%C3%A2nica-go-an%C3%A1lise-de-escape-e-o-heap/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-escape-analysis/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/01/mec%C3%A2nica-go-an%C3%A1lise-de-escape-e-o-heap/</guid>
       <description>&lt;p&gt;Em Go, entender quando os valores escapam para o heap é crucial para escrever código performático. Aqui está um resumo abrangente dos princípios fundamentais de Bill Kennedy sobre Análise de Escape da série Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;o-heap-vs-stack&#34;&gt;O Heap vs. Stack&lt;/h2&gt;
 &lt;h3 id=&#34;memória-stack&#34;&gt;Memória Stack&lt;/h3&gt;
@@ -48,9 +48,9 @@
     </item>
     <item>
       <title>Mecânica Go: Stacks, Ponteiros e Limites de Frame</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-stacks-and-pointers/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/01/mec%C3%A2nica-go-stacks-ponteiros-e-limites-de-frame/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-stacks-and-pointers/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/01/mec%C3%A2nica-go-stacks-ponteiros-e-limites-de-frame/</guid>
       <description>&lt;p&gt;Em Go, &amp;ldquo;Simpatia Mecânica&amp;rdquo; começa com a compreensão de onde os seus dados vivem. Aqui está um resumo abrangente dos princípios fundamentais de Bill Kennedy sobre Stacks e Ponteiros da série Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;limites-de-frame-a-fundação&#34;&gt;Limites de Frame: A Fundação&lt;/h2&gt;
 &lt;p&gt;Cada função executa dentro de &lt;strong&gt;stack frames&lt;/strong&gt; - espaços de memória privados que fornecem isolamento e contexto. Quando uma função é chamada, Go faz a transição entre frames, copiando dados &amp;ldquo;por valor&amp;rdquo; através do limite.&lt;/p&gt;</description>

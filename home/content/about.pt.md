@@ -3,6 +3,13 @@ title: "Sobre / Stack"
 description: "Engenheiro Backend Sénior e Consultor Técnico. Especialista em Go (Golang), microserviços, Kubernetes, SRE e sistemas cloud-native. Experiência em fintech e telecomunicações."
 keywords: ["Desenvolvedor Go", "Engenheiro Backend", "Consultor Técnico", "Golang", "Microserviços", "Kubernetes", "SRE", "Infraestrutura Cloud"]
 layout: "simple"
+date: 2026-02-04
+lastmod: 2026-06-15
+tags: ["sobre", "stack", "curriculum"]
+categories: ["sobre"]
+images: ["images/cover.jpg"]
+type: page
+draft: false
 ---
 
 ## Perfil

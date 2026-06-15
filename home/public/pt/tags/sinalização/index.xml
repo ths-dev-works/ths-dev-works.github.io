@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/pt/tags/sinaliza%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Mechanics: O Comportamento dos Canais</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-channels-behavior/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-o-comportamento-dos-canais/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-channels-behavior/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/go-mechanics-o-comportamento-dos-canais/</guid>
       <description>Compreender os canais Go como mecanismos de sinalização para orquestrar goroutines e escrever melhor código concorrente.</description>
     </item>
   </channel>

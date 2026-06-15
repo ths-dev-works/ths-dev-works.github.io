@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Scheduling: Part I - OS Scheduler Fundamentals</title>
-      <link>https://ths-dev-works.github.io/posts/go-scheduling-part1/</link>
+      <link>https://ths-dev-works.github.io/2026/02/go-scheduling-part-i-os-scheduler-fundamentals/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/posts/go-scheduling-part1/</guid>
+      <guid>https://ths-dev-works.github.io/2026/02/go-scheduling-part-i-os-scheduler-fundamentals/</guid>
       <description>Understanding the operating system scheduler fundamentals that form the foundation for Go&amp;#39;s scheduling system.</description>
     </item>
   </channel>

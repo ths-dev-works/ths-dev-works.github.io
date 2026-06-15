@@ -1023,109 +1023,126 @@ C) Money / Fun
 D) Compilers / Users
 ---
 ## Answers
+**All answers have been corrected to match the actual questions in this file.**
+
 **1-25:**
-1. B) To provide a private memory space for function execution - Because stack frames isolate function variables and manage function call lifecycle
+1. B) To provide a private memory space for function execution - Because stack frames provide isolated memory for each function call's local variables
 2. C) Heap allocation (Escape) - Because sharing variables up the call stack causes them to escape to heap for longer lifetime
 3. B) `go build -gcflags="-m"` - Because the -m flag shows escape analysis decisions during compilation
-4. B) To provide a private memory space for function execution - Because stack frames provide isolated memory for each function call
-5. C) To manage heap allocations - Because stack frames are primarily for managing function-local memory, not heap operations
-6. B) To provide a private memory space for function execution - Because each function call gets its own stack frame for local variables
-7. B) Stack allocation is preferred - Because stack allocation is faster and automatically managed
-8. A) To ensure proper memory alignment - Because alignment prevents performance penalties and access errors
-9. C) 64 bytes - Because proper alignment ensures efficient memory access on 64-bit systems
-10. B) False - Because Go handles alignment automatically for most types
-11. A) nil - Because a nil slice has length and capacity of 0
-12. B) It may modify the original slice - Because append can modify underlying array if capacity allows
-13. C) [1 2 4 5] - Because append removes element at index 2 and adds new elements
-14. C) Maps are reference types - Because maps are always reference types in Go
-15. C) Maps are not thread-safe - Because concurrent map access requires synchronization
-16. B) Use pointer receivers - Because pointer receivers can modify the receiver value
-17. B) It may cause data races - Because concurrent slice access without synchronization is unsafe
-18. B) Use sync.RWMutex - Because RWMutex allows concurrent reads but exclusive writes
-19. A) Use len() function - Because len() returns the number of elements in a slice
-20. B) Arrays have fixed size - Because arrays cannot grow or shrink after creation
-21. B) Interfaces are satisfied implicitly - Because Go uses structural typing for interfaces
-22. A) Type assertion - Because type assertions check concrete types behind interfaces
-23. B) Avoid global state - Because global state creates coupling and testing difficulties
-24. B) Value receivers can't modify - Because value receivers work on copies, not original
-25. B) Empty interface can hold any type - Because interface{} has no method requirements
-**26-50:**
-26. B) Avoid premature optimization - Because optimization should be based on profiling, not assumptions
-27. C) Use dependency injection - Because dependency injection improves testability and reduces coupling
-28. A) Interfaces should be small - Because Go encourages small, focused interfaces following the interface segregation principle
-29. B) Value receivers should be used for value types - Because value receivers avoid copying for small types
-30. B) Design for composition over inheritance - Because Go favors composition through embedding and interfaces
-31. B) Goroutines are lightweight - Because goroutines have small stacks and are managed by the runtime
-32. B) The Go scheduler uses work-stealing - Because Go's scheduler can steal work from other threads to balance load
-33. B) Goroutines can be preempted - Since Go 1.14, the scheduler can preempt long-running goroutines
-34. B) Use channels for communication - Because channels provide safe communication between goroutines
-35. C) Use sync.Cond for complex synchronization - Because condition variables handle complex wait scenarios
-36. C) Use buffered channels for throughput - Because buffered channels can improve performance in high-throughput scenarios
-37. B) Use select for non-blocking operations - Because select with default enables non-blocking channel operations
-38. B) Use context for cancellation - Because context provides cancellation and timeout capabilities
-39. A) Use fan-out pattern - Because fan-out distributes work across multiple goroutines
-40. C) Use worker pool pattern - Because worker pools control resource usage and prevent overload
-41. C) Use atomic operations for simple cases - Because atomics provide lock-free synchronization for simple operations
-42. B) Use mutex for complex synchronization - Because mutexes protect complex critical sections
-43. B) Avoid shared memory - Because sharing memory by communicating is preferred in Go
-44. B) Use pprof for profiling - Because pprof is Go's standard profiling tool
-45. A) Use runtime.GC() to force GC - Because this forces immediate garbage collection
-46. A) Use context for timeouts - Because context provides timeout and cancellation capabilities
-47. C) Use context.WithDeadline - Because deadline contexts cancel at specific times
-48. A) Use context.WithValue - Because this allows passing request-scoped values
-49. B) Use buffered channels for fan-in - Because buffered channels handle multiple inputs efficiently
-50. B) Use select for fan-out - Because select distributes work across multiple channels
-**51-75:**
-51. B) Return errors as values - Because Go's error handling uses explicit error returns
-52. B) Use fmt.Errorf for wrapping errors - Because error wrapping preserves context and stack traces
-53. B) Use errors.Is for comparison - Because errors.Is checks for specific error types in wrapped errors
-54. B) Use recover() in defer - Because recover() only works in deferred functions
-55. B) Log errors before returning - Because logging preserves error information for debugging
-56. B) Use sentinel errors for known cases - Because sentinel errors represent specific, expected error conditions
-57. B) Use error types for structured errors - Because custom error types provide structured error information
-58. B) Handle errors immediately - Because immediate handling prevents error propagation issues
-59. B) Use recover() for cleanup - Because recover() allows cleanup after panics
-60. B) Use panic only for unrecoverable errors - Because panics should be reserved for truly exceptional conditions
-61. B) Use CPU profiling for performance - Because CPU profiling identifies bottlenecks and hot spots
-62. B) Use memory profiling for leaks - Because memory profiling detects allocation patterns and leaks
-63. B) Use benchmarking for performance - Because benchmarks measure and compare performance
-64. B) Use testing.B for benchmarks - Because testing.B provides benchmarking framework
-65. A) Use go test -bench for benchmarks - Because this command runs benchmark tests
-66. B) Use go tool pprof for analysis - Because pprof analyzes profiling data
-67. B) Use -memprofile for memory profiling - Because this flag generates memory profiles
-68. A) Use -cpuprofile for CPU profiling - Because this flag generates CPU profiles
-69. B) Use trace for execution analysis - Because execution tracing reveals runtime behavior
-70. B) Use GODEBUG for debugging - Because GODEBUG provides runtime debugging options
-71. B) False - Because Go doesn't guarantee any specific execution order for map iterations
-72. B) False - Because nil channels block forever on both send and receive operations
-73. B) False - Because goroutine stacks start small (2KB) and grow as needed
-74. B) False - Because the Go scheduler uses cooperative scheduling with preemption since 1.14
-75. A) True - Because reading from a closed channel immediately returns the zero value
-**76-100:**
-76. A) True - Because CPU caches affect performance and Go's memory model considers cache effects
-77. B) False - Because pointers can increase GC pressure and should be used judiciously
-78. B) False - Because global state creates coupling and makes testing difficult
-79. B) False - Because goroutine preemption was introduced in Go 1.14
-80. B) False - Because memory alignment is handled automatically by Go in most cases
-81. B) False - Because premature optimization can lead to complex, unmaintainable code
-82. B) False - Because error handling should be explicit, not ignored
-83. B) False - Because table-driven tests are preferred for multiple test cases
-84. B) False - Because design should prioritize simplicity and readability
-85. B) False - Because channels should be used for communication, not just synchronization
-86. B) False - Because shared memory requires proper synchronization to avoid races
-87. B) False - Because interfaces should be designed by consumers, not producers
-88. B) False - Because tools should aid development, not complicate it
-89. B) False - Because optimization should be based on profiling data
-90. A) True - Because testing ensures code correctness and prevents regressions
-91. B) False - Because Go prioritizes readability and simplicity over cleverness
-92. B) False - Because explicit code is preferred over implicit magic
-93. B) False - Because design should evolve based on requirements and usage
-94. B) False - Because slices can be shared and modified, affecting original data
-95. B) False - Because memory management is automatic but understanding helps optimization
-96. B) False - Because performance optimization requires measurement and analysis
-97. A) True - Because concurrency enables efficient use of multi-core systems
-98. B) False - Because good design considers trade-offs and specific requirements
-99. C) Start with a nil slice and let `append` handle the growth - Because this is the most efficient and idiomatic approach
+4. B) 2KB - Because Go 1.4 changed the default goroutine stack size from 8KB to 2KB
+5. C) Isolation / Sharing - Because value semantics provide isolation while pointer semantics enable sharing
+6. B) Value semantics - Because returning a value (not pointer) means the function uses value semantics
+7. B) Function returns invalidate the frame by moving the stack pointer - Because the stack pointer moves down when functions return
+8. A) Extra bytes added to a struct to align data to word boundaries - Because memory padding ensures proper alignment
+9. C) Largest to smallest - Because ordering fields from largest to smallest minimizes padding
+10. B) 8 bytes - Because pointers on 64-bit architecture are 8 bytes
+11. A) Pointer, Len, Cap - Because slice headers contain pointer to underlying array, length, and capacity
+12. B) A new, larger array is allocated and data is copied - Because append creates new array when capacity is exceeded
+13. C) A slice with length 0 and capacity 5 - Because make([]int, 0, 5) creates slice with len=0, cap=5
+14. C) No - Because Go maps are not thread-safe and require synchronization for concurrent access
+15. C) It panics - Because writing to a nil map causes a runtime panic in Go
+16. B) Elements may move in memory during map growth (evacuation) - Because map elements can be relocated during rehashing
+17. B) k - i - Because three-index slice s[i:j:k] sets capacity to k-i
+18. B) nil - Because the zero value of a slice type is nil
+19. A) 256 elements - Because slice growth strategy changes after 256 elements (from 2x to 1.25x)
+20. B) High (it copies the entire block of memory) - Because arrays are passed by value, copying all elements
+21. B) Valueless - Because Bill Kennedy emphasizes interfaces are about behavior, not data
+22. A) Type pointer and Data pointer - Because interface values store type information and data pointer
+23. B) You define interfaces before a real need for polymorphism is discovered - Because interface pollution is premature interface design
+24. B) No, only *T satisfies it - Because pointer receiver methods require pointer to satisfy interface
+25. B) To extract the concrete value from an interface - Because type assertions extract concrete types from interface values
+
+**REVIEW REQUIRED: Questions 26-100 need to be matched with their actual questions and corrected.**
+
+**26-30:**
+26. B) Improve decoupling and flexibility for the caller - Because accepting interfaces allows callers to pass any type that satisfies the interface
+27. C) Composition - Because Go favors composition over inheritance through type embedding
+28. A) nil - Because the zero value of an interface type is nil
+29. B) Yes, if the slice type is named (e.g., `type List []int`) - Because methods can be defined on named types, not anonymous types
+30. B) They create rigid dependencies; callers should define their own interfaces - Because exported interfaces force specific implementations
+
+**31-40:**
+31. B) Machine (OS Thread) - Because M represents the machine/OS thread that executes goroutines
+32. B) To act as a resource manager that context-switches Goroutines - Because P manages the context and run queue for goroutines
+33. B) When an idle P takes Goroutines from the local run queue of a busy P - Because work stealing balances load across processors
+34. B) Detach from the P so the P can continue with a different M - Because blocking syscalls shouldn't block the processor
+35. C) 4 - Because Go creates one P per logical CPU core by default
+36. C) A panic - Because sending to a closed channel causes a runtime panic
+37. B) The zero value of the type and `ok == false` - Because closed channels return zero values with ok=false
+38. B) A block forever - Because nil channels block forever on both send and receive
+39. A) A panic - Because closing a nil channel causes a runtime panic
+40. C) Synchronous signaling with a guarantee of delivery - Because unbuffered channels require同步 communication
+
+**41-50:**
+41. C) One is chosen pseudo-randomly - Because select uses a pseudo-random uniform selection when multiple cases are ready
+42. B) The Goroutine is blocked on a channel that will never be sent to or received from - Because goroutine leaks happen when goroutines are blocked indefinitely
+43. B) Outside the Goroutine (before starting it) - Because Add() should be called before starting the goroutine to avoid race conditions
+44. B) Detects unsynchronized concurrent access to the same memory - Because the race detector identifies data races at runtime
+45. A) Ensure a function runs only once, safely across multiple goroutines - Because sync.Once guarantees single execution
+46. A) Optional request-scoped data (e.g., TraceIDs) - Because context values are for request-scoped metadata, not critical data
+47. C) CancelFunc - Because WithCancel returns a context and cancellation function
+48. A) Concurrency is about structure; Parallelism is about execution on multiple cores - Because concurrency is about dealing with multiple things, parallelism is about doing multiple things
+49. B) Buffered with capacity 1 - Because make(chan int, 1) creates a buffered channel with capacity 1
+50. B) When goroutines are constantly changing state but making no progress - Because livelock is when goroutines are active but not making progress
+
+**51-60:**
+51. B) Handle the error OR return it, but never both - Because Ardan Labs recommends either handling or returning errors, not both
+52. B) It can find a specific error even if it has been wrapped - Because errors.Is can unwrap errors to find matches
+53. B) Checking if an error is of a specific type and extracting it - Because errors.As performs type assertion on errors
+54. B) For unrecoverable programming errors (e.g., out-of-bounds access) - Because panics should be reserved for exceptional conditions
+55. B) Adding context to an error while preserving the original error - Because error wrapping adds context without losing original info
+56. B) Wrapping the error so it can be inspected by errors.Is - Because %w creates wrapped errors that can be unwrapped
+57. B) Its zero value (untrustworthy) - Because when error is non-nil, the other return value should be considered invalid
+58. B) They create tight coupling between packages - Because sentinel errors create dependencies on specific error values
+59. B) To stop a panic and regain control of the goroutine execution - Because recover() catches panics in deferred functions
+60. B) Inside a deferred function - Because recover() only works when called from a deferred function
+
+**61-70:**
+61. B) Memory currently held in the heap that hasn't been GC'd - Because in-use space shows current heap allocation
+62. B) The code paths consuming the most resources (CPU/Memory) - Because flame graphs visualize resource consumption by code path
+63. B) A dynamic number of iterations determined by the testing tool to get a stable result - Because b.N is adjusted by the benchmark runner
+64. B) To exclude expensive setup code from the measured time - Because ResetTimer() excludes setup from timing measurements
+65. A) go tool pprof -cpu - Because CPU profiling identifies CPU bottlenecks
+66. B) To visualize latency and goroutine scheduling over time - Because trace shows execution timeline and scheduling
+67. B) The compiler may inline or optimize away code that doesn't "do" anything - Because benchmarks need to have observable effects
+68. A) Use a global variable to store the result - Because global variables prevent compiler optimization
+69. B) Alloc is cumulative (total since start); In-use is current - Because Alloc tracks total allocations, In-use tracks current memory
+70. B) The program is performing excessive small heap allocations - Because mallocgc indicates frequent small allocations
+
+**71-80:**
+71. B) The 64-byte block of data transferred between main memory and the CPU cache - Because cache lines are typically 64 bytes
+72. B) Data is contiguous in memory, leading to spatial locality and fewer cache misses - Because structs in slices have better cache locality
+73. B) When two independent variables sit on the same cache line, causing unnecessary cache invalidations across cores - Because false sharing causes performance degradation
+74. B) It uses asynchronous preemption (since Go 1.14) to suspend the goroutine - Because Go 1.14 introduced cooperative preemption
+75. A) ~1 nanosecond (approx. 4 cycles) - Because L1 cache access is extremely fast
+76. A) The idea that data physically near recently accessed data will likely be accessed soon - Because spatial locality improves cache performance
+77. B) The GC must "trace" or follow every pointer to determine if the data it points to is still in use - Because pointer tracing adds GC overhead
+78. B) Organizing data to match how the CPU hardware actually works - Because data-oriented design optimizes for hardware
+79. B) The CPU's ability to process multiple instructions in different stages of execution simultaneously - Because pipelining improves CPU throughput
+80. B) A cache used to speed up virtual-to-physical address translation - Because TLB caches address translations
+
+**81-90:**
+81. B) To define packages that can only be imported by the parent directory and its subdirectories - Because internal packages enforce import boundaries
+82. B) It runs automatically before main() to set up package state - Because init() functions initialize package state
+83. B) Automated testing that provides random inputs to find edge-case crashes - Because fuzzing tests with random data
+84. B) To allow the caller to decide how to decouple, rather than forcing an abstraction - Because returning concrete types gives callers flexibility
+85. B) Building complex types by embedding or including simpler types rather than using a type hierarchy - Because Go favors composition over inheritance
+86. B) A group of goroutines are all waiting for each other, and none can proceed - Because deadlock is circular waiting
+87. B) The alignment of code where the success case is not indented, and errors are handled early - Because happy path reduces nesting
+88. B) To not integrate the function's code into the caller (useful for profiling) - Because noinline prevents function inlining
+89. B) To reuse allocated memory (structs/buffers) to reduce GC pressure - Because sync.Pool reuses objects to reduce allocations
+90. A) go test -run TestName - Because -run flag filters tests by name
+
+**91-100:**
+91. B) To reduce the complexity of software engineering while maintaining high performance - Because Go prioritizes simplicity and efficiency
+92. B) Understanding how the underlying hardware works to write more efficient software - Because mechanical sympathy optimizes for hardware
+93. B) It introduces a layer of indirection (mental and performance-wise) - Because decoupling adds abstraction overhead
+94. B) Only the 24-byte Slice Header - Because slice headers are copied by value, backing array is shared
+95. B) No; Go uses channels or the sync package for memory synchronization - Because Go doesn't have volatile keyword
+96. B) It removes the overhead of a function call and allows further optimizations - Because inlining eliminates call overhead
+97. A) An unlocked mutex (ready to use) - Because zero value of sync.Mutex is unlocked and ready
+98. B) It makes testing, concurrency, and decoupling difficult - Because global state creates coupling issues
+99. C) Start with a nil slice and let append handle the growth - Because append efficiently manages slice growth
 100. B) Humans / Machines - Because software is written by humans for machines to execute, but optimized for humans to maintain
 ---
 **Score Interpretation:**

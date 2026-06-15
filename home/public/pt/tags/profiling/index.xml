@@ -15,9 +15,9 @@
     <atom:link href="https://ths-dev-works.github.io/pt/tags/profiling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mecânica Go: Memory Profiling e Otimização de Performance</title>
-      <link>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</link>
+      <link>https://ths-dev-works.github.io/pt/2026/02/mec%C3%A2nica-go-memory-profiling-e-otimiza%C3%A7%C3%A3o-de-performance/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://ths-dev-works.github.io/pt/posts/go-memory-profiling/</guid>
+      <guid>https://ths-dev-works.github.io/pt/2026/02/mec%C3%A2nica-go-memory-profiling-e-otimiza%C3%A7%C3%A3o-de-performance/</guid>
       <description>&lt;p&gt;Em Go, compreender as alocações de memória e o seu impacto na performance é crucial para escrever código eficiente. Aqui está um resumo abrangente dos princípios fundamentais de Bill Kennedy sobre Memory Profiling da série Ardan Labs.&lt;/p&gt;
 &lt;h2 id=&#34;o-processo-de-profiling&#34;&gt;O Processo de Profiling&lt;/h2&gt;
 &lt;p&gt;Memory profiling em Go ajuda a identificar onde as alocações estão a acontecer e porquê que os valores escapam para o heap. Isto é essencial para otimização de performance.&lt;/p&gt;</description>
