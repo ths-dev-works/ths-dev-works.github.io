@@ -82,12 +82,6 @@ privacy:
     disable: false
     anonymizeIP: true
     respectDoNotTrack: true
-  youtube:
-    privacyEnhanced: true
-  twitter:
-    enableDNT: true
-  instagram:
-    simple: true
 
 # Security / CSP
 security:
