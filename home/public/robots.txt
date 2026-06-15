@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://ths-dev-works.github.io/sitemap.xml
